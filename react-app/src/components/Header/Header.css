@@ -309,32 +309,315 @@
   color: var(--color-primary);
 }
 
-/* Responsive */
+/* Responsive Styles */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-main {
+    padding: var(--spacing-md) 0;
+  }
+  
+  .header-wrapper {
+    gap: var(--spacing-lg);
+  }
+  
+  .header-logo-area img {
+    height: 50px;
+  }
+  
+  .header-nav-list {
+    gap: var(--spacing-lg);
+  }
+  
+  .header-nav-list a,
+  .header-nav-link {
+    font-size: 1.4rem;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991px) */
 @media (max-width: 991px) {
+  .header-main {
+    padding: var(--spacing-sm) 0;
+  }
+  
+  .header-sticky {
+    padding: var(--spacing-xs) 0;
+  }
+  
+  .header-wrapper {
+    gap: var(--spacing-md);
+  }
+  
+  .header-logo-area img {
+    height: 45px;
+  }
+  
   .header-nav {
     display: none;
   }
   
   .header-menu-btn {
     display: block;
+    color: var(--color-secondary);
+    font-size: 1.8rem;
   }
   
   .header-actions {
     gap: var(--spacing-xs);
   }
   
-  .header-actions .btn {
+  .header-actions .button-btn {
     font-size: 1.2rem;
     padding: 0.8rem 1.2rem;
   }
+  
+  .header-submenu {
+    max-width: 500px;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+  
+  .header-nav-open {
+    display: none;
+  }
 }
 
-@media (max-width: 768px) {
-  .header-actions .btn:last-child {
+/* Small devices (landscape phones, 576px to 767px) */
+@media (max-width: 767px) {
+  .header-main {
+    padding: var(--spacing-xs) 0;
+  }
+  
+  .header-sticky {
+    padding: var(--spacing-xs) 0;
+  }
+  
+  .header-wrapper {
+    gap: var(--spacing-sm);
+  }
+  
+  .header-logo-area img {
+    height: 40px;
+  }
+  
+  .header-menu-btn {
+    font-size: 1.6rem;
+    padding: var(--spacing-xs);
+  }
+  
+  .header-actions {
+    gap: var(--spacing-xs);
+    flex-wrap: nowrap;
+  }
+  
+  .header-actions .button-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    white-space: nowrap;
+  }
+  
+  .header-actions .button-btn:last-child {
+    display: none;
+  }
+  
+  .header-actions .button-btn span {
+    display: none;
+  }
+  
+  .header-actions .button-btn .button-btn-icon-left,
+  .header-actions .button-btn .button-btn-icon-right {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .header-mobile-sidebar {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .header-brochure-popup {
+    padding: var(--spacing-md);
+    max-width: 95%;
+  }
+  
+  .header-brochure-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+  }
+  
+  .header-brochure-item h6 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .header-main {
+    padding: 0.6rem 0;
+  }
+  
+  .header-sticky {
+    padding: 0.5rem 0;
+  }
+  
+  .header-main .container {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .header-wrapper {
+    gap: var(--spacing-xs);
+  }
+  
+  .header-logo-area {
+    flex-shrink: 0;
+  }
+  
+  .header-logo-area img {
+    height: 35px;
+    max-width: 120px;
+    object-fit: contain;
+  }
+  
+  .header-menu-btn {
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-actions {
+    gap: 0.4rem;
+  }
+  
+  .header-actions .button-btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+    min-height: 36px;
+  }
+  
+  .header-actions .button-btn:first-child {
+    padding: 0.5rem;
+    min-width: 36px;
+  }
+  
+  .header-actions .button-btn:first-child span {
+    display: none;
+  }
+  
+  .header-actions .button-btn:last-child {
     display: none;
   }
   
   .header-mobile-sidebar {
     width: 100%;
+    max-width: 100%;
+  }
+  
+  .header-sidebar-content {
+    padding: var(--spacing-md);
+  }
+  
+  .header-mobile-nav a {
+    font-size: 1.4rem;
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+  
+  .header-mobile-brand-dropdown > span {
+    font-size: 1.4rem;
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+  
+  .header-mobile-brand-dropdown ul li a {
+    font-size: 1.2rem;
+  }
+  
+  .header-brochure-popup {
+    padding: var(--spacing-sm);
+    max-width: 98%;
+    max-height: 90vh;
+  }
+  
+  .header-brochure-popup h3 {
+    font-size: 1.6rem;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .header-brochure-item {
+    padding: var(--spacing-sm);
+  }
+  
+  .header-brochure-item h6 {
+    font-size: 1.2rem;
+  }
+  
+  .header-download-btn {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: 1.2rem;
+  }
+}
+
+/* Very small devices (very small phones, less than 400px) */
+@media (max-width: 399px) {
+  .header-main {
+    padding: 0.5rem 0;
+  }
+  
+  .header-main .container {
+    padding: 0 var(--spacing-xs);
+  }
+  
+  .header-logo-area img {
+    height: 30px;
+    max-width: 100px;
+  }
+  
+  .header-menu-btn {
+    font-size: 1.4rem;
+    padding: 0.3rem;
+    min-width: 36px;
+    min-height: 36px;
+  }
+  
+  .header-actions {
+    gap: 0.3rem;
+  }
+  
+  .header-actions .button-btn {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+    min-height: 32px;
+  }
+  
+  .header-actions .button-btn:first-child {
+    padding: 0.4rem;
+    min-width: 32px;
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-width: 991px) and (orientation: landscape) {
+  .header-main {
+    padding: var(--spacing-xs) 0;
+  }
+  
+  .header-logo-area img {
+    height: 38px;
+  }
+  
+  .header-mobile-sidebar {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header-logo-area img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
   }
 }
