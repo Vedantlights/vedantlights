@@ -1,0 +1,862 @@
+ERROR - 2023-10-10 02:55:37 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:55:37 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:55:52 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:55:52 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:25 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:25 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:44 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:44 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:44 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:44 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:45 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:45 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:45 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:45 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:45 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:45 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:45 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:45 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:45 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:45 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:46 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:46 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:46 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:46 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:46 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:46 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:46 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:46 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:46 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:46 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:47 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:47 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:47 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:47 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:47 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:47 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:56:47 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:56:47 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:17 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:17 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:17 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:17 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:17 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:17 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:19 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:19 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:37 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:37 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:38 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:38 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:38 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:38 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:38 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:38 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:39 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:39 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 02:57:49 --> mysqli_sql_exception: Table 'db_myskill.employee_Details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-10 02:57:49 --> Table 'db_myskill.employee_Details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employee_Details  ORDER BY emp_id DESC')
+ 2 APPPATH/Controllers/Employee_mange.php(19): App\Models\EmployeeModel->EmployeeDetailsDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 03:04:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Login.php(147): CodeIgniter\Model->__call('getAllEmployeedetails', [])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllEmployeedetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:18:55 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:18:56 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:18:57 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:18:57 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:18:57 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:18:57 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:06 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:07 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:07 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:07 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:07 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:12 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:13 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:19:29 --> Undefined index: Added_date
+in APPPATH/Views/Employee_mange/index.php on line 89.
+ 1 APPPATH/Views/Employee_mange/index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Added_date', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php', 89, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/index.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/index', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(20): view('Employee_mange/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->index()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:22:37 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:22:38 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:34 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:35 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:36 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:36 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:36 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:37 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:37 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:51 --> Undefined index: emp_profession
+in APPPATH/Views/Employee_mange/editEmployeeDetails.php on line 37.
+ 1 APPPATH/Views/Employee_mange/editEmployeeDetails.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: emp_profession', '/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php', 37, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/Employee_mange/editEmployeeDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Employee_mange/editEmployeeDetails', [], true)
+ 5 APPPATH/Controllers/Employee_mange.php(47): view('Employee_mange/editEmployeeDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Employee_mange->editEmployeeDetails('MTU=')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee_mange))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:29:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/UserController.php(361): CodeIgniter\Model->__call('getUsercalltimelimitdetails', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUsercalltimelimitdetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

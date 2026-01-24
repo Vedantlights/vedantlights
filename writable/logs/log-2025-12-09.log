@@ -1,0 +1,891 @@
+INFO - 2025-12-09 00:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 00:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 00:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 00:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 00:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 01:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 02:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-09 03:15:02 --> Contact form data received: {"name":"Gemma Marshall","email":"gemma.marshall112@gmail.com","subject":"Instagram Growth Service","message":"Hi there,\r\n\r\nWe run an Instagram growth service, which increases your number of followers both safely and practically. \r\n\r\n- Real, human followers: People follow you because they are interested in your business or niche.\r\n- Safe: All actions are made manually. We do not use any bots.\r\n- The price is from just $60 per month, and we can start immediately.\r\n\r\nPlease find more information here:\r\n\r\nhttps:\/\/furtherinfo.info\/instagram\r\n\r\nI'd be happy to forward you some further information if that would be of interest?\r\n\r\nKind Regards,\r\nGemma"}
+DEBUG - 2025-12-09 03:15:02 --> Processed data - Name: Gemma Marshall, Email: gemma.marshall112@gmail.com, Subject: Instagram Growth Service, Message: Hi there,
+
+We run an Instagram growth service, which increases your number of followers both safely and practically. 
+
+- Real, human followers: People follow you because they are interested in your business or niche.
+- Safe: All actions are made manually. We do not use any bots.
+- The price is from just $60 per month, and we can start immediately.
+
+Please find more information here:
+
+https://furtherinfo.info/instagram
+
+I'd be happy to forward you some further information if that would be of interest?
+
+Kind Regards,
+Gemma
+ERROR - 2025-12-09 03:17:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-12-09 03:17:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 03:17:02 --> 
+ERROR - 2025-12-09 03:17:02 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 03:15:02 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Instagram=20Growth=20Service?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;69379436c3f8b9.40283220@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_69379436c3fb35.47045529&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_69379436c3fb35.47045529
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Gemma Marshall
+Email:gemma.marshall112@gmail.com
+Subject:Instagram Growth Service
+Message:Hi there,
+
+We run an Instagram growth service, which increases your number of followers
+both safely and practically.
+
+- Real, human followers: People follow you because they are interested in
+your business or niche.
+- Safe: All actions are made manually. We do not use any bots.
+- The price is from just $60 per month, and we can start immediately.
+
+Please find more information here:
+
+https://furtherinfo.info/instagram
+
+I&amp;#039;d be happy to forward you some further information if that would be
+of interest?
+
+Kind Regards,
+Gemma
+
+
+--B_ALT_69379436c3fb35.47045529
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Gemma Marshall&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; bord=
+er: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8p=
+x; border: 1px solid #ddd;&quot;&gt;gemma.marshall112@gmail.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td=
+ style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject=
+:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Instagram Growth =
+Service&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd; =
+font-weight: bold;&quot;&gt;Message:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px sol=
+id #ddd;&quot;&gt;Hi there,&lt;br /&gt;=0A&lt;br /&gt;=0AWe run an Instagram growth service, wh=
+ich increases your number of followers both safely and practically. &lt;br /&gt;=
+=0A&lt;br /&gt;=0A- Real, human followers: People follow you because they are int=
+erested in your business or niche.&lt;br /&gt;=0A- Safe: All actions are made man=
+ually. We do not use any bots.&lt;br /&gt;=0A- The price is from just $60 per mon=
+th, and we can start immediately.&lt;br /&gt;=0A&lt;br /&gt;=0APlease find more informa=
+tion here:&lt;br /&gt;=0A&lt;br /&gt;=0Ahttps://furtherinfo.info/instagram&lt;br /&gt;=0A&lt;br =
+/&gt;=0AI&amp;#039;d be happy to forward you some further information if that woul=
+d be of interest?&lt;br /&gt;=0A&lt;br /&gt;=0AKind Regards,&lt;br /&gt;=0AGemma&lt;/td&gt;&lt;/tr&gt;=0A=
+&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_69379436c3fb35.47045529--</pre>
+INFO - 2025-12-09 03:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 03:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-09 04:22:25 --> Contact form data received: {"name":"Raymond Abbott","email":"raymond.abbott@jmailservice.com","subject":"Take the Top Spot Before Your Competitors Do","message":"We make it easy for your business to be seen first and chosen first. You pick the keywords, and we put your banner at the top of search results - usually live within 24 hours.\r\n\r\nNo contracts, no long setup - just traffic and visibility.\r\nWould you like me to prepare a few keyword options for your business?"}
+DEBUG - 2025-12-09 04:22:25 --> Processed data - Name: Raymond Abbott, Email: raymond.abbott@jmailservice.com, Subject: Take the Top Spot Before Your Competitors Do, Message: We make it easy for your business to be seen first and chosen first. You pick the keywords, and we put your banner at the top of search results - usually live within 24 hours.
+
+No contracts, no long setup - just traffic and visibility.
+Would you like me to prepare a few keyword options for your business?
+INFO - 2025-12-09 04:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-09 04:24:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-12-09 04:24:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 04:24:25 --> 
+ERROR - 2025-12-09 04:24:25 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 04:22:25 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Take=20the=20Top=20Spot=20Before=20?= =?UTF-8?Q?Your=20Competitors=20Do?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6937a401ea4bb2.79995498@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6937a401ea4d87.01580648&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6937a401ea4d87.01580648
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Raymond Abbott
+Email:raymond.abbott@jmailservice.com
+Subject:Take the Top Spot Before Your Competitors Do
+Message:We make it easy for your business to be seen first and chosen first.
+You pick the keywords, and we put your banner at the top of search results -
+usually live within 24 hours.
+
+No contracts, no long setup - just traffic and visibility.
+Would you like me to prepare a few keyword options for your business?
+
+
+--B_ALT_6937a401ea4d87.01580648
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Raymond Abbott&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; bord=
+er: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8p=
+x; border: 1px solid #ddd;&quot;&gt;raymond.abbott@jmailservice.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr=
+&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Sub=
+ject:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Take the Top =
+Spot Before Your Competitors Do&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; =
+border: 1px solid #ddd; font-weight: bold;&quot;&gt;Message:&lt;/td&gt;&lt;td style=3D&quot;paddi=
+ng: 8px; border: 1px solid #ddd;&quot;&gt;We make it easy for your business to be s=
+een first and chosen first. You pick the keywords, and we put your banner a=
+t the top of search results - usually live within 24 hours.&lt;br /&gt;=0A&lt;br /&gt;=
+=0ANo contracts, no long setup - just traffic and visibility.&lt;br /&gt;=0AWould=
+ you like me to prepare a few keyword options for your business?&lt;/td&gt;&lt;/tr&gt;=
+=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_6937a401ea4d87.01580648--</pre>
+INFO - 2025-12-09 04:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 04:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 05:55:56 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 05:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 05:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 06:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 07:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 07:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 07:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 07:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 07:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 07:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-09 08:33:31 --> Contact form data received: {"name":"Kareem Kayser","email":"kareem.kayser@gmail.com","subject":"Push a Button, Get Traffic & Sales \u2014 No Developers, No Cost","message":"Hello,\r\n\r\nWe have a promotional offer for your website vedantlights.com: https:\/\/ranknowyour.site\/VibeCode?vedantlights.com\r\n\r\nWhy do you need this? Because with Vibe Code Blueprint, you're unlocking a traffic-and-profit machine at the click of a button \u2014 no developers, no upfront costs, no waiting weeks. Create high-converting digital assets instantly \u2014 assets that used to cost thousands \u2014 and start earning today.\r\n\r\nIn a cluttered digital world, this system stands out: from creation to monetization, it\u2019s fast, simple, and accessible to anyone. The opportunity is here now \u2014 early adopters get the biggest slice of the pie. Ready to see how it works? Click through and I\u2019ll walk you inside.\r\n\r\nSee it in action: https:\/\/ranknowyour.site\/VibeCode?vedantlights.com\r\n\r\n\r\n\r\n\r\n\r\n\r\nYou are receiving this message because we believe our offer may be relevant to you. \r\nIf you do not wish to receive further communications from us, please click here to UNSUBSCRIBE:\r\nhttps:\/\/ranknowyour.site\/unsubscribe?domain=vedantlights.com\r\nAddress: 209 West Street Comstock Park, MI 49321\r\nLooking out for you, Ethan Parker\r\n"}
+DEBUG - 2025-12-09 08:33:31 --> Processed data - Name: Kareem Kayser, Email: kareem.kayser@gmail.com, Subject: Push a Button, Get Traffic & Sales — No Developers, No Cost, Message: Hello,
+
+We have a promotional offer for your website vedantlights.com: https://ranknowyour.site/VibeCode?vedantlights.com
+
+Why do you need this? Because with Vibe Code Blueprint, you're unlocking a traffic-and-profit machine at the click of a button — no developers, no upfront costs, no waiting weeks. Create high-converting digital assets instantly — assets that used to cost thousands — and start earning today.
+
+In a cluttered digital world, this system stands out: from creation to monetization, it’s fast, simple, and accessible to anyone. The opportunity is here now — early adopters get the biggest slice of the pie. Ready to see how it works? Click through and I’ll walk you inside.
+
+See it in action: https://ranknowyour.site/VibeCode?vedantlights.com
+
+
+
+
+
+
+You are receiving this message because we believe our offer may be relevant to you. 
+If you do not wish to receive further communications from us, please click here to UNSUBSCRIBE:
+https://ranknowyour.site/unsubscribe?domain=vedantlights.com
+Address: 209 West Street Comstock Park, MI 49321
+Looking out for you, Ethan Parker
+
+INFO - 2025-12-09 08:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-09 08:35:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-12-09 08:35:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 08:35:31 --> 
+ERROR - 2025-12-09 08:35:31 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 08:33:31 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Push=20a=20Button,=20Get=20Traffic?= =?UTF-8?Q?=20&amp;=20Sales=20=E2=80=94=20No=20Developers,=20No=20Cost?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6937dedb359763.25555370@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6937dedb359968.15180331&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6937dedb359968.15180331
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Kareem Kayser
+Email:kareem.kayser@gmail.com
+Subject:Push a Button, Get Traffic &amp;amp; Sales — No Developers, No Cost
+Message:Hello,
+
+We have a promotional offer for your website vedantlights.com:
+https://ranknowyour.site/VibeCode?vedantlights.com
+
+Why do you need this? Because with Vibe Code Blueprint, you&amp;#039;re
+unlocking a traffic-and-profit machine at the click of a button — no
+developers, no upfront costs, no waiting weeks. Create high-converting
+digital assets instantly — assets that used to cost thousands — and
+start earning today.
+
+In a cluttered digital world, this system stands out: from creation to
+monetization, it’s fast, simple, and accessible to anyone. The opportunity
+is here now — early adopters get the biggest slice of the pie. Ready to
+see how it works? Click through and I’ll walk you inside.
+
+See it in action: https://ranknowyour.site/VibeCode?vedantlights.com
+
+You are receiving this message because we believe our offer may be relevant
+to you.
+If you do not wish to receive further communications from us, please click
+here to UNSUBSCRIBE:
+https://ranknowyour.site/unsubscribe?domain=vedantlights.com
+Address: 209 West Street Comstock Park, MI 49321
+Looking out for you, Ethan Parker
+
+
+--B_ALT_6937dedb359968.15180331
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Kareem Kayser&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; borde=
+r: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px=
+; border: 1px solid #ddd;&quot;&gt;kareem.kayser@gmail.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td styl=
+e=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td=
+&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Push a Button, Get Tra=
+ffic &amp;amp; Sales =E2=80=94 No Developers, No Cost&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=
+=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Message:&lt;/td&gt;=
+&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Hello,&lt;br /&gt;=0A&lt;br /&gt;=
+=0AWe have a promotional offer for your website vedantlights.com: https://r=
+anknowyour.site/VibeCode?vedantlights.com&lt;br /&gt;=0A&lt;br /&gt;=0AWhy do you need =
+this? Because with Vibe Code Blueprint, you&amp;#039;re unlocking a traffic-and=
+-profit machine at the click of a button =E2=80=94 no developers, no upfron=
+t costs, no waiting weeks. Create high-converting digital assets instantly =
+=E2=80=94 assets that used to cost thousands =E2=80=94 and start earning to=
+day.&lt;br /&gt;=0A&lt;br /&gt;=0AIn a cluttered digital world, this system stands out:=
+ from creation to monetization, it=E2=80=99s fast, simple, and accessible t=
+o anyone. The opportunity is here now =E2=80=94 early adopters get the bigg=
+est slice of the pie. Ready to see how it works? Click through and I=
+=E2=80=99ll walk you inside.&lt;br /&gt;=0A&lt;br /&gt;=0ASee it in action: https://ran=
+knowyour.site/VibeCode?vedantlights.com&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A=
+&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0AYou are receiving this message because we believ=
+e our offer may be relevant to you. &lt;br /&gt;=0AIf you do not wish to receive =
+further communications from us, please click here to UNSUBSCRIBE:&lt;br /&gt;=0Ah=
+ttps://ranknowyour.site/unsubscribe?domain=3Dvedantlights.com&lt;br /&gt;=0AAddre=
+ss: 209 West Street Comstock Park, MI 49321&lt;br /&gt;=0ALooking out for you, Et=
+han Parker&lt;br /&gt;=0A&lt;/td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_6937dedb359968.15180331--</pre>
+INFO - 2025-12-09 08:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 08:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 09:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 09:54:40 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 09:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 09:54:42 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 09:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 09:54:47 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 09:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 09:55:00 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 09:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 09:55:41 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 09:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 09:56:42 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 10:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-09 10:44:16 --> Contact form data received: {"name":"Mangesh","email":"purchase@avgcindia.com","subject":"Highmast","message":"Highmast"}
+DEBUG - 2025-12-09 10:44:16 --> Processed data - Name: Mangesh, Email: purchase@avgcindia.com, Subject: Highmast, Message: Highmast
+ERROR - 2025-12-09 10:46:16 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-12-09 10:46:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 10:46:16 --> 
+ERROR - 2025-12-09 10:46:16 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 10:44:16 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Highmast?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6937fd803c3a60.53225155@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6937fd803c3cc5.74734332&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6937fd803c3cc5.74734332
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Mangesh
+Email:purchase@avgcindia.com
+Subject:Highmast
+Message:Highmast
+
+
+--B_ALT_6937fd803c3cc5.74734332
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Mangesh&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px=
+ solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; bord=
+er: 1px solid #ddd;&quot;&gt;purchase@avgcindia.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;pa=
+dding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td&gt;&lt;td st=
+yle=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Highmast&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td =
+style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Message:=
+&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Highmast&lt;/td&gt;&lt;/tr&gt;=
+=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_6937fd803c3cc5.74734332--</pre>
+INFO - 2025-12-09 10:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 10:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 10:59:22 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 10:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-09 10:59:22 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-12-09 11:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 11:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 11:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 11:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 11:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 11:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 11:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 11:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 11:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 12:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 13:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 13:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 13:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 13:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 13:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 13:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 13:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-09 14:19:28 --> Contact form data received: {"name":"Simontot","email":"dinanikolskaya99@gmail.com","subject":"Hallo  i am write about   the prices","message":"H\u00e6, \u00e9g vildi vita ver\u00f0 \u00feitt.","submit":""}
+DEBUG - 2025-12-09 14:19:28 --> Processed data - Name: Simontot, Email: dinanikolskaya99@gmail.com, Subject: Hallo  i am write about   the prices, Message: Hæ, ég vildi vita verð þitt.
+ERROR - 2025-12-09 14:21:29 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2025-12-09 14:21:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-09 14:21:29 --> 
+ERROR - 2025-12-09 14:21:29 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 9 Dec 2025 14:19:28 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Hallo=20=20i=20am=20write=20about?= =?UTF-8?Q?=20=20=20the=20prices?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;69382ff0db35c2.22379116@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_69382ff0db3873.98635137&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_69382ff0db3873.98635137
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Simontot
+Email:dinanikolskaya99@gmail.com
+Subject:Hallo i am write about the prices
+Message:Hæ, ég vildi vita verð þitt.
+
+
+--B_ALT_69382ff0db3873.98635137
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Simontot&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1p=
+x solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; bor=
+der: 1px solid #ddd;&quot;&gt;dinanikolskaya99@gmail.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=
+=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td&gt;=
+&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Hallo  i am write about=
+   the prices&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Message:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1=
+px solid #ddd;&quot;&gt;H=C3=A6, =C3=A9g vildi vita ver=C3=B0 =C3=BEitt.&lt;/td&gt;&lt;/tr&gt;=
+=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_69382ff0db3873.98635137--</pre>
+INFO - 2025-12-09 14:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 14:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 15:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 16:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 17:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 18:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 19:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 20:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 21:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 22:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-09 23:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

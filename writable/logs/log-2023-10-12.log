@@ -1,0 +1,89 @@
+CRITICAL - 2023-10-12 11:36:27 --> Too few arguments to function App\Models\UserModel::getvideodetails(), 0 passed in /home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php on line 308 and exactly 1 expected
+in APPPATH/Models/UserModel.php on line 41.
+ 1 APPPATH/Controllers/UserController.php(308): App\Models\UserModel->getvideodetails()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getdashboardUserdetails()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:37:01 --> Too few arguments to function App\Models\UserModel::getvideodetails(), 0 passed in /home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php on line 308 and exactly 1 expected
+in APPPATH/Models/UserModel.php on line 41.
+ 1 APPPATH/Controllers/UserController.php(308): App\Models\UserModel->getvideodetails()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getdashboardUserdetails()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:37:03 --> Too few arguments to function App\Models\UserModel::getvideodetails(), 0 passed in /home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php on line 308 and exactly 1 expected
+in APPPATH/Models/UserModel.php on line 41.
+ 1 APPPATH/Controllers/UserController.php(308): App\Models\UserModel->getvideodetails()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getdashboardUserdetails()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 11:41:18 --> Undefined variable: fav_userid
+in APPPATH/Models/UserModel.php on line 142.
+ 1 APPPATH/Models/UserModel.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fav_userid', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 142, [])
+ 2 APPPATH/Controllers/UserController.php(309): App\Models\UserModel->getLiveUsercountdetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getdashboardUserdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 11:58:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE log_userid = '15'' at line 1 in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM f...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php(133): App\Models\UserModel->getfavoriteUsercountdetails('15')
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\UserController->getUserdetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-12 11:58:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE log_userid = '15'' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/UserModel.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM favorite_details WHERE WHERE log_userid = \'15\'')
+ 2 APPPATH/Controllers/UserController.php(133): App\Models\UserModel->getfavoriteUsercountdetails('15')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUserdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 11:58:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE log_userid = '5'' at line 1 in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM f...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php(133): App\Models\UserModel->getfavoriteUsercountdetails('5')
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\UserController->getUserdetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-12 11:58:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE log_userid = '5'' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/UserModel.php(155): CodeIgniter\Database\BaseConnection->query('SELECT * FROM favorite_details WHERE WHERE log_userid = \'5\'')
+ 2 APPPATH/Controllers/UserController.php(133): App\Models\UserModel->getfavoriteUsercountdetails('5')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUserdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 12:03:42 --> mysqli_sql_exception: Unknown column 'ud.planExpiryDate' in 'field list' in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT  user_id...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  user_id...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  user_id...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php(31): CodeIgniter\Database\BaseConnection->query('SELECT  user_id...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php(132): App\Models\UserModel->getUserprofiledetails('5')
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\UserController->getUserdetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-12 12:03:42 --> Unknown column 'ud.planExpiryDate' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/UserModel.php(31): CodeIgniter\Database\BaseConnection->query('SELECT  user_id,custname,mob_no,profession,gender,created_date,is_live,is_income,is_block,planStartDate,planExpiryDate,expdays,plan_id,plan_staus,role,datediff(ud.planExpiryDate, curdate()) as days_remaining FROM user_details WHERE user_id = \'5\'')
+ 2 APPPATH/Controllers/UserController.php(132): App\Models\UserModel->getUserprofiledetails('5')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUserdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,14 @@
+CRITICAL - 2023-10-23 14:15:44 --> Trying to access array offset on value of type bool
+in APPPATH/Controllers/UserController.php on line 182.
+ 1 APPPATH/Controllers/UserController.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php', 182, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->adduserCallhistory()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:18:15 --> Trying to access array offset on value of type bool
+in APPPATH/Controllers/UserController.php on line 182.
+ 1 APPPATH/Controllers/UserController.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php', 182, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->adduserCallhistory()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

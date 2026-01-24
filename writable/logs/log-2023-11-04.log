@@ -1,0 +1,889 @@
+CRITICAL - 2023-11-04 03:31:34 --> Undefined index: Username
+in APPPATH/Controllers/NotificationController.php on line 24.
+ 1 APPPATH/Controllers/NotificationController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Username', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/NotificationController.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->addNotificationdeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-04 03:32:02 --> Undefined index: Username
+in APPPATH/Controllers/NotificationController.php on line 24.
+ 1 APPPATH/Controllers/NotificationController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Username', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/NotificationController.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->addNotificationdeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-04 03:32:03 --> Undefined index: Username
+in APPPATH/Controllers/NotificationController.php on line 24.
+ 1 APPPATH/Controllers/NotificationController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Username', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/NotificationController.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->addNotificationdeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-04 03:32:03 --> Undefined index: Username
+in APPPATH/Controllers/NotificationController.php on line 24.
+ 1 APPPATH/Controllers/NotificationController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Username', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/NotificationController.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->addNotificationdeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:46:45 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:46:45 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:46:48 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:46:48 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:47:17 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:47:17 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:47:35 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:47:35 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:47:42 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:47:42 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:03 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:03 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:05 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:05 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:14 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:14 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:51 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:51 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:52 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:52 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:52 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:52 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:53 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:53 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:54 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:54 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:48:54 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:48:54 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:49:13 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:49:13 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:49:14 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:49:14 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:50:06 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:50:06 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(8): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstateedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:52:16 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:52:16 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-04 03:53:19 --> Class 'Api\App\Models\ModelMaster' not found
+in APPPATH/Controllers/Api/MasterController.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Api\MasterController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:54 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:54 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:55 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:55 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:55 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:55 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:56 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:56 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:56 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:56 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:56 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:56 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:57 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:57 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:57 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:57 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:57 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:57 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:58 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:58 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:58 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:58 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:59 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:59 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:59 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:59 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:59 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:59 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:54:59 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:54:59 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:56:03 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:56:03 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:56:04 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:56:04 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:56:04 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:56:04 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:58:03 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:58:03 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:58:05 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:58:05 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 03:58:29 --> mysqli_sql_exception: Table 'db_myskill.state_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 03:58:29 --> Table 'db_myskill.state_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 2 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 04:00:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'emptracking_db'@'localhost' (using password: YES) in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'emptracking_db', '3s~rqZ?Dc91', 'emptracking_db', 3306, '', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#4 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-04 04:00:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 3 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 04:00:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'emptracking_db'@'localhost' (using password: YES) in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'emptracking_db', '3s~rqZ?Dc91', 'emptracking_db', 3306, '', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+#4 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-04 04:00:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ModelMaster.php(7): CodeIgniter\Database\BaseConnection->query('SELECT * FROM state_details ORDER BY state_id DESC')
+ 3 APPPATH/Controllers/Api/MasterController.php(15): App\Models\ModelMaster->getAllstatedetails()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAllStatedetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-04 04:09:36 --> Too few arguments to function App\Models\ModelMaster::getAlldistrictdetails(), 0 passed in /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/MasterController.php on line 44 and exactly 1 expected
+in APPPATH/Models/ModelMaster.php on line 16.
+ 1 APPPATH/Controllers/Api/MasterController.php(44): App\Models\ModelMaster->getAlldistrictdetails()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\MasterController->getAlldistrictdetails()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

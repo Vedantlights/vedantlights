@@ -1,0 +1,399 @@
+INFO - 2026-01-08 00:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 00:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 01:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 02:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-08 03:24:43 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-08 03:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-08 03:24:43 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-08 03:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 03:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 04:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 05:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 06:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 07:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 07:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 07:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-08 07:17:10 --> Contact form data received: {"name":"Ty","email":"sales@vedantlights.com","subject":"Ty Brunette","message":"Hey \r\n\r\nI wanted to reach out and let you know about our new dog harness. It's really easy to put on and take off - in just 2 seconds - and it's personalized for each dog. \r\nPlus, we offer a lifetime warranty so you can be sure your pet is always safe and stylish.\r\n\r\nWe've had a lot of success with it so far and I think your dog would love it. \r\n\r\nGet yours today with 50% OFF: https:\/\/caredogbest.com\r\n\r\nFREE Shipping - TODAY ONLY! \r\n\r\nBest Wishes, \r\n\r\nTy"}
+DEBUG - 2026-01-08 07:17:10 --> Processed data - Name: Ty, Email: sales@vedantlights.com, Subject: Ty Brunette, Message: Hey 
+
+I wanted to reach out and let you know about our new dog harness. It's really easy to put on and take off - in just 2 seconds - and it's personalized for each dog. 
+Plus, we offer a lifetime warranty so you can be sure your pet is always safe and stylish.
+
+We've had a lot of success with it so far and I think your dog would love it. 
+
+Get yours today with 50% OFF: https://caredogbest.com
+
+FREE Shipping - TODAY ONLY! 
+
+Best Wishes, 
+
+Ty
+ERROR - 2026-01-08 07:19:10 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-08 07:19:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-08 07:19:10 --> 
+ERROR - 2026-01-08 07:19:10 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Thu, 8 Jan 2026 07:17:10 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Ty=20Brunette?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;695f59f6bd5027.39298010@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_695f59f6bd51c4.25944314&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_695f59f6bd51c4.25944314
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Ty
+Email:sales@vedantlights.com
+Subject:Ty Brunette
+Message:Hey
+
+I wanted to reach out and let you know about our new dog harness. It&amp;#039;s
+really easy to put on and take off - in just 2 seconds - and it&amp;#039;s
+personalized for each dog.
+Plus, we offer a lifetime warranty so you can be sure your pet is always
+safe and stylish.
+
+We&amp;#039;ve had a lot of success with it so far and I think your dog would
+love it.
+
+Get yours today with 50% OFF: https://caredogbest.com
+
+FREE Shipping - TODAY ONLY!
+
+Best Wishes,
+
+Ty
+
+
+--B_ALT_695f59f6bd51c4.25944314
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Ty&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px soli=
+d #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1=
+px solid #ddd;&quot;&gt;sales@vedantlights.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding=
+: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td&gt;&lt;td style=
+=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Ty Brunette&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td =
+style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Message:=
+&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Hey &lt;br /&gt;=0A&lt;br /=
+&gt;=0AI wanted to reach out and let you know about our new dog harness. It&amp;#0=
+39;s really easy to put on and take off - in just 2 seconds - and it&amp;#039;s=
+ personalized for each dog. &lt;br /&gt;=0APlus, we offer a lifetime warranty so =
+you can be sure your pet is always safe and stylish.&lt;br /&gt;=0A&lt;br /&gt;=0AWe&amp;#0=
+39;ve had a lot of success with it so far and I think your dog would love i=
+t. &lt;br /&gt;=0A&lt;br /&gt;=0AGet yours today with 50% OFF: https://caredogbest.com&lt;=
+br /&gt;=0A&lt;br /&gt;=0AFREE Shipping - TODAY ONLY! &lt;br /&gt;=0A&lt;br /&gt;=0ABest Wishes,=
+ &lt;br /&gt;=0A&lt;br /&gt;=0ATy&lt;/td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_695f59f6bd51c4.25944314--</pre>
+INFO - 2026-01-08 07:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 07:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 07:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 07:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 07:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 08:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-08 08:03:31 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-08 08:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 08:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 08:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 08:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 08:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 09:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 09:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 09:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 09:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 09:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 09:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 09:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 09:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 10:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 10:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 10:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 10:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 10:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-08 11:03:09 --> Contact form data received: {"name":"Sheldon","email":"sales@vedantlights.com","subject":"Sheldon Coxen","message":"Good day \r\n\r\nI wanted to reach out and let you know about our new dog harness. It's really easy to put on and take off - in just 2 seconds - and it's personalized for each dog. \r\nPlus, we offer a lifetime warranty so you can be sure your pet is always safe and stylish.\r\n\r\nWe've had a lot of success with it so far and I think your dog would love it. \r\n\r\nGet yours today with 50% OFF: https:\/\/caredogbest.com\r\n\r\nFREE Shipping - TODAY ONLY! \r\n\r\nThanks and Best Regards, \r\n\r\nSheldon"}
+DEBUG - 2026-01-08 11:03:09 --> Processed data - Name: Sheldon, Email: sales@vedantlights.com, Subject: Sheldon Coxen, Message: Good day 
+
+I wanted to reach out and let you know about our new dog harness. It's really easy to put on and take off - in just 2 seconds - and it's personalized for each dog. 
+Plus, we offer a lifetime warranty so you can be sure your pet is always safe and stylish.
+
+We've had a lot of success with it so far and I think your dog would love it. 
+
+Get yours today with 50% OFF: https://caredogbest.com
+
+FREE Shipping - TODAY ONLY! 
+
+Thanks and Best Regards, 
+
+Sheldon
+INFO - 2026-01-08 11:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-08 11:05:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-08 11:05:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-08 11:05:09 --> 
+ERROR - 2026-01-08 11:05:09 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Thu, 8 Jan 2026 11:03:09 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Sheldon=20Coxen?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;695f8eedab78a0.74355695@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_695f8eedab7a66.88817790&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_695f8eedab7a66.88817790
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Sheldon
+Email:sales@vedantlights.com
+Subject:Sheldon Coxen
+Message:Good day
+
+I wanted to reach out and let you know about our new dog harness. It&amp;#039;s
+really easy to put on and take off - in just 2 seconds - and it&amp;#039;s
+personalized for each dog.
+Plus, we offer a lifetime warranty so you can be sure your pet is always
+safe and stylish.
+
+We&amp;#039;ve had a lot of success with it so far and I think your dog would
+love it.
+
+Get yours today with 50% OFF: https://caredogbest.com
+
+FREE Shipping - TODAY ONLY!
+
+Thanks and Best Regards,
+
+Sheldon
+
+
+--B_ALT_695f8eedab7a66.88817790
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Sheldon&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px=
+ solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; bord=
+er: 1px solid #ddd;&quot;&gt;sales@vedantlights.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;pa=
+dding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td&gt;&lt;td st=
+yle=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Sheldon Coxen&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr=
+&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Mes=
+sage:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Good day &lt;br =
+/&gt;=0A&lt;br /&gt;=0AI wanted to reach out and let you know about our new dog harn=
+ess. It&amp;#039;s really easy to put on and take off - in just 2 seconds - and=
+ it&amp;#039;s personalized for each dog. &lt;br /&gt;=0APlus, we offer a lifetime wa=
+rranty so you can be sure your pet is always safe and stylish.&lt;br /&gt;=0A&lt;br =
+/&gt;=0AWe&amp;#039;ve had a lot of success with it so far and I think your dog wo=
+uld love it. &lt;br /&gt;=0A&lt;br /&gt;=0AGet yours today with 50% OFF: https://caredo=
+gbest.com&lt;br /&gt;=0A&lt;br /&gt;=0AFREE Shipping - TODAY ONLY! &lt;br /&gt;=0A&lt;br /&gt;=0ATh=
+anks and Best Regards, &lt;br /&gt;=0A&lt;br /&gt;=0ASheldon&lt;/td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=0A&lt;/b=
+ody&gt;&lt;/html&gt;
+
+--B_ALT_695f8eedab7a66.88817790--</pre>
+INFO - 2026-01-08 11:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 11:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-08 12:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

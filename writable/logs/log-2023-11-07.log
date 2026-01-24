@@ -1,0 +1,812 @@
+CRITICAL - 2023-11-07 04:53:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 04:56:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(62): CodeIgniter\Model->__call('getemplyoeeDailyhistory', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoeeDailyhistory()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 05:31:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 05:32:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 05:42:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 05:44:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 05:46:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 05:47:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 05:54:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 05:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 05:56:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 05:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 05:56:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 05:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 05:57:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 05:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 05:58:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 05:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 05:58:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:00:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:16:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:16:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:17:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:18:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:19:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:19:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 06:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 06:20:33 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 06:20:33 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 06:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:21:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:21:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:21:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:22:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 06:22:33 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 06:22:33 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 06:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:22:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:22:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:24:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:24:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 06:24:59 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 06:24:59 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 06:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 06:25:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 06:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 06:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 06:36:18 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 06:36:18 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 06:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 06:48:08 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 06:48:08 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 06:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 07:43:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 07:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 07:44:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 07:49:13 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 07:49:13 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 07:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 07:49:36 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 07:49:36 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 07:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 07:49:56 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 07:49:56 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 07:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 07:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 08:04:14 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(98): App\Models\EmployeeModel->getTalukadetails('4')
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->getTalukadetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 08:04:14 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT * FROM taluka_details WHERE distId =\'4\' ORDER BY talu_name ASC')
+ 2 APPPATH/Controllers/EmployeeController.php(98): App\Models\EmployeeModel->getTalukadetails('4')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->getTalukadetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 08:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 08:04:25 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 08:04:25 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 08:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-07 08:06:22 --> mysqli_sql_exception: Table 'emptracking_db.taluka_details' doesn't exist in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT us1.*,ts...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT us1.*,ts...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT us1.*,ts...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-07 08:06:22 --> Table 'emptracking_db.taluka_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT us1.*,ts2.state_name,dist3.dist_name,GROUP_CONCAT(td4.talu_name) talu_name FROM user_details as us1 INNER JOIN state_details as ts2 ON ts2.state_id = us1.stateId INNER JOIN district_details as dist3
+ON dist3.dist_id = us1.Distid INNER JOIN taluka_details  as td4 ON find_in_set(td4.talu_id, 
+us1.Talid) > 0 GROUP BY us1.user_id ORDER BY us1.user_id DESC')
+ 2 APPPATH/Controllers/EmployeeController.php(24): App\Models\EmployeeModel->employeeDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\EmployeeController->employeeDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 08:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 08:26:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 08:27:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 08:36:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 08:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 08:42:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 08:57:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 08:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 08:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 09:01:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 09:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 09:06:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 09:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 09:45:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 09:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 09:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 10:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 11:10:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 11:11:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 11:12:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 11:13:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 11:14:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 11:18:10 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 11:19:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 11:20:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 11:58:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 12:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 12:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 12:08:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 12:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 12:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 12:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-07 12:23:43 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:24:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:29:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:32:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 883.
+ 1 SYSTEMPATH/Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Api/EmployeeController.php(25): CodeIgniter\Model->__call('getemplyoeAttendancedata', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoedashboarddata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-07 13:18:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-07 13:18:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (1) VALUES (:1:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+ 3 APPPATH/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-07 13:19:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-07 13:19:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (1) VALUES (:1:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+ 3 APPPATH/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-07 13:19:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-07 13:19:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (1) VALUES (:1:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+ 3 APPPATH/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-07 13:19:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-07 13:19:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (1) VALUES (:1:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+ 3 APPPATH/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-07 13:20:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-07 13:20:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (1) VALUES (:1:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+ 3 APPPATH/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-07 13:20:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-07 13:20:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (1) VALUES (:1:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+ 3 APPPATH/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-07 13:20:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1 in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-07 13:20:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1) VALUES (:1:)' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (1) VALUES (:1:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert('1')
+ 3 APPPATH/Controllers/Api/EmployeeController.php(120): App\Models\EmployeeModel->addVendordetails('1')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-07 13:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-07 13:29:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-07 13:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 13:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 17:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-07 18:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

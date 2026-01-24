@@ -1,0 +1,49 @@
+CRITICAL - 2023-11-05 07:56:05 --> Undefined variable: userLatitude
+in APPPATH/Controllers/Api/Login.php on line 151.
+ 1 APPPATH/Controllers/Api/Login.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userLatitude', '/home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/Login.php', 151, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\Login->addemplyoeattendancedata()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-05 08:16:32 --> mysqli_sql_exception: Column 'userLatitude' cannot be null in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `em...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/ModelLogin.php(58): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/Login.php(163): App\Models\ModelLogin->addemplyoeattendancedata(Array)
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\Login->addemplyoeattendancedata()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Login))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-05 08:16:32 --> Column 'userLatitude' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `emp_attendance` (`userID`, `userLatitude`, `userLongitude`, `attend_stauts`) VALUES (:userID:, :userLatitude:, :userLongitude:, :attend_stauts:)', [...], false)
+ 2 APPPATH/Models/ModelLogin.php(58): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Api/Login.php(163): App\Models\ModelLogin->addemplyoeattendancedata([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\Login->addemplyoeattendancedata()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-05 08:17:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='1' ORDER BY attend_id DESC LIMIT 1' at line 1 in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(25): App\Models\EmployeeModel->getemplyoeAttendancedata('1')
+#5 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoeAttendancedata()
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-05 08:17:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='1' ORDER BY attend_id DESC LIMIT 1' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/EmployeeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM emp_attendance  WHERE userID = =\'1\' ORDER BY attend_id DESC LIMIT 1')
+ 2 APPPATH/Controllers/Api/EmployeeController.php(25): App\Models\EmployeeModel->getemplyoeAttendancedata('1')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->getemplyoeAttendancedata()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

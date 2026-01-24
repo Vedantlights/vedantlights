@@ -1,0 +1,73 @@
+CRITICAL - 2023-11-02 07:27:34 --> Undefined variable: customerDetails
+in APPPATH/Views/notificationDetails.php on line 16.
+ 1 APPPATH/Views/notificationDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: customerDetails', '/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php', 16, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('notificationDetails', [], true)
+ 5 APPPATH/Controllers/NotificationController.php(19): view('notificationDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->notificationDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 07:28:20 --> Undefined variable: customerDetails
+in APPPATH/Views/notificationDetails.php on line 16.
+ 1 APPPATH/Views/notificationDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: customerDetails', '/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php', 16, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('notificationDetails', [], true)
+ 5 APPPATH/Controllers/NotificationController.php(19): view('notificationDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->notificationDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 07:28:21 --> Undefined variable: customerDetails
+in APPPATH/Views/notificationDetails.php on line 16.
+ 1 APPPATH/Views/notificationDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: customerDetails', '/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php', 16, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('notificationDetails', [], true)
+ 5 APPPATH/Controllers/NotificationController.php(19): view('notificationDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->notificationDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 07:28:21 --> Undefined variable: customerDetails
+in APPPATH/Views/notificationDetails.php on line 16.
+ 1 APPPATH/Views/notificationDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: customerDetails', '/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php', 16, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('notificationDetails', [], true)
+ 5 APPPATH/Controllers/NotificationController.php(19): view('notificationDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->notificationDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 07:28:21 --> Undefined variable: customerDetails
+in APPPATH/Views/notificationDetails.php on line 16.
+ 1 APPPATH/Views/notificationDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: customerDetails', '/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php', 16, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('notificationDetails', [], true)
+ 5 APPPATH/Controllers/NotificationController.php(19): view('notificationDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->notificationDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 07:28:22 --> Undefined variable: customerDetails
+in APPPATH/Views/notificationDetails.php on line 16.
+ 1 APPPATH/Views/notificationDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: customerDetails', '/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php', 16, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/notificationDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('notificationDetails', [], true)
+ 5 APPPATH/Controllers/NotificationController.php(19): view('notificationDetails', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->notificationDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 07:43:46 --> Undefined variable: device_id
+in APPPATH/Controllers/NotificationController.php on line 27.
+ 1 APPPATH/Controllers/NotificationController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: device_id', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/NotificationController.php', 27, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\NotificationController->addNotificationdeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

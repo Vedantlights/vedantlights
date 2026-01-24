@@ -1,0 +1,22 @@
+ERROR - 2023-10-24 04:36:06 --> mysqli_sql_exception: Column 'reciver_mobno' cannot be null in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ca...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/UserController.php(190): App\Models\UserModel->adduserCallhistory(Array)
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\UserController->adduserCallhistory()
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-24 04:36:06 --> Column 'reciver_mobno' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `callhistory_details` (`sender_name`, `sender_mobno`, `reciver_name`, `reciver_mobno`, `start_time`, `end_time`, `call_duration`, `sender_id`, `reciver_id`) VALUES (:sender_name:, :sender_mobno:, :reciver_name:, :reciver_mobno:, :start_time:, :end_time:, :call_duration:, :sender_id:, :reciver_id:)', [...], false)
+ 2 APPPATH/Models/UserModel.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/UserController.php(190): App\Models\UserModel->adduserCallhistory([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->adduserCallhistory()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

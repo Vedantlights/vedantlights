@@ -1,0 +1,1401 @@
+INFO - 2026-01-02 00:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 00:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 01:15:08 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 01:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 02:37:53 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 02:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 02:37:53 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 02:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 03:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 04:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 05:21:36 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 05:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 05:21:36 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 05:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 05:22:32 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 05:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 05:22:32 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 05:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 05:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-02 06:29:57 --> Contact form data received: {"name":"Jimmy Macintosh","email":"jimmy.macintosh98@outlook.com","subject":"FREE Buyer Traffic from TikTok, YouTube, Instagram & Facebook","message":"World's First AI App That Creates\r\nCinematic Clips, Shorts & Reels Completely Hands-Free\r\nIn 100s Of Language - In Just 60 Seconds\r\n\r\nhttps:\/\/bwzph2rqzdyw7vuh.site\/MagicClipsAI?vedantlights.com\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nYou\u2019re receiving this email \r\nsince we think \r\nour offer \r\nmay be relevant to you.\r\n\r\nIf you would prefer not to receive \r\nany more messages from us, \r\nsimply \r\nunsubscribe:\r\n\r\nhttps:\/\/bwzph2rqzdyw7vuh.site\/unsub?domain=vedantlights.com \r\nAddress: Address: 4798   1014 Better Street, KS  66064\r\nLooking out for you, Jimmy Macintosh."}
+DEBUG - 2026-01-02 06:29:57 --> Processed data - Name: Jimmy Macintosh, Email: jimmy.macintosh98@outlook.com, Subject: FREE Buyer Traffic from TikTok, YouTube, Instagram & Facebook, Message: World's First AI App That Creates
+Cinematic Clips, Shorts & Reels Completely Hands-Free
+In 100s Of Language - In Just 60 Seconds
+
+https://bwzph2rqzdyw7vuh.site/MagicClipsAI?vedantlights.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You’re receiving this email 
+since we think 
+our offer 
+may be relevant to you.
+
+If you would prefer not to receive 
+any more messages from us, 
+simply 
+unsubscribe:
+
+https://bwzph2rqzdyw7vuh.site/unsub?domain=vedantlights.com 
+Address: Address: 4798   1014 Better Street, KS  66064
+Looking out for you, Jimmy Macintosh.
+INFO - 2026-01-02 06:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-02 06:31:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-02 06:31:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-02 06:31:57 --> 
+ERROR - 2026-01-02 06:31:57 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Fri, 2 Jan 2026 06:29:57 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20FREE=20Buyer=20Traffic=20from=20Tik?= =?UTF-8?Q?Tok,=20YouTube,=20Instagram=20&amp;=20Facebook?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;695765e5a865f7.54098173@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_695765e5a86817.08721011&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_695765e5a86817.08721011
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Jimmy Macintosh
+Email:jimmy.macintosh98@outlook.com
+Subject:FREE Buyer Traffic from TikTok, YouTube, Instagram &amp;amp; Facebook
+Message:World&amp;#039;s First AI App That Creates
+Cinematic Clips, Shorts &amp;amp; Reels Completely Hands-Free
+In 100s Of Language - In Just 60 Seconds
+
+https://bwzph2rqzdyw7vuh.site/MagicClipsAI?vedantlights.com
+
+You’re receiving this email
+since we think
+our offer
+may be relevant to you.
+
+If you would prefer not to receive
+any more messages from us,
+simply
+unsubscribe:
+
+https://bwzph2rqzdyw7vuh.site/unsub?domain=vedantlights.com
+Address: Address: 4798 1014 Better Street, KS 66064
+Looking out for you, Jimmy Macintosh.
+
+
+--B_ALT_695765e5a86817.08721011
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Jimmy Macintosh&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; bor=
+der: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8=
+px; border: 1px solid #ddd;&quot;&gt;jimmy.macintosh98@outlook.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;=
+&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subj=
+ect:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;FREE Buyer Tra=
+ffic from TikTok, YouTube, Instagram &amp;amp; Facebook&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td sty=
+le=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Message:&lt;/t=
+d&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;World&amp;#039;s First AI=
+ App That Creates&lt;br /&gt;=0ACinematic Clips, Shorts &amp;amp; Reels Completely Ha=
+nds-Free&lt;br /&gt;=0AIn 100s Of Language - In Just 60 Seconds&lt;br /&gt;=0A&lt;br /&gt;=0A=
+https://bwzph2rqzdyw7vuh.site/MagicClipsAI?vedantlights.com&lt;br /&gt;=0A&lt;br /&gt;=
+=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A=
+&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0AYou=E2=80=99re receiv=
+ing this email &lt;br /&gt;=0Asince we think &lt;br /&gt;=0Aour offer &lt;br /&gt;=0Amay be r=
+elevant to you.&lt;br /&gt;=0A&lt;br /&gt;=0AIf you would prefer not to receive &lt;br /&gt;=
+=0Aany more messages from us, &lt;br /&gt;=0Asimply &lt;br /&gt;=0Aunsubscribe:&lt;br /&gt;=
+=0A&lt;br /&gt;=0Ahttps://bwzph2rqzdyw7vuh.site/unsub?domain=3Dvedantlights.com &lt;=
+br /&gt;=0AAddress: Address: 4798   1014 Better Street, KS  66064&lt;br /&gt;=0ALook=
+ing out for you, Jimmy Macintosh.&lt;/td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_695765e5a86817.08721011--</pre>
+INFO - 2026-01-02 06:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 06:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-02 07:27:05 --> Contact form data received: {"name":"Larae Layman","email":"larae.layman@gmail.com","subject":"The \"Secret Source Code\" Behind the World\u2019s Top Bestsellers","message":"Why do some books sell millions of copies while others fail?\r\n\r\nThe answer isn't luck. It\u2019s Psychology. \r\n\r\nThe book that currently dominates the charts\u2014selling over 272 copies daily\u2014was built on a very specific scientific foundation. It took deep behavioral principles and simplified them into \"Tiny\" steps.\r\n\r\nhttps:\/\/center303-center303.site\/TinyActionBooks?vedantlights.com\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nYou are receiving this message \r\nsince we think \r\nthe offer we provide \r\ncould be useful to you.\r\n\r\nIf you do not wish to receive \r\nany more messages from us, \r\nsimply \r\nstop receiving emails:\r\n\r\nhttps:\/\/center303-center303.site\/unsub?domain=vedantlights.com \r\nAddress: Address: 4885   73 Greyfriars Road, NA  Ch1 5hd\r\nLooking out for you, Larae Layman."}
+DEBUG - 2026-01-02 07:27:05 --> Processed data - Name: Larae Layman, Email: larae.layman@gmail.com, Subject: The "Secret Source Code" Behind the World’s Top Bestsellers, Message: Why do some books sell millions of copies while others fail?
+
+The answer isn't luck. It’s Psychology. 
+
+The book that currently dominates the charts—selling over 272 copies daily—was built on a very specific scientific foundation. It took deep behavioral principles and simplified them into "Tiny" steps.
+
+https://center303-center303.site/TinyActionBooks?vedantlights.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are receiving this message 
+since we think 
+the offer we provide 
+could be useful to you.
+
+If you do not wish to receive 
+any more messages from us, 
+simply 
+stop receiving emails:
+
+https://center303-center303.site/unsub?domain=vedantlights.com 
+Address: Address: 4885   73 Greyfriars Road, NA  Ch1 5hd
+Looking out for you, Larae Layman.
+ERROR - 2026-01-02 07:29:05 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-02 07:29:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-02 07:29:05 --> 
+ERROR - 2026-01-02 07:29:05 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Fri, 2 Jan 2026 07:27:05 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20The=20&quot;Secret=20Source=20Code&quot;=20Be?= =?UTF-8?Q?hind=20the=20World=E2=80=99s=20Top=20Bestsellers?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;69577349430094.72051101@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_695773494302b5.03258850&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_695773494302b5.03258850
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Larae Layman
+Email:larae.layman@gmail.com
+Subject:The &amp;quot;Secret Source Code&amp;quot; Behind the World’s Top
+Bestsellers
+Message:Why do some books sell millions of copies while others fail?
+
+The answer isn&amp;#039;t luck. It’s Psychology.
+
+The book that currently dominates the charts—selling over 272 copies
+daily—was built on a very specific scientific foundation. It took deep
+behavioral principles and simplified them into &amp;quot;Tiny&amp;quot; steps.
+
+https://center303-center303.site/TinyActionBooks?vedantlights.com
+
+You are receiving this message
+since we think
+the offer we provide
+could be useful to you.
+
+If you do not wish to receive
+any more messages from us,
+simply
+stop receiving emails:
+
+https://center303-center303.site/unsub?domain=vedantlights.com
+Address: Address: 4885 73 Greyfriars Road, NA Ch1 5hd
+Looking out for you, Larae Layman.
+
+
+--B_ALT_695773494302b5.03258850
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Larae Layman&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border=
+: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px;=
+ border: 1px solid #ddd;&quot;&gt;larae.layman@gmail.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=
+=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td&gt;=
+&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;The &amp;quot;Secret Source=
+ Code&amp;quot; Behind the World=E2=80=99s Top Bestsellers&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td =
+style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Message:=
+&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Why do some books =
+sell millions of copies while others fail?&lt;br /&gt;=0A&lt;br /&gt;=0AThe answer isn&amp;=
+#039;t luck. It=E2=80=99s Psychology. &lt;br /&gt;=0A&lt;br /&gt;=0AThe book that curre=
+ntly dominates the charts=E2=80=94selling over 272 copies daily=E2=80=94was=
+ built on a very specific scientific foundation. It took deep behavioral pr=
+inciples and simplified them into &amp;quot;Tiny&amp;quot; steps.&lt;br /&gt;=0A&lt;br /&gt;=0A=
+https://center303-center303.site/TinyActionBooks?vedantlights.com&lt;br /&gt;=0A&lt;=
+br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br =
+/&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=
+=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A=
+&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0AYou are receiving this message &lt;br /&gt;=
+=0Asince we think &lt;br /&gt;=0Athe offer we provide &lt;br /&gt;=0Acould be useful to=
+ you.&lt;br /&gt;=0A&lt;br /&gt;=0AIf you do not wish to receive &lt;br /&gt;=0Aany more mess=
+ages from us, &lt;br /&gt;=0Asimply &lt;br /&gt;=0Astop receiving emails:&lt;br /&gt;=0A&lt;br /=
+&gt;=0Ahttps://center303-center303.site/unsub?domain=3Dvedantlights.com &lt;br /&gt;=
+=0AAddress: Address: 4885   73 Greyfriars Road, NA  Ch1 5hd&lt;br /&gt;=0ALooking=
+ out for you, Larae Layman.&lt;/td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_695773494302b5.03258850--</pre>
+INFO - 2026-01-02 07:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 07:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-02 08:02:44 --> Contact form data received: {"name":"Brittany Haas","email":"haas.brittany@gmail.com","subject":"Create REAL iOS Apps With AI","message":"Apple HATES This... But They Can't Stop Me From Showing You How I Built A Money-Making App In 12 Minutes\r\nNow I'm Handing You The Exact System To Do The Same \u2014 Zero Coding Required\r\n\r\nhttps:\/\/bandardewi8.site\/MeeloAppEmpire?vedantlights.com\r\n\r\nYou received this notification \r\nas we think \r\nthis offer \r\ncould be relevant to you.\r\n\r\nIf you do not wish to receive \r\nany more messages from us, \r\nplease click here to \r\nunsubscribe:\r\n\r\nhttps:\/\/bandardewi8.site\/unsub?domain=vedantlights.com \r\nAddress: Address: 7749   Rue Des Ecoles 446, VWV  8421\r\nLooking out for you, Brittany Haas."}
+DEBUG - 2026-01-02 08:02:44 --> Processed data - Name: Brittany Haas, Email: haas.brittany@gmail.com, Subject: Create REAL iOS Apps With AI, Message: Apple HATES This... But They Can't Stop Me From Showing You How I Built A Money-Making App In 12 Minutes
+Now I'm Handing You The Exact System To Do The Same — Zero Coding Required
+
+https://bandardewi8.site/MeeloAppEmpire?vedantlights.com
+
+You received this notification 
+as we think 
+this offer 
+could be relevant to you.
+
+If you do not wish to receive 
+any more messages from us, 
+please click here to 
+unsubscribe:
+
+https://bandardewi8.site/unsub?domain=vedantlights.com 
+Address: Address: 7749   Rue Des Ecoles 446, VWV  8421
+Looking out for you, Brittany Haas.
+ERROR - 2026-01-02 08:04:45 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-02 08:04:45 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-02 08:04:45 --> 
+ERROR - 2026-01-02 08:04:45 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Fri, 2 Jan 2026 08:02:44 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Create=20REAL=20iOS=20Apps=20With?= =?UTF-8?Q?=20AI?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;69577ba4e43852.07086841@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_69577ba4e43c91.08928328&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_69577ba4e43c91.08928328
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Brittany Haas
+Email:haas.brittany@gmail.com
+Subject:Create REAL iOS Apps With AI
+Message:Apple HATES This... But They Can&amp;#039;t Stop Me From Showing You How
+I Built A Money-Making App In 12 Minutes
+Now I&amp;#039;m Handing You The Exact System To Do The Same — Zero Coding
+Required
+
+https://bandardewi8.site/MeeloAppEmpire?vedantlights.com
+
+You received this notification
+as we think
+this offer
+could be relevant to you.
+
+If you do not wish to receive
+any more messages from us,
+please click here to
+unsubscribe:
+
+https://bandardewi8.site/unsub?domain=vedantlights.com
+Address: Address: 7749 Rue Des Ecoles 446, VWV 8421
+Looking out for you, Brittany Haas.
+
+
+--B_ALT_69577ba4e43c91.08928328
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Brittany Haas&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; borde=
+r: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px=
+; border: 1px solid #ddd;&quot;&gt;haas.brittany@gmail.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td styl=
+e=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td=
+&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Create REAL iOS Apps W=
+ith AI&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd; f=
+ont-weight: bold;&quot;&gt;Message:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px soli=
+d #ddd;&quot;&gt;Apple HATES This... But They Can&amp;#039;t Stop Me From Showing You H=
+ow I Built A Money-Making App In 12 Minutes&lt;br /&gt;=0ANow I&amp;#039;m Handing Yo=
+u The Exact System To Do The Same =E2=80=94 Zero Coding Required&lt;br /&gt;=0A&lt;b=
+r /&gt;=0Ahttps://bandardewi8.site/MeeloAppEmpire?vedantlights.com&lt;br /&gt;=0A&lt;br=
+ /&gt;=0AYou received this notification &lt;br /&gt;=0Aas we think &lt;br /&gt;=0Athis off=
+er &lt;br /&gt;=0Acould be relevant to you.&lt;br /&gt;=0A&lt;br /&gt;=0AIf you do not wish t=
+o receive &lt;br /&gt;=0Aany more messages from us, &lt;br /&gt;=0Aplease click here to=
+ &lt;br /&gt;=0Aunsubscribe:&lt;br /&gt;=0A&lt;br /&gt;=0Ahttps://bandardewi8.site/unsub?doma=
+in=3Dvedantlights.com &lt;br /&gt;=0AAddress: Address: 7749   Rue Des Ecoles 446,=
+ VWV  8421&lt;br /&gt;=0ALooking out for you, Brittany Haas.&lt;/td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=
+=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_69577ba4e43c91.08928328--</pre>
+INFO - 2026-01-02 08:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 08:37:30 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 08:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 08:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 09:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 09:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 09:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 09:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 09:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 09:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 09:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-02 10:45:04 --> Contact form data received: {"name":"Lucy Freehill","email":"freehill.lucy@gmail.com","subject":"A Modern Day Gold Rush, making tens of thousands a month","message":"Imagine launching a viral, faceless \r\nYouTube, TikTok, or Instagram channel \r\nin just minutes...\r\n(And Then Your new Channel \r\nautomatically Creates AND posts videos FOR YOU...\r\nSo you NEVER HAVE TO TOUCH IT, AGAIN?)\r\n\r\nThis is 100% AUTOMATED, so once you set it up, you never have to lift a finger!\r\n\r\nhttps:\/\/cola52.site\/TrafficSupernova?vedantlights.com\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThis message is sent to you \r\nas we think \r\nthis offer \r\nmay interest you.\r\n\r\nIf you would prefer not to receive \r\nany more messages from us, \r\nsimply \r\nunsubscribe from these emails:\r\n\r\nhttps:\/\/cola52.site\/unsub?domain=vedantlights.com \r\nAddress: Address: 3253   Laufasgotu 5, NA  902\r\nLooking out for you, Lucy Freehill."}
+DEBUG - 2026-01-02 10:45:04 --> Processed data - Name: Lucy Freehill, Email: freehill.lucy@gmail.com, Subject: A Modern Day Gold Rush, making tens of thousands a month, Message: Imagine launching a viral, faceless 
+YouTube, TikTok, or Instagram channel 
+in just minutes...
+(And Then Your new Channel 
+automatically Creates AND posts videos FOR YOU...
+So you NEVER HAVE TO TOUCH IT, AGAIN?)
+
+This is 100% AUTOMATED, so once you set it up, you never have to lift a finger!
+
+https://cola52.site/TrafficSupernova?vedantlights.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This message is sent to you 
+as we think 
+this offer 
+may interest you.
+
+If you would prefer not to receive 
+any more messages from us, 
+simply 
+unsubscribe from these emails:
+
+https://cola52.site/unsub?domain=vedantlights.com 
+Address: Address: 3253   Laufasgotu 5, NA  902
+Looking out for you, Lucy Freehill.
+ERROR - 2026-01-02 10:47:04 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-02 10:47:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-02 10:47:04 --> 
+ERROR - 2026-01-02 10:47:04 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Fri, 2 Jan 2026 10:45:04 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20A=20Modern=20Day=20Gold=20Rush,=20m?= =?UTF-8?Q?aking=20tens=20of=20thousands=20a=20month?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6957a1b05346b1.32784058@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6957a1b05348f4.37190916&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6957a1b05348f4.37190916
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Lucy Freehill
+Email:freehill.lucy@gmail.com
+Subject:A Modern Day Gold Rush, making tens of thousands a month
+Message:Imagine launching a viral, faceless
+YouTube, TikTok, or Instagram channel
+in just minutes...
+(And Then Your new Channel
+automatically Creates AND posts videos FOR YOU...
+So you NEVER HAVE TO TOUCH IT, AGAIN?)
+
+This is 100% AUTOMATED, so once you set it up, you never have to lift a
+finger!
+
+https://cola52.site/TrafficSupernova?vedantlights.com
+
+This message is sent to you
+as we think
+this offer
+may interest you.
+
+If you would prefer not to receive
+any more messages from us,
+simply
+unsubscribe from these emails:
+
+https://cola52.site/unsub?domain=vedantlights.com
+Address: Address: 3253 Laufasgotu 5, NA 902
+Looking out for you, Lucy Freehill.
+
+
+--B_ALT_6957a1b05348f4.37190916
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Lucy Freehill&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; borde=
+r: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px=
+; border: 1px solid #ddd;&quot;&gt;freehill.lucy@gmail.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td styl=
+e=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td=
+&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;A Modern Day Gold Rush=
+, making tens of thousands a month&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8p=
+x; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Message:&lt;/td&gt;&lt;td style=3D&quot;pa=
+dding: 8px; border: 1px solid #ddd;&quot;&gt;Imagine launching a viral, faceless &lt;b=
+r /&gt;=0AYouTube, TikTok, or Instagram channel &lt;br /&gt;=0Ain just minutes...&lt;br=
+ /&gt;=0A(And Then Your new Channel &lt;br /&gt;=0Aautomatically Creates AND posts v=
+ideos FOR YOU...&lt;br /&gt;=0ASo you NEVER HAVE TO TOUCH IT, AGAIN?)&lt;br /&gt;=0A&lt;br=
+ /&gt;=0AThis is 100% AUTOMATED, so once you set it up, you never have to lift=
+ a finger!&lt;br /&gt;=0A&lt;br /&gt;=0Ahttps://cola52.site/TrafficSupernova?vedantligh=
+ts.com&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=
+=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A=
+&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br=
+ /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0AThis message is sent to =
+you &lt;br /&gt;=0Aas we think &lt;br /&gt;=0Athis offer &lt;br /&gt;=0Amay interest you.&lt;br =
+/&gt;=0A&lt;br /&gt;=0AIf you would prefer not to receive &lt;br /&gt;=0Aany more messages=
+ from us, &lt;br /&gt;=0Asimply &lt;br /&gt;=0Aunsubscribe from these emails:&lt;br /&gt;=0A&lt;=
+br /&gt;=0Ahttps://cola52.site/unsub?domain=3Dvedantlights.com &lt;br /&gt;=0AAddres=
+s: Address: 3253   Laufasgotu 5, NA  902&lt;br /&gt;=0ALooking out for you, Lucy =
+Freehill.&lt;/td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_6957a1b05348f4.37190916--</pre>
+INFO - 2026-01-02 10:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 10:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 11:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-02 12:17:39 --> Contact form data received: {"name":"Nellie Edinburgh","email":"joel.fox.1965+vedantlights.com@gmail.com","subject":"Create New income streams FAST","message":"Trend Hunter AI gives you Real-Time Data \r\nTo Create Hot-Selling Amazon KDP eBooks \r\nThat Pay You Monthly Royalties for Years To come...\r\n\r\nhttps:\/\/cr1y5t.site\/TrendHunterAI?vedantlights.com\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThis message is sent to you \r\nsince we believe \r\nthe offer we provide \r\ncould be useful to you.\r\n\r\nIf you do not wish to receive \r\nany more messages from us, \r\nplease click here to \r\nstop receiving emails:\r\n\r\nhttps:\/\/cr1y5t.site\/unsub?domain=vedantlights.com \r\nAddress: Address: 6768   Lietzenburger Strasse 27, NW  50189\r\nLooking out for you, Nellie Edinburgh."}
+DEBUG - 2026-01-02 12:17:39 --> Processed data - Name: Nellie Edinburgh, Email: joel.fox.1965+vedantlights.com@gmail.com, Subject: Create New income streams FAST, Message: Trend Hunter AI gives you Real-Time Data 
+To Create Hot-Selling Amazon KDP eBooks 
+That Pay You Monthly Royalties for Years To come...
+
+https://cr1y5t.site/TrendHunterAI?vedantlights.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This message is sent to you 
+since we believe 
+the offer we provide 
+could be useful to you.
+
+If you do not wish to receive 
+any more messages from us, 
+please click here to 
+stop receiving emails:
+
+https://cr1y5t.site/unsub?domain=vedantlights.com 
+Address: Address: 6768   Lietzenburger Strasse 27, NW  50189
+Looking out for you, Nellie Edinburgh.
+ERROR - 2026-01-02 12:19:39 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-02 12:19:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-02 12:19:39 --> 
+ERROR - 2026-01-02 12:19:39 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Fri, 2 Jan 2026 12:17:39 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Create=20New=20income=20streams=20F?= =?UTF-8?Q?AST?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6957b76373de63.48257479@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6957b76373e0e2.55275428&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6957b76373e0e2.55275428
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Nellie Edinburgh
+Email:joel.fox.1965+vedantlights.com@gmail.com
+Subject:Create New income streams FAST
+Message:Trend Hunter AI gives you Real-Time Data
+To Create Hot-Selling Amazon KDP eBooks
+That Pay You Monthly Royalties for Years To come...
+
+https://cr1y5t.site/TrendHunterAI?vedantlights.com
+
+This message is sent to you
+since we believe
+the offer we provide
+could be useful to you.
+
+If you do not wish to receive
+any more messages from us,
+please click here to
+stop receiving emails:
+
+https://cr1y5t.site/unsub?domain=vedantlights.com
+Address: Address: 6768 Lietzenburger Strasse 27, NW 50189
+Looking out for you, Nellie Edinburgh.
+
+
+--B_ALT_6957b76373e0e2.55275428
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Nellie Edinburgh&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; bo=
+rder: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: =
+8px; border: 1px solid #ddd;&quot;&gt;joel.fox.1965+vedantlights.com@gmail.com&lt;/td&gt;=
+&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight:=
+ bold;&quot;&gt;Subject:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Cr=
+eate New income streams FAST&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; bor=
+der: 1px solid #ddd; font-weight: bold;&quot;&gt;Message:&lt;/td&gt;&lt;td style=3D&quot;padding:=
+ 8px; border: 1px solid #ddd;&quot;&gt;Trend Hunter AI gives you Real-Time Data &lt;br=
+ /&gt;=0ATo Create Hot-Selling Amazon KDP eBooks &lt;br /&gt;=0AThat Pay You Monthly=
+ Royalties for Years To come...&lt;br /&gt;=0A&lt;br /&gt;=0Ahttps://cr1y5t.site/TrendH=
+unterAI?vedantlights.com&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=
+=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A=
+&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br=
+ /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0AThis m=
+essage is sent to you &lt;br /&gt;=0Asince we believe &lt;br /&gt;=0Athe offer we provi=
+de &lt;br /&gt;=0Acould be useful to you.&lt;br /&gt;=0A&lt;br /&gt;=0AIf you do not wish to =
+receive &lt;br /&gt;=0Aany more messages from us, &lt;br /&gt;=0Aplease click here to &lt;=
+br /&gt;=0Astop receiving emails:&lt;br /&gt;=0A&lt;br /&gt;=0Ahttps://cr1y5t.site/unsub?d=
+omain=3Dvedantlights.com &lt;br /&gt;=0AAddress: Address: 6768   Lietzenburger St=
+rasse 27, NW  50189&lt;br /&gt;=0ALooking out for you, Nellie Edinburgh.&lt;/td&gt;&lt;/tr=
+&gt;=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_6957b76373e0e2.55275428--</pre>
+INFO - 2026-01-02 12:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 12:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-02 12:46:24 --> Contact form data received: {"name":"Orlando Hatchett","email":"orlando.hatchett@gmail.com","subject":"Create Human-Like AI Teachers Instantly","message":"What If You Could Teach Any Topic Online...\r\nWithout Being a Subject Expert?\r\n\r\nhttps:\/\/connectwithseo.site\/AIProfessor?vedantlights.com\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nYou\u2019re receiving this email \r\nbecause we believe \r\nwhat we\u2019re offering \r\ncould be relevant to you.\r\n\r\nIf you no longer wish to get \r\nfuture messages from us, \r\nyou can \r\nunsubscribe:\r\n\r\nhttps:\/\/connectwithseo.site\/unsub?domain=vedantlights.com \r\nAddress: Address: 7334   2287 Griffin Street, AZ  85009\r\nLooking out for you, Orlando Hatchett."}
+DEBUG - 2026-01-02 12:46:24 --> Processed data - Name: Orlando Hatchett, Email: orlando.hatchett@gmail.com, Subject: Create Human-Like AI Teachers Instantly, Message: What If You Could Teach Any Topic Online...
+Without Being a Subject Expert?
+
+https://connectwithseo.site/AIProfessor?vedantlights.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You’re receiving this email 
+because we believe 
+what we’re offering 
+could be relevant to you.
+
+If you no longer wish to get 
+future messages from us, 
+you can 
+unsubscribe:
+
+https://connectwithseo.site/unsub?domain=vedantlights.com 
+Address: Address: 7334   2287 Griffin Street, AZ  85009
+Looking out for you, Orlando Hatchett.
+ERROR - 2026-01-02 12:48:24 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-02 12:48:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-02 12:48:24 --> 
+ERROR - 2026-01-02 12:48:24 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Fri, 2 Jan 2026 12:46:24 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Create=20Human-Like=20AI=20Teachers?= =?UTF-8?Q?=20Instantly?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6957be20cb2547.16449395@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6957be20cb2781.30265156&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6957be20cb2781.30265156
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Orlando Hatchett
+Email:orlando.hatchett@gmail.com
+Subject:Create Human-Like AI Teachers Instantly
+Message:What If You Could Teach Any Topic Online...
+Without Being a Subject Expert?
+
+https://connectwithseo.site/AIProfessor?vedantlights.com
+
+You’re receiving this email
+because we believe
+what we’re offering
+could be relevant to you.
+
+If you no longer wish to get
+future messages from us,
+you can
+unsubscribe:
+
+https://connectwithseo.site/unsub?domain=vedantlights.com
+Address: Address: 7334 2287 Griffin Street, AZ 85009
+Looking out for you, Orlando Hatchett.
+
+
+--B_ALT_6957be20cb2781.30265156
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Orlando Hatchett&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; bo=
+rder: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: =
+8px; border: 1px solid #ddd;&quot;&gt;orlando.hatchett@gmail.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;t=
+d style=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subjec=
+t:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Create Human-Lik=
+e AI Teachers Instantly&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: =
+1px solid #ddd; font-weight: bold;&quot;&gt;Message:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px;=
+ border: 1px solid #ddd;&quot;&gt;What If You Could Teach Any Topic Online...&lt;br /&gt;=
+=0AWithout Being a Subject Expert?&lt;br /&gt;=0A&lt;br /&gt;=0Ahttps://connectwithseo.=
+site/AIProfessor?vedantlights.com&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=
+=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A=
+&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br=
+ /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=0A&lt;br /&gt;=
+=0AYou=E2=80=99re receiving this email &lt;br /&gt;=0Abecause we believe &lt;br /&gt;=
+=0Awhat we=E2=80=99re offering &lt;br /&gt;=0Acould be relevant to you.&lt;br /&gt;=0A&lt;=
+br /&gt;=0AIf you no longer wish to get &lt;br /&gt;=0Afuture messages from us, &lt;br =
+/&gt;=0Ayou can &lt;br /&gt;=0Aunsubscribe:&lt;br /&gt;=0A&lt;br /&gt;=0Ahttps://connectwithseo.=
+site/unsub?domain=3Dvedantlights.com &lt;br /&gt;=0AAddress: Address: 7334   2287=
+ Griffin Street, AZ  85009&lt;br /&gt;=0ALooking out for you, Orlando Hatchett.&lt;/=
+td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=0A&lt;/body&gt;&lt;/html&gt;
+
+--B_ALT_6957be20cb2781.30265156--</pre>
+INFO - 2026-01-02 13:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 13:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 14:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 15:45:04 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 15:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 15:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 16:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 17:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 17:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 17:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 17:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 17:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 17:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 17:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 17:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 18:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 18:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 18:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 18:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 18:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 18:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 18:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 19:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 20:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 21:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-02 21:50:46 --> Contact form data received: {"name":"Darell Kahle","email":"kahle.darell63@gmail.com","subject":"Never Pay For Traffic Ever Again\u2026","message":"World's First AI Agent Powered By ChatGPT-5\u2026\r\nThat Writes And Ranks Anything We Want\u2026 On The First Page Of Google\u2026 With ZERO SEO. And Zero Ads\u2026 \r\n\r\nhttps:\/\/www.youtube.com\/@AISolutionsTop"}
+DEBUG - 2026-01-02 21:50:46 --> Processed data - Name: Darell Kahle, Email: kahle.darell63@gmail.com, Subject: Never Pay For Traffic Ever Again…, Message: World's First AI Agent Powered By ChatGPT-5…
+That Writes And Ranks Anything We Want… On The First Page Of Google… With ZERO SEO. And Zero Ads… 
+
+https://www.youtube.com/@AISolutionsTop
+ERROR - 2026-01-02 21:52:46 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:587 (Connection timed out) in /home/wxnssaiwkgdr/public_html/system/Email/Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1888): fsockopen()
+#2 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/wxnssaiwkgdr/public_html/system/Email/Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/wxnssaiwkgdr/public_html/app/Controllers/Home.php(127): CodeIgniter\Email\Email->send()
+#6 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(919): App\Controllers\Home->sendmail()
+#7 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+#8 /home/wxnssaiwkgdr/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/wxnssaiwkgdr/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2026-01-02 21:52:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2026-01-02 21:52:46 --> 
+ERROR - 2026-01-02 21:52:46 --> Contact form email failed: Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Fri, 2 Jan 2026 21:50:46 +0000
+To: sudhakarpoul@vedantlights.com
+From: &quot;Vedant Lights&quot; &lt;sudhakarpoul@vedantlights.com&gt;
+Return-Path: &lt;sudhakarpoul@vedantlights.com&gt;
+Subject: =?UTF-8?Q?New=20Website=20Inquiry:=20Never=20Pay=20For=20Traffic=20Ever?= =?UTF-8?Q?=20Again=E2=80=A6?=
+Reply-To: &lt;sudhakarpoul@vedantlights.com&gt;
+User-Agent: CodeIgniter
+X-Sender: sudhakarpoul@vedantlights.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;69583db6283c06.11301338@vedantlights.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_69583db6283f76.12905210&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_69583db6283f76.12905210
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+New Contact Form Inquiry
+
+Name:Darell Kahle
+Email:kahle.darell63@gmail.com
+Subject:Never Pay For Traffic Ever Again…
+Message:World&amp;#039;s First AI Agent Powered By ChatGPT-5…
+That Writes And Ranks Anything We Want… On The First Page Of Google…
+With ZERO SEO. And Zero Ads…
+
+https://www.youtube.com/@AISolutionsTop
+
+
+--B_ALT_69583db6283f76.12905210
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;html&gt;&lt;body style=3D&quot;font-family: Arial, sans-serif;&quot;&gt;=0A&lt;h3 style=3D&quot;color=
+: #333;&quot;&gt;New Contact Form Inquiry&lt;/h3&gt;=0A&lt;table style=3D&quot;border-collapse: c=
+ollapse; width: 100%;&quot;&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid =
+#ddd; font-weight: bold;&quot;&gt;Name:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd;&quot;&gt;Darell Kahle&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border=
+: 1px solid #ddd; font-weight: bold;&quot;&gt;Email:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px;=
+ border: 1px solid #ddd;&quot;&gt;kahle.darell63@gmail.com&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td styl=
+e=3D&quot;padding: 8px; border: 1px solid #ddd; font-weight: bold;&quot;&gt;Subject:&lt;/td=
+&gt;&lt;td style=3D&quot;padding: 8px; border: 1px solid #ddd;&quot;&gt;Never Pay For Traffic =
+Ever Again=E2=80=A6&lt;/td&gt;&lt;/tr&gt;=0A&lt;tr&gt;&lt;td style=3D&quot;padding: 8px; border: 1px =
+solid #ddd; font-weight: bold;&quot;&gt;Message:&lt;/td&gt;&lt;td style=3D&quot;padding: 8px; bor=
+der: 1px solid #ddd;&quot;&gt;World&amp;#039;s First AI Agent Powered By ChatGPT-5=
+=E2=80=A6&lt;br /&gt;=0AThat Writes And Ranks Anything We Want=E2=80=A6 On The Fi=
+rst Page Of Google=E2=80=A6 With ZERO SEO. And Zero Ads=E2=80=A6 &lt;br /&gt;=0A&lt;=
+br /&gt;=0Ahttps://www.youtube.com/@AISolutionsTop&lt;/td&gt;&lt;/tr&gt;=0A&lt;/table&gt;=0A&lt;/bo=
+dy&gt;&lt;/html&gt;
+
+--B_ALT_69583db6283f76.12905210--</pre>
+INFO - 2026-01-02 21:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 22:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-02 23:03:12 --> Attempt to read property "pro_img" on null
+in APPPATH/Views/Home/productDetails.php on line 16.
+ 1 APPPATH/Views/Home/productDetails.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/wxnssaiwkgdr/public_html/app/Views/Home/productDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(65): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->productDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-02 23:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-02 23:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,142 @@
+CRITICAL - 2023-10-20 09:16:47 --> syntax error, unexpected ')'
+in APPPATH/Views/customerDetails.php on line 53.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('customerDetails', [], true)
+ 3 APPPATH/Controllers/CustomerController.php(20): view('customerDetails', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CustomerController->customerDetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 09:16:50 --> syntax error, unexpected ')'
+in APPPATH/Views/customerDetails.php on line 53.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('customerDetails', [], true)
+ 3 APPPATH/Controllers/CustomerController.php(20): view('customerDetails', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CustomerController->customerDetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 09:24:22 --> mysqli_sql_exception: Unknown column 'usd.sender_id' in 'on clause' in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query(' SELECT callhis...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT callhis...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT callhis...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/CustomerModel.php(58): CodeIgniter\Database\BaseConnection->query(' SELECT callhis...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/CustomerController.php(39): App\Models\CustomerModel->getcallHistorydetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\CustomerController->callHistorydetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-20 09:24:22 --> Unknown column 'usd.sender_id' in 'on clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/CustomerModel.php(58): CodeIgniter\Database\BaseConnection->query(' SELECT callhis.*,usd.* FROM callhistory_details callhis INNER JOIN user_details usd ON usd.sender_id=callhis.user_id WHERE usd.role=\'0\' ORDER BY his_id DESC')
+ 2 APPPATH/Controllers/CustomerController.php(39): App\Models\CustomerModel->getcallHistorydetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CustomerController->callHistorydetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:21:46 --> Undefined variable: session
+in APPPATH/Views/PrivacyDetails.php on line 11.
+ 1 APPPATH/Views/PrivacyDetails.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', '/home/hf86uboyxvrh/public_html/myskill/app/Views/PrivacyDetails.php', 11, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/PrivacyDetails.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('PrivacyDetails', [], true)
+ 5 APPPATH/Controllers/Home.php(13): view('PrivacyDetails')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->PrivacyDetails()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:23:54 --> Class 'App\Controllers\ProfessionsModel' not found
+in APPPATH/Controllers/Home.php on line 8.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:23:56 --> Class 'App\Controllers\ProfessionsModel' not found
+in APPPATH/Controllers/Home.php on line 8.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:24:21 --> Class 'App\Controllers\ProfessionsModel' not found
+in APPPATH/Controllers/Home.php on line 8.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:24:48 --> Class 'App\Controllers\ProfessionsModel' not found
+in APPPATH/Controllers/Home.php on line 8.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:25:00 --> Class 'App\Controllers\ProfessionsModel' not found
+in APPPATH/Controllers/Home.php on line 8.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:25:43 --> Class 'App\Controllers\ProfessionsModel' not found
+in APPPATH/Controllers/Home.php on line 8.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-20 10:50:39 --> mysqli_sql_exception: Unknown column 'privacyName' in 'field list' in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Models/PrivacyModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Home.php(24): App\Models\PrivacyModel->addPrivacydeatils(Array)
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Home->addPrivacydeatils()
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-20 10:50:39 --> Unknown column 'privacyName' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `privacy_details` (`privacyName`) VALUES (:privacyName:)', [...], false)
+ 2 APPPATH/Models/PrivacyModel.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Home.php(24): App\Models\PrivacyModel->addPrivacydeatils([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->addPrivacydeatils()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:51:06 --> Undefined index: privacyName
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: privacyName', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Home.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->addPrivacydeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:51:38 --> Undefined index: privacyName
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: privacyName', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Home.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->addPrivacydeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:51:41 --> Undefined index: privacyName
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: privacyName', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Home.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->addPrivacydeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:52:10 --> Undefined index: privacyName
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: privacyName', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Home.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->addPrivacydeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 10:52:12 --> Undefined index: privacyName
+in APPPATH/Controllers/Home.php on line 23.
+ 1 APPPATH/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: privacyName', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Home.php', 23, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->addPrivacydeatils()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

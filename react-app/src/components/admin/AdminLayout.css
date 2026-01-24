@@ -1,0 +1,72 @@
+.admin-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  background: #ffffff;
+  color: #000000;
+}
+
+.admin-sidebar {
+  padding: 18px 14px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.admin-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 10px 10px 14px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+}
+
+.admin-nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.admin-nav a.active {
+  color: #000000;
+  background: rgba(90, 103, 216, 0.2);
+}
+
+.admin-logout {
+  margin: 14px 10px 0;
+  width: calc(100% - 20px);
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.05);
+  color: #000000;
+  cursor: pointer;
+}
+
+.admin-main {
+  padding: 22px;
+  background: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 900px) {
+  .admin-shell {
+    grid-template-columns: 1fr;
+  }
+  .admin-sidebar {
+    position: static;
+    height: auto;
+  }
+}
+

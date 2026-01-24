@@ -1,0 +1,48 @@
+/* Color Palette - Preserved from Original Design */
+:root {
+  --color-primary: #3b5997;
+  --color-secondary: #1F1F25;
+  --color-body: #6E777D;
+  --color-heading-1: #1f1f25;
+  --color-white: #fff;
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+  --color-button-primary: #4CAF50;
+  --color-button-hover: #45a049;
+  --color-accent-orange: #FD8F14;
+  
+  /* Social Colors */
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  
+  /* Typography */
+  --font-primary: "Exo", sans-serif;
+  --font-secondary: "Albert Sans", sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}

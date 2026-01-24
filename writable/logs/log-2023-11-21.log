@@ -1,0 +1,269 @@
+INFO - 2023-11-21 05:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 05:06:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-21 05:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-21 05:06:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-21 05:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 05:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 06:34:41 --> mysqli_sql_exception: Column 'company_name' cannot be null in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails(Array)
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 06:34:41 --> Column 'company_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (`userId`, `vend_name`, `company_name`, `mobile_no`, `vend_address`, `vend_village`, `vend_taluka`, `vend_district`, `vend_state`, `vend_Lat`, `vend_lang`) VALUES (:userId:, :vend_name:, :company_name:, :mobile_no:, :vend_address:, :vend_village:, :vend_taluka:, :vend_district:, :vend_state:, :vend_Lat:, :vend_lang:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 06:34:48 --> mysqli_sql_exception: Column 'company_name' cannot be null in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails(Array)
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 06:34:48 --> Column 'company_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (`userId`, `vend_name`, `company_name`, `mobile_no`, `vend_address`, `vend_village`, `vend_taluka`, `vend_district`, `vend_state`, `vend_Lat`, `vend_lang`) VALUES (:userId:, :vend_name:, :company_name:, :mobile_no:, :vend_address:, :vend_village:, :vend_taluka:, :vend_district:, :vend_state:, :vend_Lat:, :vend_lang:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 07:04:07 --> mysqli_sql_exception: Column 'company_name' cannot be null in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails(Array)
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 07:04:07 --> Column 'company_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (`userId`, `vend_name`, `company_name`, `mobile_no`, `vend_address`, `vend_village`, `vend_taluka`, `vend_district`, `vend_state`, `vend_Lat`, `vend_lang`) VALUES (:userId:, :vend_name:, :company_name:, :mobile_no:, :vend_address:, :vend_village:, :vend_taluka:, :vend_district:, :vend_state:, :vend_Lat:, :vend_lang:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 07:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 07:17:21 --> mysqli_sql_exception: Column 'company_name' cannot be null in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails(Array)
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 07:17:21 --> Column 'company_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (`userId`, `vend_name`, `company_name`, `mobile_no`, `vend_address`, `vend_village`, `vend_taluka`, `vend_district`, `vend_state`, `vend_Lat`, `vend_lang`) VALUES (:userId:, :vend_name:, :company_name:, :mobile_no:, :vend_address:, :vend_village:, :vend_taluka:, :vend_district:, :vend_state:, :vend_Lat:, :vend_lang:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-21 07:17:59 --> mysqli_sql_exception: Column 'company_name' cannot be null in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails(Array)
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 07:17:59 --> Column 'company_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (`userId`, `vend_name`, `company_name`, `mobile_no`, `vend_address`, `vend_village`, `vend_taluka`, `vend_district`, `vend_state`, `vend_Lat`, `vend_lang`) VALUES (:userId:, :vend_name:, :company_name:, :mobile_no:, :vend_address:, :vend_village:, :vend_taluka:, :vend_district:, :vend_state:, :vend_Lat:, :vend_lang:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 07:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 07:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 08:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 09:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 09:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 09:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 09:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 10:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 11:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-21 12:07:41 --> mysqli_sql_exception: Column 'company_name' cannot be null in /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/tracking/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ve...', 0)
+#1 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 /home/hf86uboyxvrh/public_html/tracking/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 /home/hf86uboyxvrh/public_html/tracking/app/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hf86uboyxvrh/public_html/tracking/app/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails(Array)
+#6 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+#7 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+#8 /home/hf86uboyxvrh/public_html/tracking/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hf86uboyxvrh/public_html/tracking/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-21 12:07:41 --> Column 'company_name' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vendor_details` (`userId`, `vend_name`, `company_name`, `mobile_no`, `vend_address`, `vend_village`, `vend_taluka`, `vend_district`, `vend_state`, `vend_Lat`, `vend_lang`) VALUES (:userId:, :vend_name:, :company_name:, :mobile_no:, :vend_address:, :vend_village:, :vend_taluka:, :vend_district:, :vend_state:, :vend_Lat:, :vend_lang:)', [...], false)
+ 2 APPPATH/Models/EmployeeModel.php(13): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Api/EmployeeController.php(353): App\Models\EmployeeModel->addVendordetails([...])
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Api\EmployeeController->addVendordetails()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-21 12:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-21 12:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

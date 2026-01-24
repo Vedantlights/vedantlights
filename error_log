@@ -1,0 +1,163 @@
+[06-Oct-2023 11:53:43 UTC] PHP Warning:  Use of undefined constant APP_NAMESPACE - assumed 'APP_NAMESPACE' (this will throw an Error in a future version of PHP) in /home/hf86uboyxvrh/public_html/myskill/system/bootstrap.php on line 105
+[06-Oct-2023 11:53:43 UTC] PHP Warning:  Use of undefined constant COMPOSER_PATH - assumed 'COMPOSER_PATH' (this will throw an Error in a future version of PHP) in /home/hf86uboyxvrh/public_html/myskill/system/Autoloader/Autoloader.php on line 124
+[06-Oct-2023 11:53:43 UTC] PHP Warning:  Use of undefined constant COMPOSER_PATH - assumed 'COMPOSER_PATH' (this will throw an Error in a future version of PHP) in /home/hf86uboyxvrh/public_html/myskill/system/bootstrap.php on line 109
+[06-Oct-2023 11:53:43 UTC] PHP Fatal error:  Uncaught ErrorException: Use of undefined constant EXIT_ERROR - assumed 'EXIT_ERROR' (this will throw an Error in a future version of PHP) in /home/hf86uboyxvrh/public_html/myskill/system/Debug/Exceptions.php:402
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Debug/Exceptions.php(402): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/hf86uboyx...', 402, Array)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Debug/Exceptions.php(124): CodeIgniter\Debug\Exceptions->determineCodes(Object(ErrorException))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown in /home/hf86uboyxvrh/public_html/myskill/system/Debug/Exceptions.php on line 402
+[06-Oct-2023 11:55:05 UTC] PHP Warning:  Unterminated comment starting line 28 in /home/hf86uboyxvrh/public_html/myskill/app/Config/Constants.php on line 28
+[06-Oct-2023 11:55:05 UTC] PHP Fatal error:  Uncaught ErrorException: Use of undefined constant EXIT_ERROR - assumed 'EXIT_ERROR' (this will throw an Error in a future version of PHP) in /home/hf86uboyxvrh/public_html/myskill/system/Debug/Exceptions.php:402
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Debug/Exceptions.php(402): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/hf86uboyx...', 402, Array)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Debug/Exceptions.php(124): CodeIgniter\Debug\Exceptions->determineCodes(Object(ErrorException))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown in /home/hf86uboyxvrh/public_html/myskill/system/Debug/Exceptions.php on line 402
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JQXXEJD13X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JQXXEJD13X');
+</script>[09-Oct-2025 12:25:42 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:25:43 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:31:36 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/wxnssaiwkgdr/public_html/index.php on line 54
+[09-Oct-2025 12:33:35 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/wxnssaiwkgdr/public_html/index.php on line 54
+[09-Oct-2025 12:34:08 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:34:54 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:34:56 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:34:59 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:00 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:01 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:01 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:01 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:02 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:06 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:08 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:12 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:12 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:12 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:13 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:20 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:29 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:34 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:35 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:35 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:36 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:37 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:38 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:38 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:38 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:39 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:39 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:39 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:40 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:40 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:35:41 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:35 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:35 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:35 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:47 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:50 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:52 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:54 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:56 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:57 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:57 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:37:58 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[09-Oct-2025 12:38:03 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/wxnssaiwkgdr/public_html/index.php on line 44
+[21-Nov-2025 06:48:26 UTC] PHP Fatal error:  Cannot use bool as default value for property Config\Email::$wordWrap of type string in /home/wxnssaiwkgdr/public_html/app/Config/Email.php on line 42
+[28-Dec-2025 13:46:12 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 11
+[28-Dec-2025 13:46:14 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 11
+[28-Dec-2025 13:47:30 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 11
+[28-Dec-2025 13:47:38 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 11
+[28-Dec-2025 13:47:39 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 11
+[28-Dec-2025 13:47:40 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 11
+[28-Dec-2025 13:48:07 UTC] PHP Warning:  Undefined variable $core_path in /home/wxnssaiwkgdr/public_html/index.php on line 3
+[28-Dec-2025 13:48:07 UTC] PHP Warning:  Undefined variable $core_path in /home/wxnssaiwkgdr/public_html/index.php on line 8
+[28-Dec-2025 13:48:07 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 10
+[28-Dec-2025 13:48:33 UTC] PHP Warning:  Undefined variable $core_path in /home/wxnssaiwkgdr/public_html/index.php on line 3
+[28-Dec-2025 13:48:33 UTC] PHP Warning:  Undefined variable $core_path in /home/wxnssaiwkgdr/public_html/index.php on line 8
+[28-Dec-2025 13:48:33 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 10
+[28-Dec-2025 13:48:43 UTC] PHP Warning:  Undefined variable $core_path in /home/wxnssaiwkgdr/public_html/index.php on line 3
+[28-Dec-2025 13:48:43 UTC] PHP Warning:  Undefined variable $core_path in /home/wxnssaiwkgdr/public_html/index.php on line 8
+[28-Dec-2025 13:48:43 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 10
+[28-Dec-2025 13:48:48 UTC] PHP Warning:  Undefined variable $core_path in /home/wxnssaiwkgdr/public_html/index.php on line 3
+[28-Dec-2025 13:48:48 UTC] PHP Warning:  Undefined variable $core_path in /home/wxnssaiwkgdr/public_html/index.php on line 8
+[28-Dec-2025 13:48:48 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 10
+[28-Dec-2025 13:49:18 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 3
+[28-Dec-2025 13:49:19 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 3
+[28-Dec-2025 13:50:06 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 3
+[28-Dec-2025 13:51:36 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Paths" not found in /home/wxnssaiwkgdr/public_html/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 3
+[28-Dec-2025 13:52:51 UTC] PHP Warning:  require(/home/wxnssaiwkgdr/public_html/../application/app/Config/Paths.php): Failed to open stream: No such file or directory in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:52:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wxnssaiwkgdr/public_html/../application/app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wxnssaiwkgdr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:52:52 UTC] PHP Warning:  require(/home/wxnssaiwkgdr/public_html/../application/app/Config/Paths.php): Failed to open stream: No such file or directory in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:52:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wxnssaiwkgdr/public_html/../application/app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wxnssaiwkgdr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:55:20 UTC] PHP Warning:  require(/home/wxnssaiwkgdr/public_html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:55:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wxnssaiwkgdr/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wxnssaiwkgdr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:55:25 UTC] PHP Warning:  require(/home/wxnssaiwkgdr/public_html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:55:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wxnssaiwkgdr/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wxnssaiwkgdr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:57:01 UTC] PHP Warning:  require(/home/wxnssaiwkgdr/public_html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/wxnssaiwkgdr/public_html/index.php on line 34
+[28-Dec-2025 13:57:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/wxnssaiwkgdr/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wxnssaiwkgdr/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wxnssaiwkgdr/public_html/index.php on line 34

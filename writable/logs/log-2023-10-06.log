@@ -1,0 +1,40 @@
+ERROR - 2023-10-06 11:55:14 --> mysqli_sql_exception: Table 'db_myskill.master_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('select * from m...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/AdminModelLogin.php(19): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/AdminLogin.php(24): App\Models\AdminModelLogin->checkLogin(Array)
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\AdminLogin->checkLogin()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLogin))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-06 11:55:14 --> Table 'db_myskill.master_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/AdminModelLogin.php(19): CodeIgniter\Database\BaseConnection->query('select * from master_details where username = \'admin\' AND password = \'admin\'')
+ 2 APPPATH/Controllers/AdminLogin.php(24): App\Models\AdminModelLogin->checkLogin([...])
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\AdminLogin->checkLogin()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminLogin))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 11:57:05 --> mysqli_sql_exception: Unknown column 'is_block' in 'where clause' in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM u...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/CustomerModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/CustomerController.php(18): App\Models\CustomerModel->getcustomerDetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\CustomerController->customerDetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-06 11:57:05 --> Unknown column 'is_block' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/CustomerModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM user_details WHERE is_block = \'0\' ORDER BY user_id DESC')
+ 2 APPPATH/Controllers/CustomerController.php(18): App\Models\CustomerModel->getcustomerDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\CustomerController->customerDetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

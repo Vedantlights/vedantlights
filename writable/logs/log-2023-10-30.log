@@ -1,0 +1,283 @@
+CRITICAL - 2023-10-30 07:20:52 --> Undefined variable: session
+in APPPATH/Views/terms_details.php on line 16.
+ 1 APPPATH/Views/terms_details.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', '/home/hf86uboyxvrh/public_html/myskill/app/Views/terms_details.php', 16, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/hf86uboyxvrh/public_html/myskill/app/Views/terms_details.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('terms_details', [], true)
+ 5 APPPATH/Controllers/Home.php(55): view('terms_details', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->terms_details()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:22:38 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:23:54 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:25:42 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:25:43 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:25:43 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:25:44 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:25:44 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:26:30 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:26:31 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:26:31 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:26:32 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:26:50 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:26:52 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:27:14 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:27:15 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 07:27:15 --> Class 'App\Controllers\TermsModel' not found
+in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:14:36 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:15:39 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:32:35 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:36:46 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:36:55 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:36:59 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:37:18 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:37:47 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:39:35 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:40:35 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:41:04 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:41:30 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:48:46 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:52:42 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:52:43 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:57:05 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:59:15 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 14:04:50 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 14:27:34 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 14:29:23 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 14:29:24 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 14:29:24 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserModel.php on line 94.
+ 1 APPPATH/Models/UserModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/home/hf86uboyxvrh/public_html/myskill/app/Models/UserModel.php', 94, [...])
+ 2 APPPATH/Controllers/UserController.php(476): App\Models\UserModel->getUseremployeerandomdetails('null')
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\UserController->getUseremployeerandomdetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

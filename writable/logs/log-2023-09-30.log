@@ -1,0 +1,1332 @@
+CRITICAL - 2023-09-30 05:51:37 --> Call to undefined method App\Controllers\Login::processParam()
+in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:51:38 --> Call to undefined method App\Controllers\Login::processParam()
+in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:51:43 --> Call to undefined method App\Controllers\Login::processParam()
+in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:51:46 --> Call to undefined method App\Controllers\Login::processParam()
+in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:52:38 --> Call to undefined method App\Controllers\Login::processParam()
+in APPPATH\Controllers\Login.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:56:57 --> Call to undefined method App\Controllers\Login::processParam()
+in APPPATH\Controllers\Login.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:56:58 --> Call to undefined method App\Controllers\Login::processParam()
+in APPPATH\Controllers\Login.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:57:15 --> Unclosed '{' on line 14 does not match ')'
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:57:21 --> Unclosed '{' on line 14 does not match ')'
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:57:21 --> Unclosed '{' on line 14 does not match ')'
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:57:24 --> Unclosed '{' on line 14 does not match ')'
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:57:52 --> Unclosed '{' on line 14 does not match ')'
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:58:41 --> Unclosed '{' on line 15 does not match ')'
+in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:58:42 --> Unclosed '{' on line 15 does not match ')'
+in APPPATH\Controllers\Login.php on line 16.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:58:55 --> Unclosed '{' on line 16 does not match ')'
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 05:58:56 --> Unclosed '{' on line 16 does not match ')'
+in APPPATH\Controllers\Login.php on line 17.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:06 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:07 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:07 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:07 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:07 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:08 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:08 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:08 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:08 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:08 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:09 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:09 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:14 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:33 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:33 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:34 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:00:34 --> Unclosed '{' on line 21 does not match ')'
+in APPPATH\Controllers\Login.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:47 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:48 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:48 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:48 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:49 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:49 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:49 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:49 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:49 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:49 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:50 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:50 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:50 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:01:50 --> Unclosed '{' on line 19 does not match ')'
+in APPPATH\Controllers\Login.php on line 20.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:31:11 --> Call to undefined method App\Controllers\Login::formatResponse()
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:31:34 --> Call to undefined method App\Controllers\Login::formatResponse()
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:34:11 --> Undefined variable $resp
+in APPPATH\Controllers\Login.php on line 62.
+ 1 APPPATH\Controllers\Login.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resp', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:40:12 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:43:35 --> syntax error, unexpected single-quoted string "error", expecting "]"
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:43:49 --> syntax error, unexpected single-quoted string "error", expecting "]"
+in APPPATH\Controllers\Login.php on line 53.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:44:44 --> syntax error, unexpected variable "$chkregsiter", expecting "," or ";"
+in APPPATH\Controllers\Login.php on line 34.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:44:50 --> syntax error, unexpected single-quoted string "error", expecting "]"
+in APPPATH\Controllers\Login.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:44:51 --> syntax error, unexpected single-quoted string "error", expecting "]"
+in APPPATH\Controllers\Login.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:04 --> syntax error, unexpected single-quoted string "error", expecting "]"
+in APPPATH\Controllers\Login.php on line 54.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('Login/sendLoginotp', 'post')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('Login/sendLoginotp')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Login/sendLoginotp')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:15 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('3650')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:15 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('9216')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:15 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('4569')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:16 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('9111')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:16 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('8188')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:23 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('9270')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:24 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('9434')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:45:24 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('2819')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:35 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('4102')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:36 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('2885')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:36 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('7056')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:36 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('6803')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:36 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('1965')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:36 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('0152')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:37 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('2917')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:37 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('7198')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:46:51 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 96.
+ 1 APPPATH\Controllers\Login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 96)
+ 2 APPPATH\Controllers\Login.php(40): App\Controllers\Login->does_otp_existt('0494')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:47:05 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 97.
+ 1 APPPATH\Controllers\Login.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 97)
+ 2 APPPATH\Controllers\Login.php(41): App\Controllers\Login->does_otp_existt('8305')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:47:06 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 97.
+ 1 APPPATH\Controllers\Login.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 97)
+ 2 APPPATH\Controllers\Login.php(41): App\Controllers\Login->does_otp_existt('6949')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:47:06 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 97.
+ 1 APPPATH\Controllers\Login.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 97)
+ 2 APPPATH\Controllers\Login.php(41): App\Controllers\Login->does_otp_existt('5458')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:47:06 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 97.
+ 1 APPPATH\Controllers\Login.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 97)
+ 2 APPPATH\Controllers\Login.php(41): App\Controllers\Login->does_otp_existt('5725')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:47:07 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 97.
+ 1 APPPATH\Controllers\Login.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 97)
+ 2 APPPATH\Controllers\Login.php(41): App\Controllers\Login->does_otp_existt('9175')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:47:07 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 97.
+ 1 APPPATH\Controllers\Login.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 97)
+ 2 APPPATH\Controllers\Login.php(41): App\Controllers\Login->does_otp_existt('3278')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:47:43 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 80.
+ 1 APPPATH\Controllers\Login.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 80)
+ 2 APPPATH\Controllers\Login.php(41): App\Controllers\Login->does_otp_existt('5012')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:48:04 --> Undefined variable $response
+in APPPATH\Controllers\Login.php on line 44.
+ 1 APPPATH\Controllers\Login.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:48:20 --> Undefined variable $response
+in APPPATH\Controllers\Login.php on line 44.
+ 1 APPPATH\Controllers\Login.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:10 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 62.
+ 1 APPPATH\Controllers\Login.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 62)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('4375')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:32 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 62.
+ 1 APPPATH\Controllers\Login.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 62)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('2489')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:50 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('9865')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:50 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('6477')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:51 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('3582')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:51 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('2717')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:51 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('0130')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:51 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('2353')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:51 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('4700')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:52 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('6288')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:52 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('4081')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:52 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('9377')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:52 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('4068')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:49:52 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('9584')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:50:03 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('2893')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:50:44 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('3084')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 06:51:10 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('2451')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:17:43 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 63.
+ 1 APPPATH\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 63)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('9038')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:20 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('6614')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:36 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('0342')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:37 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('2506')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:37 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('4975')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:38 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('1859')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:38 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('4642')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:38 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('6997')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:38 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('9356')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:38 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('1509')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:39 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('0481')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:19:39 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('1359')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:20:22 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('5881')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:20:26 --> Undefined property: App\Controllers\Login::$db
+in APPPATH\Controllers\Login.php on line 64.
+ 1 APPPATH\Controllers\Login.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$db', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 64)
+ 2 APPPATH\Controllers\Login.php(29): App\Controllers\Login->does_otp_existt('4037')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 07:23:29 --> mysqli_sql_exception: Unknown column 'tbl_otp' in 'field list' in C:\xampp\htdocs\myskill\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\myskill\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT tbl_otp ...', 0)
+#1 C:\xampp\htdocs\myskill\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbl_otp ...')
+#2 C:\xampp\htdocs\myskill\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbl_otp ...')
+#3 C:\xampp\htdocs\myskill\app\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT tbl_otp ...')
+#4 C:\xampp\htdocs\myskill\app\Controllers\Login.php(22): App\Models\ModelLogin->does_otp_existt('6462')
+#5 C:\xampp\htdocs\myskill\system\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+#6 C:\xampp\htdocs\myskill\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\myskill\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myskill\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 07:23:29 --> Unknown column 'tbl_otp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT tbl_otp FROM user_details WHERE otp_code = \'5514\'')
+ 2 APPPATH\Controllers\Login.php(22): App\Models\ModelLogin->does_otp_existt('6462')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 07:23:30 --> mysqli_sql_exception: Unknown column 'tbl_otp' in 'field list' in C:\xampp\htdocs\myskill\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\myskill\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT tbl_otp ...', 0)
+#1 C:\xampp\htdocs\myskill\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbl_otp ...')
+#2 C:\xampp\htdocs\myskill\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbl_otp ...')
+#3 C:\xampp\htdocs\myskill\app\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT tbl_otp ...')
+#4 C:\xampp\htdocs\myskill\app\Controllers\Login.php(22): App\Models\ModelLogin->does_otp_existt('9132')
+#5 C:\xampp\htdocs\myskill\system\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+#6 C:\xampp\htdocs\myskill\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\myskill\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myskill\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 07:23:30 --> Unknown column 'tbl_otp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT tbl_otp FROM user_details WHERE otp_code = \'5514\'')
+ 2 APPPATH\Controllers\Login.php(22): App\Models\ModelLogin->does_otp_existt('9132')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 07:26:20 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-30 07:26:48 --> Undefined variable $response
+in APPPATH\Controllers\Login.php on line 43.
+ 1 APPPATH\Controllers\Login.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\myskill\\app\\Controllers\\Login.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 07:45:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'myskill', 3306, '', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(20): App\Models\ModelLogin->chkUserexits('9921474242')
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(20): App\Models\ModelLogin->chkUserexits('9921474242')
+#4 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-30 07:45:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ModelLogin.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM user_details WHERE mob_no = \'9921474242\'')
+ 3 APPPATH/Controllers/Login.php(20): App\Models\ModelLogin->chkUserexits('9921474242')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 07:47:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'myskill', 3306, '', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(20): App\Models\ModelLogin->chkUserexits('9921474242')
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(20): App\Models\ModelLogin->chkUserexits('9921474242')
+#4 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-30 07:47:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/ModelLogin.php(23): CodeIgniter\Database\BaseConnection->query('SELECT * FROM user_details WHERE mob_no = \'9921474242\'')
+ 3 APPPATH/Controllers/Login.php(20): App\Models\ModelLogin->chkUserexits('9921474242')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->sendLoginotp()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 11:38:53 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 11:39:25 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 11:39:33 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 11:40:07 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 11:40:09 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 11:42:41 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:49:53 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:49:53 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:49:55 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:49:55 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:50:01 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:50:01 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:50:35 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:50:35 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:50:41 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:50:41 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:51:15 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:51:15 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:51:16 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:51:16 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:51:16 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:51:16 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:51:17 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:51:17 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:51:20 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:51:20 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:51:30 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:51:30 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-30 11:51:33 --> mysqli_sql_exception: Table 'db_myskill.profession_details' doesn't exist in /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/hf86uboyxvrh/public_html/myskill/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 /home/hf86uboyxvrh/public_html/myskill/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 /home/hf86uboyxvrh/public_html/myskill/app/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 /home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+#5 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+#6 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/hf86uboyxvrh/public_html/myskill/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hf86uboyxvrh/public_html/myskill/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-30 11:51:33 --> Table 'db_myskill.profession_details' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/ModelLogin.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM profession_details WHERE is_active = \'0\'')
+ 2 APPPATH/Controllers/Login.php(131): App\Models\ModelLogin->getAllprofessiondetails()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->getAllprofessiondetails()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 15:16:53 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 15:17:03 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 15:17:15 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 15:17:20 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 15:17:58 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-30 15:17:59 --> Undefined property: App\Controllers\Login::$getPost
+in APPPATH/Controllers/Login.php on line 66.
+ 1 APPPATH/Controllers/Login.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Login::$getPost', '/home/hf86uboyxvrh/public_html/myskill/app/Controllers/Login.php', 66, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Login->verifyUserotp()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
