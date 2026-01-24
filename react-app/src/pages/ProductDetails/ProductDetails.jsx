@@ -82,14 +82,14 @@ const ProductDetails = () => {
 
               <div className="product-details-actions">
                 <Button
-                  href="/contactus"
+                  to="/contactus"
                   variant="primary"
                   size="large"
                 >
                   Get Quote
                 </Button>
                 <Button
-                  href="https://api.whatsapp.com/send/?phone=%2B919860638920&text&type=phone_number&app_absent=0"
+                  href={`https://api.whatsapp.com/send/?phone=%2B917709298685&text=${encodeURIComponent(`Hi, I'm interested in "${product?.pro_name || 'this product'}". Please share details.`)}&type=phone_number&app_absent=0`}
                   variant="secondary"
                   size="large"
                 >

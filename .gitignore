@@ -1,3 +1,6 @@
+# Composer
+vendor/
+
 # React app build artifacts and dependencies (don't commit when adding react-app to parent repo)
 react-app/node_modules
 react-app/dist

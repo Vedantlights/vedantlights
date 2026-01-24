@@ -135,7 +135,7 @@ const BrandDetails = () => {
                     <h6 className="brand-details-product-title">{product.pro_name}</h6>
                   </Link>
                   <Button
-                    href="/contactus"
+                    to="/contactus"
                     variant="primary"
                     size="small"
                   >

@@ -32,7 +32,10 @@ export async function copyTable(rows, columns) {
 
 export function printTable(title, rows, columns) {
   const w = window.open('', '_blank', 'noopener,noreferrer');
-  if (!w) return;
+  if (!w) {
+    alert('Please allow popups to print this table.');
+    return;
+  }
 
   const css = `
     body { font-family: Arial, sans-serif; padding: 16px; }
@@ -40,6 +43,10 @@ export function printTable(title, rows, columns) {
     table { width: 100%; border-collapse: collapse; }
     th, td { border: 1px solid #ddd; padding: 8px; font-size: 12px; }
     th { background: #f6f6f6; text-align: left; }
+    @media print {
+      body { padding: 8px; }
+      h1 { font-size: 16px; }
+    }
   `;
 
   const thead = `<tr>${columns.map((c) => `<th>${String(c.label)}</th>`).join('')}</tr>`;
@@ -47,8 +54,7 @@ export function printTable(title, rows, columns) {
     .map((row) => `<tr>${columns.map((c) => `<td>${String(c.get(row) ?? '')}</td>`).join('')}</tr>`)
     .join('');
 
-  w.document.open();
-  w.document.write(`<!doctype html>
+  const html = `<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -61,9 +67,31 @@ export function printTable(title, rows, columns) {
       <thead>${thead}</thead>
       <tbody>${tbody}</tbody>
     </table>
-    <script>window.onload = () => { window.print(); };</script>
+    <script>
+      (function() {
+        function triggerPrint() {
+          try {
+            window.print();
+          } catch (e) {
+            console.error('Print failed:', e);
+          }
+        }
+        
+        // Try multiple methods to ensure print dialog opens
+        if (document.readyState === 'complete') {
+          triggerPrint();
+        } else {
+          window.addEventListener('load', triggerPrint);
+          // Fallback timeout in case load event doesn't fire
+          setTimeout(triggerPrint, 500);
+        }
+      })();
+    </script>
   </body>
-</html>`);
+</html>`;
+
+  w.document.open();
+  w.document.write(html);
   w.document.close();
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Button.css';
 
 const Button = ({ 
@@ -6,6 +7,7 @@ const Button = ({
   variant = 'primary', 
   size = 'medium',
   href,
+  to,
   onClick,
   className = '',
   type = 'button',
@@ -22,6 +24,19 @@ const Button = ({
       {icon && iconPosition === 'right' && <span className="button-btn-icon-right">{icon}</span>}
     </>
   );
+
+  if (to) {
+    return (
+      <Link 
+        to={to} 
+        className={baseClasses}
+        onClick={onClick}
+        aria-label={children}
+      >
+        {content}
+      </Link>
+    );
+  }
 
   if (href) {
     return (

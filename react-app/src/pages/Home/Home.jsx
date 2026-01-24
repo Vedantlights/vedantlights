@@ -189,7 +189,7 @@ const Home = () => {
                 Illuminate with absolute confidence—choose Vedant Lights.
               </p>
               <div className="home-hero-actions">
-                <Button href="/aboutus" variant="primary" size="large">
+                <Button to="/aboutus" variant="primary" size="large">
                   More About Us
                 </Button>
               </div>

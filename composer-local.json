@@ -1,0 +1,13 @@
+{
+    "config": {
+        "secure-http": false,
+        "disable-tls": true,
+        "cafile": ""
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://repo.packagist.org"
+        }
+    ]
+}

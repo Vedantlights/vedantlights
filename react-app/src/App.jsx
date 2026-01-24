@@ -29,6 +29,10 @@ function detectBasename() {
   if (p === '/public_html' || p.startsWith('/public_html/')) {
     return '/public_html';
   }
+  // XAMPP subfolder deployment (e.g. localhost/vedantlights/)
+  if (p === '/vedantlights' || p.startsWith('/vedantlights/')) {
+    return '/vedantlights';
+  }
   // VirtualHost / root deployment:
   //   /admin/login
   return '';
@@ -39,6 +43,11 @@ function AppShell() {
   // work both on Vite dev (/) and XAMPP (/public_html[/index.php]).
   const isAdminRoute = !!useMatch('/admin/*');
   const [brands, setBrands] = useState([]);
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   useEffect(() => {
     fetch(apiPath('/brands'))

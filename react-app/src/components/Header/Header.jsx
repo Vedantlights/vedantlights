@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useMatch } from 'react-router-dom';
 import { FaBars, FaTimes, FaWhatsapp } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from '../Button/Button';
@@ -17,7 +17,9 @@ const Header = ({ brands = [] }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const [isBrochureOpen, setIsBrochureOpen] = useState(false);
-  const location = useLocation();
+  const matchHome = useMatch({ path: '/', end: true });
+  const matchAbout = useMatch('/aboutus');
+  const matchContact = useMatch('/contactus');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,7 +60,7 @@ const Header = ({ brands = [] }) => {
                 <li>
                   <Link 
                     to="/" 
-                    className={location.pathname === '/' ? 'header-active' : ''}
+                    className={matchHome ? 'header-active' : ''}
                     onClick={closeMenu}
                   >
                     HOME
@@ -67,7 +69,7 @@ const Header = ({ brands = [] }) => {
                 <li>
                   <Link 
                     to="/aboutus" 
-                    className={location.pathname === '/aboutus' ? 'header-active' : ''}
+                    className={matchAbout ? 'header-active' : ''}
                     onClick={closeMenu}
                   >
                     ABOUT US
@@ -91,7 +93,7 @@ const Header = ({ brands = [] }) => {
                 <li>
                   <Link 
                     to="/contactus" 
-                    className={location.pathname === '/contactus' ? 'header-active' : ''}
+                    className={matchContact ? 'header-active' : ''}
                     onClick={closeMenu}
                   >
                     CONTACT
@@ -109,7 +111,7 @@ const Header = ({ brands = [] }) => {
                 {isMenuOpen ? <FaTimes /> : <FaBars />}
               </button>
               <Button
-                href="https://api.whatsapp.com/send/?phone=%2B919860638920&text&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=%2B917709298685&text&type=phone_number&app_absent=0"
                 variant="primary"
                 icon={<FaWhatsapp />}
                 iconPosition="left"
