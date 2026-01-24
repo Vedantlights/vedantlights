@@ -55,7 +55,7 @@ const Footer = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Office No. 22, 3rd Floor, Aston Plaza, Ambegaon Bk., Pune - 411046.
+                Office No. 21 & 22, 3rd Floor, Aston Plaza, Ambegaon Bk., Pune - 411046.
               </a>
             </div>
           </div>
