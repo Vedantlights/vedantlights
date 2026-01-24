@@ -5,12 +5,10 @@
 var ciDebugBar = {
     toolbarContainer: null,
     toolbar: null,
-    icon: null,
 
     init: function () {
         this.toolbarContainer = document.getElementById("toolbarContainer");
         this.toolbar = document.getElementById("debug-bar");
-        this.icon = document.getElementById("debug-icon");
 
         ciDebugBar.createListeners();
         ciDebugBar.setToolbarState();
@@ -22,9 +20,6 @@ var ciDebugBar = {
 
         document
             .getElementById("debug-bar-link")
-            .addEventListener("click", ciDebugBar.toggleToolbar, true);
-        document
-            .getElementById("debug-icon-link")
             .addEventListener("click", ciDebugBar.toggleToolbar, true);
 
         // Allows to highlight the row of the current history request
@@ -190,16 +185,14 @@ var ciDebugBar = {
     //--------------------------------------------------------------------
 
     /**
-     *   Toggle tool bar from full to icon and icon to full
+     *   Toggle tool bar open/closed (icon removed, so only bar visibility toggles)
      */
     toggleToolbar: function () {
         var open = ciDebugBar.toolbar.style.display != "none";
 
-        ciDebugBar.icon.style.display = open == true ? "inline-block" : "none";
         ciDebugBar.toolbar.style.display =
             open == false ? "inline-block" : "none";
 
-        // Remember it for other page loads on this site
         ciDebugBar.createCookie("debug-bar-state", "", -1);
         ciDebugBar.createCookie(
             "debug-bar-state",
@@ -210,15 +203,10 @@ var ciDebugBar = {
 
     /**
      * Sets the initial state of the toolbar (open or minimized) when
-     * the page is first loaded to allow it to remember the state between refreshes.
+     * the page is first loaded. Without debug-icon, always show the bar.
      */
     setToolbarState: function () {
-        var open = ciDebugBar.readCookie("debug-bar-state");
-
-        ciDebugBar.icon.style.display =
-            open != "open" ? "inline-block" : "none";
-        ciDebugBar.toolbar.style.display =
-            open == "open" ? "inline-block" : "none";
+        ciDebugBar.toolbar.style.display = "inline-block";
     },
 
     toggleViewsHints: function () {
@@ -516,7 +504,6 @@ var ciDebugBar = {
         var btnPosition = this.toolbar.querySelector("#toolbar-position");
 
         if (ciDebugBar.readCookie("debug-bar-position") === "top") {
-            ciDebugBar.addClass(ciDebugBar.icon, "fixed-top");
             ciDebugBar.addClass(ciDebugBar.toolbar, "fixed-top");
         }
 
@@ -529,7 +516,6 @@ var ciDebugBar = {
 
                 if (!position || position === "bottom") {
                     ciDebugBar.createCookie("debug-bar-position", "top", 365);
-                    ciDebugBar.addClass(ciDebugBar.icon, "fixed-top");
                     ciDebugBar.addClass(ciDebugBar.toolbar, "fixed-top");
                 } else {
                     ciDebugBar.createCookie(
@@ -537,7 +523,6 @@ var ciDebugBar = {
                         "bottom",
                         365
                     );
-                    ciDebugBar.removeClass(ciDebugBar.icon, "fixed-top");
                     ciDebugBar.removeClass(ciDebugBar.toolbar, "fixed-top");
                 }
             },
