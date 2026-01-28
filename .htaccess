@@ -11,10 +11,13 @@ Options -Indexes
 	Options +FollowSymlinks
 	RewriteEngine On
 
-	# If you installed CodeIgniter in a subfolder, you will need to
-	# change the following line to match the subfolder you need.
-	# http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritebase
-	RewriteBase /vedantlights/
+	# If you installed CodeIgniter in a subfolder, you can optionally
+	# enable RewriteBase and point it at that folder, e.g.:
+	# RewriteBase /vedantlights/
+	#
+	# Leaving RewriteBase disabled here makes this .htaccess work both
+	# when the project is installed at the web root (e.g. public_html/)
+	# and when it is installed in a subfolder under localhost.
 
 	# Redirect Trailing Slashes...
 	RewriteCond %{REQUEST_FILENAME} !-d
