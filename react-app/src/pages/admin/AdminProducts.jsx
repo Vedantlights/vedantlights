@@ -211,10 +211,32 @@ export default function AdminProducts() {
     if (!confirm('Delete this product?')) return;
     setError('');
     try {
-      await adminFetch(`/admin/products/${id}`, { method: 'DELETE' });
-      await load();
+      // Try DELETE first, fallback to POST route for deployment/server compatibility
+      let deleteSuccess = false;
+      try {
+        await adminFetch(`/admin/products/${id}`, { method: 'DELETE' });
+        deleteSuccess = true;
+      } catch (deleteError) {
+        // If DELETE fails for any reason, try POST route as fallback
+        // This handles: 405 (Method Not Allowed), 404 (Not Found), 
+        // network errors, CORS issues, and other deployment-specific problems
+        console.warn('DELETE request failed, trying POST fallback:', deleteError);
+        try {
+          await adminFetch(`/admin/products/${id}/delete`, { method: 'POST' });
+          deleteSuccess = true;
+        } catch (postError) {
+          // If POST fallback also fails, throw the original error
+          throw deleteError.status ? deleteError : postError;
+        }
+      }
+      
+      if (deleteSuccess) {
+        await load();
+      }
     } catch (e) {
-      setError(e.message || 'Failed to delete product');
+      const errorMsg = e.message || e.statusText || `Failed to delete product (${e.status || 'unknown error'})`;
+      setError(errorMsg);
+      console.error('Delete product error:', e);
     }
   }
 

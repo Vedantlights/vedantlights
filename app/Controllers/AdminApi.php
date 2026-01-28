@@ -205,13 +205,27 @@ class AdminApi extends BaseController
             return $resp;
         }
 
+        // Check if brand exists
+        $existing = $this->db->table('brand_details')->where('brand_id', $brandId)->get()->getRowArray();
+        if (!$existing) {
+            return $this->response->setStatusCode(404)->setJSON([
+                'error' => 'Brand not found',
+            ]);
+        }
+
         // Soft delete to match existing "is_delete" usage
         $ok = $this->brandModel->updateBranddetails([
             'is_delete' => 1,
         ], $brandId);
 
+        if (!$ok) {
+            return $this->response->setStatusCode(500)->setJSON([
+                'error' => 'Failed to delete brand',
+            ]);
+        }
+
         return $this->response->setJSON([
-            'ok' => (bool) $ok,
+            'ok' => true,
         ]);
     }
 
@@ -294,10 +308,24 @@ class AdminApi extends BaseController
             return $resp;
         }
 
+        // Check if category exists
+        $existing = $this->db->table('category_details')->where('cat_id', $catId)->get()->getRowArray();
+        if (!$existing) {
+            return $this->response->setStatusCode(404)->setJSON([
+                'error' => 'Category not found',
+            ]);
+        }
+
         $ok = $this->categoryModel->deletecategory($catId);
 
+        if (!$ok) {
+            return $this->response->setStatusCode(500)->setJSON([
+                'error' => 'Failed to delete category',
+            ]);
+        }
+
         return $this->response->setJSON([
-            'ok' => (bool) $ok,
+            'ok' => true,
         ]);
     }
 
@@ -461,10 +489,24 @@ class AdminApi extends BaseController
             return $resp;
         }
 
+        // Check if product exists
+        $existing = $this->db->table('product_details')->where('pro_id', $proId)->get()->getRowArray();
+        if (!$existing) {
+            return $this->response->setStatusCode(404)->setJSON([
+                'error' => 'Product not found',
+            ]);
+        }
+
         $ok = $this->productModel->deleteproduct($proId);
 
+        if (!$ok) {
+            return $this->response->setStatusCode(500)->setJSON([
+                'error' => 'Failed to delete product',
+            ]);
+        }
+
         return $this->response->setJSON([
-            'ok' => (bool) $ok,
+            'ok' => true,
         ]);
     }
 }

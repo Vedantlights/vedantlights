@@ -44,14 +44,20 @@ $routes->get('api/admin/brands', 'AdminApi::brands');
 $routes->post('api/admin/brands', 'AdminApi::createBrand');
 $routes->post('api/admin/brands/(:num)', 'AdminApi::updateBrand/$1');
 $routes->delete('api/admin/brands/(:num)', 'AdminApi::deleteBrand/$1');
+// Fallback POST route for DELETE (XAMPP/Apache compatibility)
+$routes->post('api/admin/brands/(:num)/delete', 'AdminApi::deleteBrand/$1');
 
 $routes->get('api/admin/categories', 'AdminApi::categories');
 $routes->post('api/admin/categories', 'AdminApi::createCategory');
 $routes->post('api/admin/categories/(:num)', 'AdminApi::updateCategory/$1');
 $routes->delete('api/admin/categories/(:num)', 'AdminApi::deleteCategory/$1');
+// Fallback POST route for DELETE (XAMPP/Apache compatibility)
+$routes->post('api/admin/categories/(:num)/delete', 'AdminApi::deleteCategory/$1');
 
 $routes->get('api/admin/products', 'AdminApi::products');
 $routes->get('api/admin/products/(:num)', 'AdminApi::product/$1');
 $routes->post('api/admin/products', 'AdminApi::createProduct');
 $routes->post('api/admin/products/(:num)', 'AdminApi::updateProduct/$1');
 $routes->delete('api/admin/products/(:num)', 'AdminApi::deleteProduct/$1');
+// Fallback POST route for DELETE (XAMPP/Apache compatibility)
+$routes->post('api/admin/products/(:num)/delete', 'AdminApi::deleteProduct/$1');

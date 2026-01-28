@@ -87,10 +87,29 @@ export default function AdminBrands() {
     if (!confirm('Delete this brand?')) return;
     setError('');
     try {
-      await adminFetch(`/admin/brands/${id}`, { method: 'DELETE' });
-      await load();
+      // Try DELETE first, fallback to POST route for deployment/server compatibility
+      let deleteSuccess = false;
+      try {
+        await adminFetch(`/admin/brands/${id}`, { method: 'DELETE' });
+        deleteSuccess = true;
+      } catch (deleteError) {
+        // If DELETE fails for any reason, try POST route as fallback
+        console.warn('DELETE request failed, trying POST fallback:', deleteError);
+        try {
+          await adminFetch(`/admin/brands/${id}/delete`, { method: 'POST' });
+          deleteSuccess = true;
+        } catch (postError) {
+          throw deleteError.status ? deleteError : postError;
+        }
+      }
+      
+      if (deleteSuccess) {
+        await load();
+      }
     } catch (e) {
-      setError(e.message || 'Failed to delete brand');
+      const errorMsg = e.message || e.statusText || `Failed to delete brand (${e.status || 'unknown error'})`;
+      setError(errorMsg);
+      console.error('Delete brand error:', e);
     }
   }
 
