@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'vedantlights_db',
+        'username'     => 'u449667423_vedantlights',
+        'password'     => 'Vedantlight@2020',
+        'database'     => 'u449667423_vedantlights',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
