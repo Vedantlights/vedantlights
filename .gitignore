@@ -5,3 +5,15 @@ vendor/
 react-app/node_modules
 react-app/dist
 react-app/dist-ssr
+
+# CodeIgniter writable directory (logs, cache, debugbar, etc.)
+writable/logs/*
+writable/debugbar/*
+writable/cache/*
+writable/session/*
+writable/uploads/*
+!writable/logs/.gitkeep
+!writable/debugbar/.gitkeep
+!writable/cache/.gitkeep
+!writable/session/.gitkeep
+!writable/uploads/.gitkeep
