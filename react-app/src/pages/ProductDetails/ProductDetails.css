@@ -48,6 +48,7 @@
   margin-bottom: var(--spacing-md);
   position: relative;
   z-index: 1;
+  text-transform: uppercase;
 }
 
 .product-details-breadcrumb-links {
@@ -114,6 +115,7 @@
   font-size: 3.5rem;
   color: var(--color-secondary);
   margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
 }
 
 .product-details-specs-section {
