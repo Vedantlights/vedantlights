@@ -275,46 +275,68 @@ export default function AdminProducts() {
         </div>
       </div>
 
-      <form onSubmit={createProduct} style={{ display: 'flex', gap: 8, alignItems: 'center', marginBottom: 12, flexWrap: 'wrap' }}>
-        <select value={newBrandId} onChange={(e) => setNewBrandId(e.target.value)} style={{ ...inputStyle, minWidth: 220 }}>
-          {(brands || []).map((b) => (
-            <option key={b.brand_id} value={String(b.brand_id)}>
-              {b.brand_name}
-            </option>
-          ))}
-        </select>
-        <select value={newCatId} onChange={(e) => setNewCatId(e.target.value)} style={{ ...inputStyle, minWidth: 220 }} disabled={!newBrandId || catsForNewBrand.length === 0}>
-          {catsForNewBrand.length === 0 ? (
-            <option value="">No categories</option>
-          ) : (
-            catsForNewBrand.map((c) => (
-              <option key={c.cat_id} value={String(c.cat_id)}>
-                {categoryLabel(c)}
+      <form onSubmit={createProduct} style={{ marginBottom: 12 }}>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap', marginBottom: 8 }}>
+          <select value={newBrandId} onChange={(e) => setNewBrandId(e.target.value)} style={{ ...inputStyle, minWidth: 220 }}>
+            {(brands || []).map((b) => (
+              <option key={b.brand_id} value={String(b.brand_id)}>
+                {b.brand_name}
               </option>
-            ))
-          )}
-        </select>
-        <input value={newName} onChange={(e) => setNewName(e.target.value)} placeholder="Product name" style={{ ...inputStyle, flex: 1, minWidth: 260 }} />
-        <input value={newTech} onChange={(e) => setNewTech(e.target.value)} placeholder="Tech (optional)" style={{ ...inputStyle, flex: 1, minWidth: 240 }} />
-        <input value={newDesc} onChange={(e) => setNewDesc(e.target.value)} placeholder="Description (optional)" style={{ ...inputStyle, flex: 2, minWidth: 320 }} />
-        <label style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer', flexWrap: 'wrap' }}>
-          <span style={{ fontSize: 13, color: '#000000' }}>Image:</span>
-          <input
-            ref={newImageInputRef}
-            type="file"
-            accept="image/*"
-            onChange={(e) => setNewImageFile(e.target.files?.[0] ?? null)}
-            style={{ ...inputStyle, padding: 6, maxWidth: 200 }}
-          />
-          {newImageFile ? <span style={{ fontSize: 12, color: '#333' }}>{newImageFile.name}</span> : null}
-        </label>
-        <button type="submit" style={{ ...buttonStyle, background: 'rgba(90,103,216,0.8)', color: '#ffffff' }}>
-          Add
-        </button>
-        <button type="button" onClick={load} style={buttonStyle}>
-          Refresh
-        </button>
-        <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search…" style={{ ...inputStyle, flex: 1, minWidth: 240 }} />
+            ))}
+          </select>
+          <select value={newCatId} onChange={(e) => setNewCatId(e.target.value)} style={{ ...inputStyle, minWidth: 220 }} disabled={!newBrandId || catsForNewBrand.length === 0}>
+            {catsForNewBrand.length === 0 ? (
+              <option value="">No categories</option>
+            ) : (
+              catsForNewBrand.map((c) => (
+                <option key={c.cat_id} value={String(c.cat_id)}>
+                  {categoryLabel(c)}
+                </option>
+              ))
+            )}
+          </select>
+          <input value={newName} onChange={(e) => setNewName(e.target.value)} placeholder="Product name" style={{ ...inputStyle, flex: 1, minWidth: 260 }} />
+          <label style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer', flexWrap: 'wrap' }}>
+            <span style={{ fontSize: 13, color: '#000000' }}>Image:</span>
+            <input
+              ref={newImageInputRef}
+              type="file"
+              accept="image/*"
+              onChange={(e) => setNewImageFile(e.target.files?.[0] ?? null)}
+              style={{ ...inputStyle, padding: 6, maxWidth: 200 }}
+            />
+            {newImageFile ? <span style={{ fontSize: 12, color: '#333' }}>{newImageFile.name}</span> : null}
+          </label>
+          <button type="submit" style={{ ...buttonStyle, background: 'rgba(90,103,216,0.8)', color: '#ffffff' }}>
+            Add
+          </button>
+          <button type="button" onClick={load} style={buttonStyle}>
+            Refresh
+          </button>
+          <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search…" style={{ ...inputStyle, flex: 1, minWidth: 240 }} />
+        </div>
+        <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'flex-start' }}>
+          <div style={{ flex: 1, minWidth: 280 }}>
+            <label style={{ display: 'block', fontSize: 13, color: '#000000', marginBottom: 4 }}>Tech (optional)</label>
+            <textarea
+              value={newTech}
+              onChange={(e) => setNewTech(e.target.value)}
+              placeholder="Technical specification…"
+              rows={5}
+              style={{ ...inputStyle, width: '100%', minHeight: 100, resize: 'vertical', fontFamily: 'inherit' }}
+            />
+          </div>
+          <div style={{ flex: 1, minWidth: 280 }}>
+            <label style={{ display: 'block', fontSize: 13, color: '#000000', marginBottom: 4 }}>Description (optional)</label>
+            <textarea
+              value={newDesc}
+              onChange={(e) => setNewDesc(e.target.value)}
+              placeholder="Product description…"
+              rows={5}
+              style={{ ...inputStyle, width: '100%', minHeight: 100, resize: 'vertical', fontFamily: 'inherit' }}
+            />
+          </div>
+        </div>
       </form>
 
       {error ? <div style={{ color: '#d32f2f', marginBottom: 10 }}>{error}</div> : null}
@@ -329,6 +351,7 @@ export default function AdminProducts() {
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Brand</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Category</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Name</th>
+                <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Description</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Tech</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Image</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Actions</th>
@@ -375,9 +398,16 @@ export default function AdminProducts() {
                       <span style={{ color: '#000000' }}>{row.pro_name}</span>
                     )}
                   </td>
-                  <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
+                  <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)', minWidth: 180 }}>
                     {editingId === row.pro_id ? (
-                      <input value={editingTech} onChange={(e) => setEditingTech(e.target.value)} style={{ ...inputStyle, width: '100%' }} />
+                      <textarea value={editingDesc} onChange={(e) => setEditingDesc(e.target.value)} placeholder="Description" rows={4} style={{ ...inputStyle, width: '100%', minHeight: 80, resize: 'vertical', fontFamily: 'inherit' }} />
+                    ) : (
+                      <span style={{ color: '#000000' }} title={row.pro_desc || ''}>{row.pro_desc ? (row.pro_desc.length > 60 ? `${row.pro_desc.slice(0, 60)}…` : row.pro_desc) : '—'}</span>
+                    )}
+                  </td>
+                  <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)', minWidth: 180 }}>
+                    {editingId === row.pro_id ? (
+                      <textarea value={editingTech} onChange={(e) => setEditingTech(e.target.value)} placeholder="Tech" rows={4} style={{ ...inputStyle, width: '100%', minHeight: 80, resize: 'vertical', fontFamily: 'inherit' }} />
                     ) : (
                       <span style={{ color: '#000000' }}>{row.pro_tech || ''}</span>
                     )}
@@ -434,7 +464,7 @@ export default function AdminProducts() {
               ))}
               {filtered.length === 0 ? (
                 <tr>
-                  <td colSpan={7} style={{ padding: 12, color: '#000000' }}>
+                  <td colSpan={8} style={{ padding: 12, color: '#000000' }}>
                     No products found.
                   </td>
                 </tr>
