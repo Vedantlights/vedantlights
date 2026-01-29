@@ -54,9 +54,19 @@ $routes->delete('api/admin/categories/(:num)', 'AdminApi::deleteCategory/$1');
 // Fallback POST route for DELETE (XAMPP/Apache compatibility)
 $routes->post('api/admin/categories/(:num)/delete', 'AdminApi::deleteCategory/$1');
 
+// Product PDF management - MUST come before generic product routes
+// Using (:segment) instead of (:num) for better route matching
+$routes->get('api/admin/products/(:segment)/pdfs', 'AdminApi::productPdfs/$1');
+$routes->post('api/admin/products/(:segment)/pdfs', 'AdminApi::addProductPdf/$1');
+// Product PDF deletion
+$routes->delete('api/admin/product-pdfs/(:segment)', 'AdminApi::deleteProductPdf/$1');
+$routes->post('api/admin/product-pdfs/(:segment)/delete', 'AdminApi::deleteProductPdf/$1');
+
+// Products list and create
 $routes->get('api/admin/products', 'AdminApi::products');
-$routes->get('api/admin/products/(:num)', 'AdminApi::product/$1');
 $routes->post('api/admin/products', 'AdminApi::createProduct');
+// Single product routes (these must come AFTER /pdfs routes)
+$routes->get('api/admin/products/(:num)', 'AdminApi::product/$1');
 $routes->post('api/admin/products/(:num)', 'AdminApi::updateProduct/$1');
 $routes->delete('api/admin/products/(:num)', 'AdminApi::deleteProduct/$1');
 // Fallback POST route for DELETE (XAMPP/Apache compatibility)

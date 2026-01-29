@@ -558,5 +558,161 @@ class AdminApi extends BaseController
             'ok' => true,
         ]);
     }
+
+    // ---------------------------------------------------------------
+    // Product PDFs (multiple PDFs per product)
+    // ---------------------------------------------------------------
+
+    /**
+     * Get all PDFs for a product
+     */
+    public function productPdfs($proId): ResponseInterface
+    {
+        if ($resp = $this->requireAdmin()) {
+            return $resp;
+        }
+
+        $proId = (int) $proId;
+        if ($proId <= 0) {
+            return $this->response->setStatusCode(400)->setJSON([
+                'error' => 'Invalid product ID',
+            ]);
+        }
+
+        $pdfs = $this->db->table('product_pdf_details')
+            ->where('pro_id', $proId)
+            ->orderBy('pdf_id', 'ASC')
+            ->get()
+            ->getResultArray();
+
+        return $this->response->setJSON([
+            'data' => $pdfs,
+        ]);
+    }
+
+    /**
+     * Add a PDF to a product
+     */
+    public function addProductPdf($proId): ResponseInterface
+    {
+        if ($resp = $this->requireAdmin()) {
+            return $resp;
+        }
+
+        $proId = (int) $proId;
+        if ($proId <= 0) {
+            return $this->response->setStatusCode(400)->setJSON([
+                'error' => 'Invalid product ID',
+            ]);
+        }
+
+        // Check if product exists
+        $existing = $this->db->table('product_details')->where('pro_id', $proId)->get()->getRowArray();
+        if (!$existing) {
+            return $this->response->setStatusCode(404)->setJSON([
+                'error' => 'Product not found',
+            ]);
+        }
+
+        $data = $this->inputArray();
+        $pdfName = trim((string) ($data['pdf_name'] ?? ''));
+
+        if ($pdfName === '') {
+            return $this->response->setStatusCode(400)->setJSON([
+                'error' => 'pdf_name is required',
+            ]);
+        }
+
+        // Handle PDF file upload
+        $file = $this->request->getFile('pdf_file');
+        if (!$file || $file->getName() === '') {
+            return $this->response->setStatusCode(400)->setJSON([
+                'error' => 'pdf_file is required',
+            ]);
+        }
+
+        if (!$file->isValid()) {
+            return $this->response->setStatusCode(400)->setJSON([
+                'error' => 'Invalid PDF file upload',
+            ]);
+        }
+
+        $mime = $file->getClientMimeType();
+        $allowed = ['application/pdf', 'application/x-pdf'];
+        if (!in_array($mime, $allowed, true)) {
+            $ext = strtolower($file->getClientExtension());
+            if ($ext !== 'pdf') {
+                return $this->response->setStatusCode(400)->setJSON([
+                    'error' => 'Only PDF files are allowed',
+                ]);
+            }
+        }
+
+        $dir = ROOTPATH . 'uploads' . DIRECTORY_SEPARATOR . 'Product';
+        if (!is_dir($dir)) {
+            @mkdir($dir, 0775, true);
+        }
+
+        $filename = $file->getRandomName();
+        if (!$file->move($dir, $filename)) {
+            return $this->response->setStatusCode(500)->setJSON([
+                'error' => 'Failed to save PDF file',
+            ]);
+        }
+
+        // Insert into database
+        $this->db->table('product_pdf_details')->insert([
+            'pro_id' => $proId,
+            'pdf_name' => $pdfName,
+            'pdf_file' => $filename,
+        ]);
+
+        $pdfId = $this->db->insertID();
+
+        return $this->response->setJSON([
+            'ok' => true,
+            'pdf_id' => $pdfId,
+            'pdf_name' => $pdfName,
+            'pdf_file' => $filename,
+        ]);
+    }
+
+    /**
+     * Delete a product PDF
+     */
+    public function deleteProductPdf($pdfId): ResponseInterface
+    {
+        if ($resp = $this->requireAdmin()) {
+            return $resp;
+        }
+
+        $pdfId = (int) $pdfId;
+        if ($pdfId <= 0) {
+            return $this->response->setStatusCode(400)->setJSON([
+                'error' => 'Invalid PDF ID',
+            ]);
+        }
+
+        // Check if PDF exists
+        $existing = $this->db->table('product_pdf_details')->where('pdf_id', $pdfId)->get()->getRowArray();
+        if (!$existing) {
+            return $this->response->setStatusCode(404)->setJSON([
+                'error' => 'PDF not found',
+            ]);
+        }
+
+        // Delete file from disk (optional, but good practice)
+        $filePath = ROOTPATH . 'uploads' . DIRECTORY_SEPARATOR . 'Product' . DIRECTORY_SEPARATOR . $existing['pdf_file'];
+        if (file_exists($filePath)) {
+            @unlink($filePath);
+        }
+
+        // Delete from database
+        $this->db->table('product_pdf_details')->where('pdf_id', $pdfId)->delete();
+
+        return $this->response->setJSON([
+            'ok' => true,
+        ]);
+    }
 }
 

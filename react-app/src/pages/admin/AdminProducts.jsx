@@ -1,7 +1,8 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import { adminFetch } from '../../lib/adminFetch';
 import { backendPath } from '../../lib/backend';
 import { copyTable, downloadTextFile, printTable, toCsv } from '../../lib/tableTools';
+import { FaTimes, FaPlus, FaFilePdf } from 'react-icons/fa';
 
 const inputStyle = {
   padding: 10,
@@ -39,8 +40,6 @@ export default function AdminProducts() {
   const [newTech, setNewTech] = useState('');
   const [newImageFile, setNewImageFile] = useState(null);
   const newImageInputRef = useRef(null);
-  const [newPdfFile, setNewPdfFile] = useState(null);
-  const newPdfInputRef = useRef(null);
 
   const [editingId, setEditingId] = useState(null);
   const [editingBrandId, setEditingBrandId] = useState('');
@@ -52,6 +51,17 @@ export default function AdminProducts() {
   const editingImageInputRef = useRef(null);
   const [editingPdfFile, setEditingPdfFile] = useState(null);
   const editingPdfInputRef = useRef(null);
+
+  // Multiple PDFs management
+  const [pdfModalOpen, setPdfModalOpen] = useState(false);
+  const [pdfModalProductId, setPdfModalProductId] = useState(null);
+  const [pdfModalProductName, setPdfModalProductName] = useState('');
+  const [pdfModalIsNew, setPdfModalIsNew] = useState(false); // true if opened after creating new product
+  const [productPdfs, setProductPdfs] = useState([]);
+  const [loadingPdfs, setLoadingPdfs] = useState(false);
+  const [newPdfName, setNewPdfName] = useState('');
+  const [newPdfFileForModal, setNewPdfFileForModal] = useState(null);
+  const newPdfFileModalRef = useRef(null);
 
   const sorted = useMemo(() => rows.slice().sort((a, b) => (b.pro_id || 0) - (a.pro_id || 0)), [rows]);
   const filtered = useMemo(() => {
@@ -149,19 +159,32 @@ export default function AdminProducts() {
       form.append('pro_desc', newDesc);
       form.append('pro_tech', newTech);
       if (newImageFile) form.append('product_img', newImageFile);
-      if (newPdfFile) form.append('product_pdf', newPdfFile);
-      await adminFetch('/admin/products', {
+      const res = await adminFetch('/admin/products', {
         method: 'POST',
         body: form,
       });
+      const createdName = pro_name;
       setNewName('');
       setNewDesc('');
       setNewTech('');
       setNewImageFile(null);
-      setNewPdfFile(null);
       if (newImageInputRef.current) newImageInputRef.current.value = '';
-      if (newPdfInputRef.current) newPdfInputRef.current.value = '';
       await load();
+      
+      // After creating product, find it and open PDF modal
+      const updatedProducts = await adminFetch('/admin/products');
+      const newProduct = (updatedProducts?.data || []).find(p => p.pro_name === createdName);
+      if (newProduct) {
+        // Auto-open PDF modal for the new product
+        setPdfModalProductId(newProduct.pro_id);
+        setPdfModalProductName(newProduct.pro_name || 'Product');
+        setPdfModalIsNew(true); // Mark as newly created
+        setPdfModalOpen(true);
+        setNewPdfName('');
+        setNewPdfFileForModal(null);
+        if (newPdfFileModalRef.current) newPdfFileModalRef.current.value = '';
+        loadProductPdfs(newProduct.pro_id);
+      }
     } catch (e2) {
       setError(e2.message || 'Failed to create product');
     }
@@ -252,6 +275,84 @@ export default function AdminProducts() {
     }
   }
 
+  // Load PDFs for a product
+  const loadProductPdfs = useCallback(async (proId) => {
+    setLoadingPdfs(true);
+    try {
+      const res = await adminFetch(`/admin/products/${proId}/pdfs`);
+      setProductPdfs(res?.data || []);
+    } catch (e) {
+      console.error('Failed to load PDFs:', e);
+      setProductPdfs([]);
+    } finally {
+      setLoadingPdfs(false);
+    }
+  }, []);
+
+  // Open PDF management modal
+  function openPdfModal(row) {
+    setPdfModalProductId(row.pro_id);
+    setPdfModalProductName(row.pro_name || 'Product');
+    setPdfModalIsNew(false); // Not a new product
+    setPdfModalOpen(true);
+    setNewPdfName('');
+    setNewPdfFileForModal(null);
+    if (newPdfFileModalRef.current) newPdfFileModalRef.current.value = '';
+    loadProductPdfs(row.pro_id);
+  }
+
+  // Close PDF modal
+  function closePdfModal() {
+    setPdfModalOpen(false);
+    setPdfModalProductId(null);
+    setPdfModalProductName('');
+    setPdfModalIsNew(false);
+    setProductPdfs([]);
+    setNewPdfName('');
+    setNewPdfFileForModal(null);
+    if (newPdfFileModalRef.current) newPdfFileModalRef.current.value = '';
+  }
+
+  // Add a new PDF to product
+  async function addPdfToProduct(e) {
+    e.preventDefault();
+    if (!pdfModalProductId || !newPdfName.trim() || !newPdfFileForModal) {
+      alert('Please enter PDF name and select a PDF file');
+      return;
+    }
+    try {
+      const form = new FormData();
+      form.append('pdf_name', newPdfName.trim());
+      form.append('pdf_file', newPdfFileForModal);
+      await adminFetch(`/admin/products/${pdfModalProductId}/pdfs`, {
+        method: 'POST',
+        body: form,
+      });
+      setNewPdfName('');
+      setNewPdfFileForModal(null);
+      if (newPdfFileModalRef.current) newPdfFileModalRef.current.value = '';
+      await loadProductPdfs(pdfModalProductId);
+    } catch (e) {
+      alert(e.message || 'Failed to add PDF');
+    }
+  }
+
+  // Delete a PDF
+  async function deletePdf(pdfId) {
+    if (!confirm('Delete this PDF?')) return;
+    try {
+      // Try DELETE first, fallback to POST
+      try {
+        await adminFetch(`/admin/product-pdfs/${pdfId}`, { method: 'DELETE' });
+      } catch {
+        await adminFetch(`/admin/product-pdfs/${pdfId}/delete`, { method: 'POST' });
+      }
+      await loadProductPdfs(pdfModalProductId);
+    } catch (e) {
+      alert(e.message || 'Failed to delete PDF');
+    }
+  }
+
   async function onCopy() {
     try {
       await copyTable(filtered, columns);
@@ -319,20 +420,12 @@ export default function AdminProducts() {
             />
             {newImageFile ? <span style={{ fontSize: 12, color: '#333' }}>{newImageFile.name}</span> : null}
           </label>
-          <label style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer', flexWrap: 'wrap' }}>
-            <span style={{ fontSize: 13, color: '#000000' }}>PDF (optional):</span>
-            <input
-              ref={newPdfInputRef}
-              type="file"
-              accept=".pdf,application/pdf"
-              onChange={(e) => setNewPdfFile(e.target.files?.[0] ?? null)}
-              style={{ ...inputStyle, padding: 6, maxWidth: 200 }}
-            />
-            {newPdfFile ? <span style={{ fontSize: 12, color: '#333' }}>{newPdfFile.name}</span> : null}
-          </label>
           <button type="submit" style={{ ...buttonStyle, background: 'rgba(90,103,216,0.8)', color: '#ffffff' }}>
-            Add
+            Add Product
           </button>
+          <span style={{ fontSize: 12, color: '#666', padding: '8px 0' }}>
+            (PDFs can be added after creating the product)
+          </span>
           <button type="button" onClick={load} style={buttonStyle}>
             Refresh
           </button>
@@ -377,7 +470,7 @@ export default function AdminProducts() {
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Description</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Tech</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Image</th>
-                <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>PDF</th>
+                <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>PDFs</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Actions</th>
               </tr>
             </thead>
@@ -422,16 +515,16 @@ export default function AdminProducts() {
                       <span style={{ color: '#000000' }}>{row.pro_name}</span>
                     )}
                   </td>
-                  <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)', minWidth: 180 }}>
+                  <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)', minWidth: 220 }}>
                     {editingId === row.pro_id ? (
-                      <textarea value={editingDesc} onChange={(e) => setEditingDesc(e.target.value)} placeholder="Description" rows={4} style={{ ...inputStyle, width: '100%', minHeight: 80, resize: 'vertical', fontFamily: 'inherit' }} />
+                      <textarea value={editingDesc} onChange={(e) => setEditingDesc(e.target.value)} placeholder="Description" rows={8} style={{ ...inputStyle, width: '100%', minHeight: 160, resize: 'vertical', fontFamily: 'inherit' }} />
                     ) : (
                       <span style={{ color: '#000000' }} title={row.pro_desc || ''}>{row.pro_desc ? (row.pro_desc.length > 60 ? `${row.pro_desc.slice(0, 60)}…` : row.pro_desc) : '—'}</span>
                     )}
                   </td>
-                  <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)', minWidth: 180 }}>
+                  <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)', minWidth: 220 }}>
                     {editingId === row.pro_id ? (
-                      <textarea value={editingTech} onChange={(e) => setEditingTech(e.target.value)} placeholder="Tech" rows={4} style={{ ...inputStyle, width: '100%', minHeight: 80, resize: 'vertical', fontFamily: 'inherit' }} />
+                      <textarea value={editingTech} onChange={(e) => setEditingTech(e.target.value)} placeholder="Technical specification" rows={8} style={{ ...inputStyle, width: '100%', minHeight: 160, resize: 'vertical', fontFamily: 'inherit' }} />
                     ) : (
                       <span style={{ color: '#000000' }}>{row.pro_tech || ''}</span>
                     )}
@@ -464,31 +557,22 @@ export default function AdminProducts() {
                     )}
                   </td>
                   <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
-                    {editingId === row.pro_id ? (
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                        {row.pro_pdf ? (
-                          <a href={backendPath(`/uploads/Product/${row.pro_pdf}`)} target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, color: '#1976d2' }}>Current PDF</a>
-                        ) : null}
-                        <label style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer' }}>
-                          <input
-                            ref={editingPdfInputRef}
-                            type="file"
-                            accept=".pdf,application/pdf"
-                            onChange={(e) => setEditingPdfFile(e.target.files?.[0] ?? null)}
-                            style={{ ...inputStyle, padding: 6, width: '100%' }}
-                          />
-                          {editingPdfFile ? <span style={{ fontSize: 12 }}>{editingPdfFile.name}</span> : <span style={{ fontSize: 12, opacity: 0.7 }}>Change PDF (optional)</span>}
-                        </label>
-                      </div>
-                    ) : (
-                      <span style={{ color: '#000000' }}>
-                        {row.pro_pdf ? (
-                          <a href={backendPath(`/uploads/Product/${row.pro_pdf}`)} target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, color: '#1976d2' }}>PDF</a>
-                        ) : (
-                          '—'
-                        )}
-                      </span>
-                    )}
+                    <button
+                      type="button"
+                      onClick={() => openPdfModal(row)}
+                      style={{
+                        ...buttonStyle,
+                        padding: '6px 10px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 4,
+                        fontSize: 12,
+                        background: '#e3f2fd',
+                      }}
+                    >
+                      <FaFilePdf style={{ color: '#d32f2f' }} />
+                      Manage PDFs
+                    </button>
                   </td>
                   <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
                     {editingId === row.pro_id ? (
@@ -522,6 +606,166 @@ export default function AdminProducts() {
               ) : null}
             </tbody>
           </table>
+        </div>
+      )}
+
+      {/* PDF Management Modal */}
+      {pdfModalOpen && (
+        <div
+          style={{
+            position: 'fixed',
+            inset: 0,
+            background: 'rgba(0,0,0,0.5)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 1000,
+          }}
+          onClick={closePdfModal}
+        >
+          <div
+            style={{
+              background: '#fff',
+              borderRadius: 12,
+              padding: 24,
+              minWidth: 400,
+              maxWidth: 600,
+              maxHeight: '80vh',
+              overflowY: 'auto',
+              boxShadow: '0 4px 20px rgba(0,0,0,0.2)',
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
+              <h3 style={{ margin: 0, color: '#000' }}>
+                {pdfModalIsNew ? 'Product Created!' : 'Manage PDFs'} - {pdfModalProductName}
+              </h3>
+              <button
+                type="button"
+                onClick={closePdfModal}
+                style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: 20, color: '#666' }}
+              >
+                <FaTimes />
+              </button>
+            </div>
+
+            {/* Success message for new product */}
+            {pdfModalIsNew && (
+              <div style={{ 
+                marginBottom: 16, 
+                padding: 12, 
+                background: '#e8f5e9', 
+                borderRadius: 8, 
+                border: '1px solid #a5d6a7',
+                color: '#2e7d32'
+              }}>
+                Product created successfully! Now add your PDF documents below.
+              </div>
+            )}
+
+            {/* Add new PDF form */}
+            <form onSubmit={addPdfToProduct} style={{ marginBottom: 20, padding: 16, background: '#f5f5f5', borderRadius: 8 }}>
+              <h4 style={{ margin: '0 0 12px 0', color: '#000', fontSize: 14 }}>Add New PDF</h4>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                <input
+                  type="text"
+                  value={newPdfName}
+                  onChange={(e) => setNewPdfName(e.target.value)}
+                  placeholder="PDF Name (e.g., Datasheet, Manual)"
+                  style={{ ...inputStyle, width: '100%' }}
+                />
+                <input
+                  ref={newPdfFileModalRef}
+                  type="file"
+                  accept=".pdf,application/pdf"
+                  onChange={(e) => setNewPdfFileForModal(e.target.files?.[0] ?? null)}
+                  style={{ ...inputStyle, padding: 8 }}
+                />
+                {newPdfFileForModal && (
+                  <span style={{ fontSize: 12, color: '#666' }}>Selected: {newPdfFileForModal.name}</span>
+                )}
+                <button
+                  type="submit"
+                  style={{
+                    ...buttonStyle,
+                    background: 'rgba(90,103,216,0.8)',
+                    color: '#fff',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: 6,
+                  }}
+                >
+                  <FaPlus /> Add PDF
+                </button>
+              </div>
+            </form>
+
+            {/* Existing PDFs list */}
+            <div>
+              <h4 style={{ margin: '0 0 12px 0', color: '#000', fontSize: 14 }}>
+                Existing PDFs ({productPdfs.length})
+              </h4>
+              {loadingPdfs ? (
+                <div style={{ color: '#666', padding: 12 }}>Loading...</div>
+              ) : productPdfs.length === 0 ? (
+                <div style={{ color: '#666', padding: 12, background: '#f9f9f9', borderRadius: 6 }}>
+                  No PDFs added yet. Add your first PDF above.
+                </div>
+              ) : (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                  {productPdfs.map((pdf) => (
+                    <div
+                      key={pdf.pdf_id}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        padding: 12,
+                        background: '#f9f9f9',
+                        borderRadius: 8,
+                        border: '1px solid #eee',
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                        <FaFilePdf style={{ color: '#d32f2f', fontSize: 20 }} />
+                        <div>
+                          <div style={{ fontWeight: 500, color: '#000' }}>{pdf.pdf_name}</div>
+                          <a
+                            href={backendPath(`/uploads/Product/${pdf.pdf_file}`)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ fontSize: 12, color: '#1976d2' }}
+                          >
+                            View PDF
+                          </a>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => deletePdf(pdf.pdf_id)}
+                        style={{
+                          ...buttonStyle,
+                          padding: '6px 10px',
+                          background: 'rgba(255,80,80,0.2)',
+                          color: '#d32f2f',
+                          fontSize: 12,
+                        }}
+                      >
+                        Delete
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div style={{ marginTop: 20, textAlign: 'right' }}>
+              <button type="button" onClick={closePdfModal} style={buttonStyle}>
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>

@@ -50,6 +50,21 @@ class Api extends BaseController
             ]);
         }
 
+        // Get multiple PDFs for this product
+        $db = \Config\Database::connect();
+        $pdfs = $db->table('product_pdf_details')
+            ->where('pro_id', $proId)
+            ->orderBy('pdf_id', 'ASC')
+            ->get()
+            ->getResultArray();
+
+        // Add PDFs to product data
+        if (is_array($row)) {
+            $row['pdfs'] = $pdfs;
+        } elseif (is_object($row)) {
+            $row->pdfs = $pdfs;
+        }
+
         return $this->response->setJSON([
             'data' => $row,
         ]);

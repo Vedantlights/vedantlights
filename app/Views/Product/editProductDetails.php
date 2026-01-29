@@ -104,67 +104,50 @@
 
               </div>
 
+                <!-- Technical Specification - full width for more space -->
                 <div class="row clearfix">
-
-               <div class="col-lg-4 col-md-6">
-
-                  <div class="mb-4">
-
-                    <p>Product Technical Specification: &nbsp;<b class="astrick">*</b></p>
-
-                     
-                    <textarea type="textarea"   name="product_tech" id="product_tech"  class="form-control summernote"   style="width:300px; height:550px;"><?php echo $productDetails->pro_tech;?></textarea>
-                   <span id="validation_product_tech"></span>
-
-                  </div>
-
-                </div>
-
-                 <div class="col-lg-4 col-md-6">
-
-                  <div class="mb-4">
-
-                    <p>Product Description: &nbsp;<b class="astrick">*</b></p>
-
-
-                     <textarea type="textarea"   name="product_desc" id="product_desc"  class="form-control summernote" style="width:300px; height:450px;"><?php echo $productDetails->pro_desc;?></textarea>
-                   <span id="validation_product_desc"></span>
-
-                  </div>
-
-                </div>
-
-                 <div class="col-lg-4 col-md-6">
-
+                  <div class="col-lg-12">
                     <div class="mb-4">
-
-                      <p>Product  Image: &nbsp;<b class="astrick">*</b></p>
-
-                      <input type="file"  name="product_img" id="product_img" >
-                      <?php if ($productDetails->pro_img != '') { ?>
-                      <img src="https://www.vedantlights.com/uploads/Product/<?php echo $productDetails->pro_img; ?>" width="50px" height="50px">
-                      <?php } ?>
+                      <p>Product Technical Specification: &nbsp;<b class="astrick">*</b></p>
+                      <textarea type="textarea" name="product_tech" id="product_tech" class="form-control summernote" style="width:100%; min-height:320px;"><?php echo $productDetails->pro_tech;?></textarea>
+                      <span id="validation_product_tech"></span>
                     </div>
+                  </div>
+                </div>
 
-                    <span id="validation_product_img"></span>
-
-                 </div>
-
-                 <div class="col-lg-4 col-md-6">
-
+                <!-- Product Description - full width for more space -->
+                <div class="row clearfix">
+                  <div class="col-lg-12">
                     <div class="mb-4">
+                      <p>Product Description: &nbsp;<b class="astrick">*</b></p>
+                      <textarea type="textarea" name="product_desc" id="product_desc" class="form-control summernote" style="width:100%; min-height:280px;"><?php echo $productDetails->pro_desc;?></textarea>
+                      <span id="validation_product_desc"></span>
+                    </div>
+                  </div>
+                </div>
 
+                <!-- Image and PDF on one row -->
+                <div class="row clearfix">
+                  <div class="col-lg-6 col-md-6">
+                    <div class="mb-4">
+                      <p>Product Image: &nbsp;<b class="astrick">*</b></p>
+                      <input type="file" name="product_img" id="product_img">
+                      <?php if ($productDetails->pro_img != '') { ?>
+                      <img src="https://www.vedantlights.com/uploads/Product/<?php echo $productDetails->pro_img; ?>" width="50px" height="50px" class="mt-2">
+                      <?php } ?>
+                      <span id="validation_product_img"></span>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="mb-4">
                       <p>Product PDF (optional):</p>
-
                       <input type="file" name="product_pdf" id="product_pdf" accept=".pdf,application/pdf">
                       <?php if (!empty($productDetails->pro_pdf)) { ?>
                       <p class="mt-2"><a href="<?php echo base_url(); ?>uploads/Product/<?php echo htmlspecialchars($productDetails->pro_pdf); ?>" target="_blank">Current PDF</a></p>
                       <?php } ?>
                     </div>
-
-                 </div>
-
-              </div>
+                  </div>
+                </div>
 
           </div>
 

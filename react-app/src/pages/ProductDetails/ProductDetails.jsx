@@ -1,15 +1,27 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import Button from '../../components/Button/Button';
 import './ProductDetails.css';
 import { apiPath, backendPath } from '../../lib/backend';
+import { FaFilePdf } from 'react-icons/fa';
 
 const ProductDetails = () => {
   const { proId } = useParams();
 
   const proIdNum = useMemo(() => Number(proId), [proId]);
   const [product, setProduct] = useState(null);
+  const [isPdfPopupOpen, setIsPdfPopupOpen] = useState(false);
+
+  // Get PDFs array (from new multiple PDFs system)
+  const productPdfs = useMemo(() => {
+    const pdfs = product?.pdfs || [];
+    // Also include legacy single PDF if exists and no multiple PDFs
+    if (pdfs.length === 0 && product?.pro_pdf) {
+      return [{ pdf_id: 'legacy', pdf_name: 'Product PDF', pdf_file: product.pro_pdf }];
+    }
+    return pdfs;
+  }, [product]);
 
   useEffect(() => {
     if (!Number.isFinite(proIdNum)) return;
@@ -80,17 +92,29 @@ const ProductDetails = () => {
                 />
               </div>
 
-              {product?.pro_pdf && (
+              {productPdfs.length > 0 && (
                 <div className="product-details-pdf-area">
-                  <Button
-                    href={backendPath(`/uploads/Product/${product.pro_pdf}`)}
-                    variant="secondary"
-                    size="large"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Download PDF
-                  </Button>
+                  {productPdfs.length === 1 ? (
+                    // Single PDF - direct download
+                    <Button
+                      href={backendPath(`/uploads/Product/${productPdfs[0].pdf_file}`)}
+                      variant="secondary"
+                      size="large"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Download PDF
+                    </Button>
+                  ) : (
+                    // Multiple PDFs - show popup
+                    <Button
+                      variant="secondary"
+                      size="large"
+                      onClick={() => setIsPdfPopupOpen(true)}
+                    >
+                      Download PDFs ({productPdfs.length})
+                    </Button>
+                  )}
                 </div>
               )}
 
@@ -135,6 +159,49 @@ const ProductDetails = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* PDF Popup - Similar to brochure popup */}
+      <AnimatePresence>
+        {isPdfPopupOpen && (
+          <motion.div
+            className="product-pdf-overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsPdfPopupOpen(false)}
+          >
+            <motion.div
+              className="product-pdf-popup"
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <h3>Download PDFs</h3>
+              <div className="product-pdf-list">
+                {productPdfs.map((pdf, index) => (
+                  <div key={pdf.pdf_id || index} className="product-pdf-item">
+                    <div className="product-pdf-item-icon">
+                      <FaFilePdf />
+                    </div>
+                    <h6>{pdf.pdf_name}</h6>
+                    <a
+                      href={backendPath(`/uploads/Product/${pdf.pdf_file}`)}
+                      download
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="product-pdf-download-btn"
+                    >
+                      Download
+                    </a>
+                  </div>
+                ))}
+              </div>
+              <Button onClick={() => setIsPdfPopupOpen(false)}>Close</Button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

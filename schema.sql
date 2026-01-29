@@ -53,7 +53,21 @@ CREATE TABLE IF NOT EXISTS `product_details` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- ============================================
--- 4. USER_DETAILS (admin login)
+-- 4. PRODUCT_PDF_DETAILS (multiple PDFs per product)
+-- Similar to brochure items: each has name + file
+-- ============================================
+CREATE TABLE IF NOT EXISTS `product_pdf_details` (
+  `pdf_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `pro_id` int(11) unsigned NOT NULL,
+  `pdf_name` varchar(255) NOT NULL,
+  `pdf_file` varchar(255) NOT NULL,
+  PRIMARY KEY (`pdf_id`),
+  KEY `pro_id` (`pro_id`),
+  CONSTRAINT `product_pdf_pro_id_fk` FOREIGN KEY (`pro_id`) REFERENCES `product_details` (`pro_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+-- ============================================
+-- 5. USER_DETAILS (admin login)
 -- ============================================
 CREATE TABLE IF NOT EXISTS `user_details` (
   `user_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
