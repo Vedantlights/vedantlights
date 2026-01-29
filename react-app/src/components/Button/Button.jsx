@@ -13,7 +13,9 @@ const Button = ({
   type = 'button',
   disabled = false,
   icon,
-  iconPosition = 'right'
+  iconPosition = 'right',
+  target,
+  rel
 }) => {
   const baseClasses = `button-btn button-btn-${variant} button-btn-${size} ${className}`;
   
@@ -45,6 +47,8 @@ const Button = ({
         className={baseClasses}
         onClick={onClick}
         aria-label={children}
+        target={target}
+        rel={rel}
       >
         {content}
       </a>

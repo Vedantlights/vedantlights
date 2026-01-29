@@ -39,6 +39,8 @@ export default function AdminProducts() {
   const [newTech, setNewTech] = useState('');
   const [newImageFile, setNewImageFile] = useState(null);
   const newImageInputRef = useRef(null);
+  const [newPdfFile, setNewPdfFile] = useState(null);
+  const newPdfInputRef = useRef(null);
 
   const [editingId, setEditingId] = useState(null);
   const [editingBrandId, setEditingBrandId] = useState('');
@@ -48,6 +50,8 @@ export default function AdminProducts() {
   const [editingTech, setEditingTech] = useState('');
   const [editingImageFile, setEditingImageFile] = useState(null);
   const editingImageInputRef = useRef(null);
+  const [editingPdfFile, setEditingPdfFile] = useState(null);
+  const editingPdfInputRef = useRef(null);
 
   const sorted = useMemo(() => rows.slice().sort((a, b) => (b.pro_id || 0) - (a.pro_id || 0)), [rows]);
   const filtered = useMemo(() => {
@@ -145,6 +149,7 @@ export default function AdminProducts() {
       form.append('pro_desc', newDesc);
       form.append('pro_tech', newTech);
       if (newImageFile) form.append('product_img', newImageFile);
+      if (newPdfFile) form.append('product_pdf', newPdfFile);
       await adminFetch('/admin/products', {
         method: 'POST',
         body: form,
@@ -153,7 +158,9 @@ export default function AdminProducts() {
       setNewDesc('');
       setNewTech('');
       setNewImageFile(null);
+      setNewPdfFile(null);
       if (newImageInputRef.current) newImageInputRef.current.value = '';
+      if (newPdfInputRef.current) newPdfInputRef.current.value = '';
       await load();
     } catch (e2) {
       setError(e2.message || 'Failed to create product');
@@ -168,7 +175,9 @@ export default function AdminProducts() {
     setEditingDesc(row.pro_desc || '');
     setEditingTech(row.pro_tech || '');
     setEditingImageFile(null);
+    setEditingPdfFile(null);
     if (editingImageInputRef.current) editingImageInputRef.current.value = '';
+    if (editingPdfInputRef.current) editingPdfInputRef.current.value = '';
   }
 
   function cancelEdit() {
@@ -179,7 +188,9 @@ export default function AdminProducts() {
     setEditingDesc('');
     setEditingTech('');
     setEditingImageFile(null);
+    setEditingPdfFile(null);
     if (editingImageInputRef.current) editingImageInputRef.current.value = '';
+    if (editingPdfInputRef.current) editingPdfInputRef.current.value = '';
   }
 
   async function saveEdit(id) {
@@ -196,6 +207,7 @@ export default function AdminProducts() {
       form.append('pro_desc', editingDesc);
       form.append('pro_tech', editingTech);
       if (editingImageFile) form.append('product_img', editingImageFile);
+      if (editingPdfFile) form.append('product_pdf', editingPdfFile);
       await adminFetch(`/admin/products/${id}`, {
         method: 'POST',
         body: form,
@@ -307,6 +319,17 @@ export default function AdminProducts() {
             />
             {newImageFile ? <span style={{ fontSize: 12, color: '#333' }}>{newImageFile.name}</span> : null}
           </label>
+          <label style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer', flexWrap: 'wrap' }}>
+            <span style={{ fontSize: 13, color: '#000000' }}>PDF (optional):</span>
+            <input
+              ref={newPdfInputRef}
+              type="file"
+              accept=".pdf,application/pdf"
+              onChange={(e) => setNewPdfFile(e.target.files?.[0] ?? null)}
+              style={{ ...inputStyle, padding: 6, maxWidth: 200 }}
+            />
+            {newPdfFile ? <span style={{ fontSize: 12, color: '#333' }}>{newPdfFile.name}</span> : null}
+          </label>
           <button type="submit" style={{ ...buttonStyle, background: 'rgba(90,103,216,0.8)', color: '#ffffff' }}>
             Add
           </button>
@@ -354,6 +377,7 @@ export default function AdminProducts() {
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Description</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Tech</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Image</th>
+                <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>PDF</th>
                 <th style={{ textAlign: 'left', padding: 10, borderBottom: '1px solid rgba(0,0,0,0.1)', color: '#000000' }}>Actions</th>
               </tr>
             </thead>
@@ -441,6 +465,33 @@ export default function AdminProducts() {
                   </td>
                   <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
                     {editingId === row.pro_id ? (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                        {row.pro_pdf ? (
+                          <a href={backendPath(`/uploads/Product/${row.pro_pdf}`)} target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, color: '#1976d2' }}>Current PDF</a>
+                        ) : null}
+                        <label style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer' }}>
+                          <input
+                            ref={editingPdfInputRef}
+                            type="file"
+                            accept=".pdf,application/pdf"
+                            onChange={(e) => setEditingPdfFile(e.target.files?.[0] ?? null)}
+                            style={{ ...inputStyle, padding: 6, width: '100%' }}
+                          />
+                          {editingPdfFile ? <span style={{ fontSize: 12 }}>{editingPdfFile.name}</span> : <span style={{ fontSize: 12, opacity: 0.7 }}>Change PDF (optional)</span>}
+                        </label>
+                      </div>
+                    ) : (
+                      <span style={{ color: '#000000' }}>
+                        {row.pro_pdf ? (
+                          <a href={backendPath(`/uploads/Product/${row.pro_pdf}`)} target="_blank" rel="noopener noreferrer" style={{ fontSize: 12, color: '#1976d2' }}>PDF</a>
+                        ) : (
+                          '—'
+                        )}
+                      </span>
+                    )}
+                  </td>
+                  <td style={{ padding: 10, borderBottom: '1px solid rgba(0,0,0,0.08)' }}>
+                    {editingId === row.pro_id ? (
                       <div style={{ display: 'flex', gap: 8 }}>
                         <button type="button" onClick={() => saveEdit(row.pro_id)} style={{ ...buttonStyle, padding: '8px 10px', background: 'rgba(90,103,216,0.8)', color: '#ffffff' }}>
                           Save
@@ -464,7 +515,7 @@ export default function AdminProducts() {
               ))}
               {filtered.length === 0 ? (
                 <tr>
-                  <td colSpan={8} style={{ padding: 12, color: '#000000' }}>
+                  <td colSpan={9} style={{ padding: 12, color: '#000000' }}>
                     No products found.
                   </td>
                 </tr>

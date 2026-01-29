@@ -80,6 +80,20 @@ const ProductDetails = () => {
                 />
               </div>
 
+              {product?.pro_pdf && (
+                <div className="product-details-pdf-area">
+                  <Button
+                    href={backendPath(`/uploads/Product/${product.pro_pdf}`)}
+                    variant="secondary"
+                    size="large"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Download PDF
+                  </Button>
+                </div>
+              )}
+
               <div className="product-details-actions">
                 <Button
                   to="/contactus"

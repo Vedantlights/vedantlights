@@ -155,6 +155,10 @@
   font-size: 1.8rem;
 }
 
+.product-details-pdf-area {
+  margin-top: var(--spacing-sm);
+}
+
 .product-details-actions {
   display: flex;
   gap: var(--spacing-md);

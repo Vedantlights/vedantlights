@@ -382,6 +382,39 @@ class AdminApi extends BaseController
         return ['ok' => true, 'filename' => $name];
     }
 
+    private function saveUploadedProductPdf(?string $existing = null): array
+    {
+        $file = $this->request->getFile('product_pdf');
+        if (!$file || $file->getName() === '') {
+            return ['ok' => true, 'filename' => $existing ?? ''];
+        }
+
+        if (!$file->isValid()) {
+            return ['ok' => false, 'error' => 'Invalid product PDF upload'];
+        }
+
+        $mime = $file->getClientMimeType();
+        $allowed = ['application/pdf', 'application/x-pdf'];
+        if (!in_array($mime, $allowed, true)) {
+            $ext = strtolower($file->getClientExtension());
+            if ($ext !== 'pdf') {
+                return ['ok' => false, 'error' => 'Only PDF files are allowed'];
+            }
+        }
+
+        $dir = ROOTPATH . 'uploads' . DIRECTORY_SEPARATOR . 'Product';
+        if (!is_dir($dir)) {
+            @mkdir($dir, 0775, true);
+        }
+
+        $name = $file->getRandomName();
+        if (!$file->move($dir, $name)) {
+            return ['ok' => false, 'error' => 'Failed to save product PDF'];
+        }
+
+        return ['ok' => true, 'filename' => $name];
+    }
+
     public function createProduct(): ResponseInterface
     {
         if ($resp = $this->requireAdmin()) {
@@ -421,6 +454,13 @@ class AdminApi extends BaseController
             ]);
         }
 
+        $pdf = $this->saveUploadedProductPdf(null);
+        if (!$pdf['ok']) {
+            return $this->response->setStatusCode(400)->setJSON([
+                'error' => $pdf['error'],
+            ]);
+        }
+
         $ok = $this->productModel->addProductdetails([
             'catId' => $catId,
             'brand_id' => $brandId,
@@ -428,6 +468,7 @@ class AdminApi extends BaseController
             'pro_desc' => $desc,
             'pro_tech' => $tech,
             'pro_img' => (string) ($img['filename'] ?? ''),
+            'pro_pdf' => (string) ($pdf['filename'] ?? ''),
         ]);
 
         return $this->response->setJSON([
@@ -469,6 +510,13 @@ class AdminApi extends BaseController
             ]);
         }
 
+        $pdf = $this->saveUploadedProductPdf((string) ($existing['pro_pdf'] ?? ''));
+        if (!$pdf['ok']) {
+            return $this->response->setStatusCode(400)->setJSON([
+                'error' => $pdf['error'],
+            ]);
+        }
+
         $ok = $this->productModel->updateProductdetails([
             'catId' => $catId,
             'brand_id' => $brandId,
@@ -476,6 +524,7 @@ class AdminApi extends BaseController
             'pro_desc' => $desc,
             'pro_tech' => $tech,
             'pro_img' => (string) ($img['filename'] ?? ''),
+            'pro_pdf' => (string) ($pdf['filename'] ?? ''),
         ], $proId);
 
         return $this->response->setJSON([

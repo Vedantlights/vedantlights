@@ -46,13 +46,13 @@ function getCategoryDetails($brandId){
 
                     ->table('product_details prod')
 
-                    ->select()
+                    ->select('prod.*, cat.caterogyName, brand.brand_name')
 
                     ->join('category_details AS cat','cat.cat_id = prod.catId')
 
                      ->join('brand_details AS brand','brand.brand_id = prod.brand_id')
 
-                    ->orderBy('pro_id',"DESC")
+                    ->orderBy('prod.pro_id',"DESC")
 
                     ->get()
 

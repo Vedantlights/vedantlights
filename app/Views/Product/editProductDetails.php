@@ -33,6 +33,7 @@
             <form action="<?php echo base_url(); ?>Product/updateProductdetails" method="POST" enctype="multipart/form-data">
               <input type="hidden" name="prodId" id="prodId" value="<?php echo $productDetails->pro_id;?>">
               <input type="hidden" name="old_image" id="old_image" value="<?php echo $productDetails->pro_img;?>">
+              <input type="hidden" name="old_pdf" id="old_pdf" value="<?php echo isset($productDetails->pro_pdf) ? htmlspecialchars($productDetails->pro_pdf) : '';?>">
               <div class="row clearfix">
 
                 <div class="col-lg-4 col-md-6">
@@ -146,6 +147,20 @@
                     </div>
 
                     <span id="validation_product_img"></span>
+
+                 </div>
+
+                 <div class="col-lg-4 col-md-6">
+
+                    <div class="mb-4">
+
+                      <p>Product PDF (optional):</p>
+
+                      <input type="file" name="product_pdf" id="product_pdf" accept=".pdf,application/pdf">
+                      <?php if (!empty($productDetails->pro_pdf)) { ?>
+                      <p class="mt-2"><a href="<?php echo base_url(); ?>uploads/Product/<?php echo htmlspecialchars($productDetails->pro_pdf); ?>" target="_blank">Current PDF</a></p>
+                      <?php } ?>
+                    </div>
 
                  </div>
 

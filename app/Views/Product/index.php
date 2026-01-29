@@ -71,6 +71,12 @@
                     </div>
                     <span id="validation_product_img"></span>
                  </div>
+                 <div class="col-lg-4 col-md-6">
+                    <div class="mb-4">
+                      <p>Product PDF (optional):</p>
+                      <input type="file" name="product_pdf" id="product_pdf" accept=".pdf,application/pdf">
+                    </div>
+                 </div>
               </div>
           </div>
 

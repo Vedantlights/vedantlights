@@ -44,6 +44,7 @@ CREATE TABLE IF NOT EXISTS `product_details` (
   `pro_desc` text,
   `pro_tech` text,
   `pro_img` varchar(255) DEFAULT NULL,
+  `pro_pdf` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`pro_id`),
   KEY `brand_id` (`brand_id`),
   KEY `catId` (`catId`),

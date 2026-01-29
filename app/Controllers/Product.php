@@ -140,6 +140,17 @@ class Product extends BaseController{
 
 			$img->move(ROOTPATH. 'uploads/Product');
 
+				$pro_pdf = '';
+				$pdfFile = $this->request->getFile('product_pdf');
+				if ($pdfFile && $pdfFile->getName() !== '' && $pdfFile->isValid()) {
+					$mime = $pdfFile->getClientMimeType();
+					$ext = strtolower($pdfFile->getClientExtension());
+					if (in_array($mime, ['application/pdf', 'application/x-pdf'], true) || $ext === 'pdf') {
+						$pdfFile->move(ROOTPATH . 'uploads/Product');
+						$pro_pdf = $pdfFile->getName();
+					}
+				}
+
 				$productdata = array(
 
 								"catId" => $data['category_name'],
@@ -152,7 +163,9 @@ class Product extends BaseController{
 
 								"pro_tech" => $data['product_tech'],
 
-								"pro_img" => $pro_img
+								"pro_img" => $pro_img,
+
+								"pro_pdf" => $pro_pdf
 
 								);
 
@@ -238,7 +251,18 @@ class Product extends BaseController{
 					$img->move(ROOTPATH. 'uploads/Product');
 				} else {
 					$pro_img = $data['old_image'];
-				}  
+				}
+
+				$pro_pdf = isset($data['old_pdf']) ? $data['old_pdf'] : '';
+				$pdfFile = $this->request->getFile('product_pdf');
+				if ($pdfFile && $pdfFile->getName() !== '' && $pdfFile->isValid()) {
+					$mime = $pdfFile->getClientMimeType();
+					$ext = strtolower($pdfFile->getClientExtension());
+					if (in_array($mime, ['application/pdf', 'application/x-pdf'], true) || $ext === 'pdf') {
+						$pdfFile->move(ROOTPATH . 'uploads/Product');
+						$pro_pdf = $pdfFile->getName();
+					}
+				}
 				
 					$productdata = array(
 
@@ -252,7 +276,9 @@ class Product extends BaseController{
 
 								"pro_tech" => $data['product_tech'],
 
-								"pro_img" => $pro_img
+								"pro_img" => $pro_img,
+
+								"pro_pdf" => $pro_pdf
 
 								);
 
