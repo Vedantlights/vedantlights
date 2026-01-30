@@ -112,7 +112,7 @@ const ProductDetails = () => {
                       size="large"
                       onClick={() => setIsPdfPopupOpen(true)}
                     >
-                      Download PDFs ({productPdfs.length})
+                      Download Datasheet c({productPdfs.length})
                     </Button>
                   )}
                 </div>

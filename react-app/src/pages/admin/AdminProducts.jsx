@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react'
 import { adminFetch } from '../../lib/adminFetch';
 import { backendPath } from '../../lib/backend';
 import { copyTable, downloadTextFile, printTable, toCsv } from '../../lib/tableTools';
-import { FaTimes, FaPlus, FaFilePdf } from 'react-icons/fa';
+import { FaTimes, FaPlus, FaFilePdf, FaArrowUp, FaArrowDown, FaTrash } from 'react-icons/fa';
 
 const inputStyle = {
   padding: 10,
@@ -61,6 +61,7 @@ export default function AdminProducts() {
   const [loadingPdfs, setLoadingPdfs] = useState(false);
   const [newPdfName, setNewPdfName] = useState('');
   const [newPdfFileForModal, setNewPdfFileForModal] = useState(null);
+  const [newPdfFilesForModal, setNewPdfFilesForModal] = useState([]); // Multiple PDFs
   const newPdfFileModalRef = useRef(null);
 
   const sorted = useMemo(() => rows.slice().sort((a, b) => (b.pro_id || 0) - (a.pro_id || 0)), [rows]);
@@ -310,10 +311,11 @@ export default function AdminProducts() {
     setProductPdfs([]);
     setNewPdfName('');
     setNewPdfFileForModal(null);
+    setNewPdfFilesForModal([]);
     if (newPdfFileModalRef.current) newPdfFileModalRef.current.value = '';
   }
 
-  // Add a new PDF to product
+  // Add a new PDF to product (single file with custom name)
   async function addPdfToProduct(e) {
     e.preventDefault();
     if (!pdfModalProductId || !newPdfName.trim() || !newPdfFileForModal) {
@@ -337,6 +339,48 @@ export default function AdminProducts() {
     }
   }
 
+  // Add multiple PDFs to product (using filenames as PDF names)
+  async function addMultiplePdfsToProduct(e) {
+    e.preventDefault();
+    if (!pdfModalProductId || newPdfFilesForModal.length === 0) {
+      alert('Please select at least one PDF file');
+      return;
+    }
+    try {
+      let successCount = 0;
+      let failedFiles = [];
+      
+      for (const file of newPdfFilesForModal) {
+        try {
+          const form = new FormData();
+          // Use filename without .pdf extension as the PDF name
+          const pdfName = file.name.replace(/\.pdf$/i, '');
+          form.append('pdf_name', pdfName);
+          form.append('pdf_file', file);
+          await adminFetch(`/admin/products/${pdfModalProductId}/pdfs`, {
+            method: 'POST',
+            body: form,
+          });
+          successCount++;
+        } catch (err) {
+          failedFiles.push(file.name);
+        }
+      }
+      
+      setNewPdfFilesForModal([]);
+      if (newPdfFileModalRef.current) newPdfFileModalRef.current.value = '';
+      await loadProductPdfs(pdfModalProductId);
+      
+      if (failedFiles.length > 0) {
+        alert(`Added ${successCount} PDF(s). Failed: ${failedFiles.join(', ')}`);
+      } else {
+        // Optional: show success message
+      }
+    } catch (e) {
+      alert(e.message || 'Failed to add PDFs');
+    }
+  }
+
   // Delete a PDF
   async function deletePdf(pdfId) {
     if (!confirm('Delete this PDF?')) return;
@@ -351,6 +395,26 @@ export default function AdminProducts() {
     } catch (e) {
       alert(e.message || 'Failed to delete PDF');
     }
+  }
+
+  // Reorder functions for multiple PDF selection
+  function movePdfFileUp(index) {
+    if (index === 0) return;
+    const newFiles = [...newPdfFilesForModal];
+    [newFiles[index - 1], newFiles[index]] = [newFiles[index], newFiles[index - 1]];
+    setNewPdfFilesForModal(newFiles);
+  }
+
+  function movePdfFileDown(index) {
+    if (index === newPdfFilesForModal.length - 1) return;
+    const newFiles = [...newPdfFilesForModal];
+    [newFiles[index], newFiles[index + 1]] = [newFiles[index + 1], newFiles[index]];
+    setNewPdfFilesForModal(newFiles);
+  }
+
+  function removePdfFile(index) {
+    const newFiles = newPdfFilesForModal.filter((_, i) => i !== index);
+    setNewPdfFilesForModal(newFiles);
   }
 
   async function onCopy() {
@@ -663,9 +727,139 @@ export default function AdminProducts() {
               </div>
             )}
 
-            {/* Add new PDF form */}
+            {/* Add multiple PDFs at once */}
+            <form onSubmit={addMultiplePdfsToProduct} style={{ marginBottom: 16, padding: 16, background: '#e3f2fd', borderRadius: 8, border: '1px solid #90caf9' }}>
+              <h4 style={{ margin: '0 0 12px 0', color: '#1565c0', fontSize: 14 }}>Add Multiple PDFs (Quick Add)</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: 12, color: '#666' }}>
+                Select multiple PDF files at once. The filename will be used as the PDF name automatically.
+                <br />
+                <strong>Tip:</strong> You can reorder files after selecting them to control the upload sequence.
+              </p>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                <input
+                  type="file"
+                  accept=".pdf,application/pdf"
+                  multiple
+                  onChange={(e) => {
+                    const files = Array.from(e.target.files || []);
+                    // Add to existing list instead of replacing
+                    setNewPdfFilesForModal(prev => [...prev, ...files]);
+                    // Clear input to allow selecting same files again if needed
+                    e.target.value = '';
+                  }}
+                  style={{ ...inputStyle, padding: 8 }}
+                />
+                {newPdfFilesForModal.length > 0 && (
+                  <div style={{ fontSize: 12, color: '#1565c0', background: '#fff', padding: 12, borderRadius: 6, border: '1px solid #90caf9' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                      <strong>Selected {newPdfFilesForModal.length} file(s) - Upload order:</strong>
+                      <span style={{ fontSize: 11, color: '#666' }}>Use arrows to reorder</span>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                      {newPdfFilesForModal.map((file, idx) => (
+                        <div 
+                          key={idx} 
+                          style={{ 
+                            display: 'flex', 
+                            alignItems: 'center', 
+                            gap: 8, 
+                            padding: '8px 10px', 
+                            background: '#f5f5f5', 
+                            borderRadius: 6,
+                            border: '1px solid #ddd'
+                          }}
+                        >
+                          <span style={{ 
+                            fontWeight: 'bold', 
+                            color: '#1976d2', 
+                            minWidth: 24, 
+                            textAlign: 'center',
+                            background: '#e3f2fd',
+                            borderRadius: 4,
+                            padding: '2px 6px'
+                          }}>
+                            {idx + 1}
+                          </span>
+                          <div style={{ flex: 1 }}>
+                            <div style={{ color: '#333', fontWeight: 500 }}>{file.name}</div>
+                            <div style={{ color: '#666', fontSize: 11 }}>→ Display name: "{file.name.replace(/\.pdf$/i, '')}"</div>
+                          </div>
+                          <div style={{ display: 'flex', gap: 4 }}>
+                            <button
+                              type="button"
+                              onClick={() => movePdfFileUp(idx)}
+                              disabled={idx === 0}
+                              style={{
+                                ...buttonStyle,
+                                padding: '4px 8px',
+                                fontSize: 12,
+                                opacity: idx === 0 ? 0.4 : 1,
+                                cursor: idx === 0 ? 'not-allowed' : 'pointer',
+                              }}
+                              title="Move up"
+                            >
+                              <FaArrowUp />
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => movePdfFileDown(idx)}
+                              disabled={idx === newPdfFilesForModal.length - 1}
+                              style={{
+                                ...buttonStyle,
+                                padding: '4px 8px',
+                                fontSize: 12,
+                                opacity: idx === newPdfFilesForModal.length - 1 ? 0.4 : 1,
+                                cursor: idx === newPdfFilesForModal.length - 1 ? 'not-allowed' : 'pointer',
+                              }}
+                              title="Move down"
+                            >
+                              <FaArrowDown />
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => removePdfFile(idx)}
+                              style={{
+                                ...buttonStyle,
+                                padding: '4px 8px',
+                                fontSize: 12,
+                                background: 'rgba(255,80,80,0.15)',
+                                color: '#d32f2f',
+                              }}
+                              title="Remove"
+                            >
+                              <FaTrash />
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+                <button
+                  type="submit"
+                  disabled={newPdfFilesForModal.length === 0}
+                  style={{
+                    ...buttonStyle,
+                    background: newPdfFilesForModal.length > 0 ? '#1976d2' : '#ccc',
+                    color: '#fff',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: 6,
+                    cursor: newPdfFilesForModal.length > 0 ? 'pointer' : 'not-allowed',
+                  }}
+                >
+                  <FaPlus /> Add {newPdfFilesForModal.length || ''} PDF{newPdfFilesForModal.length !== 1 ? 's' : ''}
+                </button>
+              </div>
+            </form>
+
+            {/* Add single PDF with custom name */}
             <form onSubmit={addPdfToProduct} style={{ marginBottom: 20, padding: 16, background: '#f5f5f5', borderRadius: 8 }}>
-              <h4 style={{ margin: '0 0 12px 0', color: '#000', fontSize: 14 }}>Add New PDF</h4>
+              <h4 style={{ margin: '0 0 12px 0', color: '#000', fontSize: 14 }}>Add Single PDF (Custom Name)</h4>
+              <p style={{ margin: '0 0 12px 0', fontSize: 12, color: '#666' }}>
+                Add a single PDF with a custom display name.
+              </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                 <input
                   type="text"
@@ -678,7 +872,15 @@ export default function AdminProducts() {
                   ref={newPdfFileModalRef}
                   type="file"
                   accept=".pdf,application/pdf"
-                  onChange={(e) => setNewPdfFileForModal(e.target.files?.[0] ?? null)}
+                  onChange={(e) => {
+                    const file = e.target.files?.[0] ?? null;
+                    setNewPdfFileForModal(file);
+                    // Auto-fill PDF name from filename (without .pdf extension)
+                    if (file && file.name) {
+                      const nameWithoutExt = file.name.replace(/\.pdf$/i, '');
+                      setNewPdfName(nameWithoutExt);
+                    }
+                  }}
                   style={{ ...inputStyle, padding: 8 }}
                 />
                 {newPdfFileForModal && (
