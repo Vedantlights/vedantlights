@@ -1,13 +1,14 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from '../../components/Button/Button';
 import './ProductDetails.css';
 import { apiPath, backendPath } from '../../lib/backend';
-import { FaFilePdf } from 'react-icons/fa';
+import { FaFilePdf, FaArrowLeft } from 'react-icons/fa';
 
 const ProductDetails = () => {
   const { proId } = useParams();
+  const navigate = useNavigate();
 
   const proIdNum = useMemo(() => Number(proId), [proId]);
   const [product, setProduct] = useState(null);
@@ -56,6 +57,12 @@ const ProductDetails = () => {
       {/* Product Details */}
       <section className="product-details-section section-gap">
         <div className="container">
+          <button 
+            className="product-details-back-btn"
+            onClick={() => navigate(-1)}
+          >
+            <FaArrowLeft /> Back
+          </button>
           <div className="product-details-wrapper">
             <motion.div
               className="product-details-image-area"
@@ -112,7 +119,7 @@ const ProductDetails = () => {
                       size="large"
                       onClick={() => setIsPdfPopupOpen(true)}
                     >
-                      Download Datasheet c({productPdfs.length})
+                      Download Datasheet ({productPdfs.length})
                     </Button>
                   )}
                 </div>
