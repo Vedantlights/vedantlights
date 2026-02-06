@@ -93,10 +93,20 @@ const ProductDetails = () => {
               
               <div className="product-details-specs-section">
                 <h3 className="product-details-specs-title">Technical Specification</h3>
-                <div 
-                  className="product-details-specs"
-                  dangerouslySetInnerHTML={{ __html: product?.pro_tech || '' }}
-                />
+                <div className="product-details-specs">
+                  {(product?.pro_tech || '').includes('<') ? (
+                    <div className="product-details-specs-html" dangerouslySetInnerHTML={{ __html: product.pro_tech }} />
+                  ) : (product?.pro_tech || '').trim() ? (
+                    (product.pro_tech || '')
+                      .split('\n')
+                      .filter((line) => line.trim())
+                      .map((line, i) => (
+                        <div key={i} className="product-details-specs-line">
+                          {line.trim()}
+                        </div>
+                      ))
+                  ) : null}
+                </div>
               </div>
 
               {productPdfs.length > 0 && (
@@ -110,7 +120,7 @@ const ProductDetails = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Download PDF
+                      Download Datasheet
                     </Button>
                   ) : (
                     // Multiple PDFs - show popup
@@ -158,7 +168,7 @@ const ProductDetails = () => {
               </div>
               <div className="product-details-tab-content">
                 <div 
-                  className="product-details-tab-pane product-details-tab-pane-active"
+                  className="product-details-tab-pane product-details-tab-pane-active product-datasheet"
                   dangerouslySetInnerHTML={{ __html: product?.pro_desc || '' }}
                 />
               </div>

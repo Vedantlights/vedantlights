@@ -173,7 +173,7 @@
 
 .product-details-specs li {
   padding: var(--spacing-xs) 0;
-  padding-left: var(--spacing-md);
+  padding-left: 2em;
   position: relative;
 }
 
@@ -184,6 +184,17 @@
   color: var(--color-primary);
   font-weight: bold;
   font-size: 1.8rem;
+}
+
+/* Hanging indent: wrapped lines start under the text, not under the bullet */
+.product-details-specs-line {
+  padding-left: 2em;
+  text-indent: -2em;
+  margin-bottom: 0.25em;
+}
+
+.product-details-specs-html {
+  white-space: normal;
 }
 
 .product-details-pdf-area {

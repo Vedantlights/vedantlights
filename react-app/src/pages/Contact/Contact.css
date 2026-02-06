@@ -8,6 +8,7 @@
   padding: calc(var(--spacing-2xl) * 3) 0;
   position: relative;
   overflow: hidden;
+  display: none;
 }
 
 .contact-breadcrumb-section::before {

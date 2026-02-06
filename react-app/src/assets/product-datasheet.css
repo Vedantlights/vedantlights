@@ -1,0 +1,98 @@
+/* ===== Product Datasheet Global CSS ===== */
+
+.product-datasheet {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .product-datasheet h2 {
+    color: #004080;
+    margin: 20px 0 10px;
+  }
+  
+  .product-datasheet .section-title {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #004080;
+  }
+  
+  .product-datasheet ul {
+    list-style: none;   /* avoid double marker – tab-pane uses ::before • */
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .product-datasheet table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+  }
+  
+  .product-datasheet th,
+  .product-datasheet td {
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+    word-break: break-word;
+  }
+  
+  .product-datasheet th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    
+  }
+  
+  .product-datasheet td:first-child,
+  .product-datasheet th:first-child {
+    text-align: left;
+  }
+  
+  /* ✅ Responsive tables – wrap table in .table-responsive or .table-scroll */
+  .product-datasheet .table-responsive,
+  .product-datasheet .table-scroll {
+    width: 100%;
+    overflow-x: auto;              /* enables horizontal scroll */
+    -webkit-overflow-scrolling: touch; /* smooth scroll on mobile */
+  }
+  
+  .product-datasheet .table-responsive table,
+  .product-datasheet .table-scroll table {
+    min-width: 900px;              /* prevents table from shrinking too much */
+  }
+  
+  /* Optional: sticky first column (for .table-responsive and .table-scroll) */
+  .product-datasheet .table-responsive th:first-child,
+  .product-datasheet .table-responsive td:first-child,
+  .product-datasheet .table-scroll th:first-child,
+  .product-datasheet .table-scroll td:first-child {
+    position: sticky;
+    left: 0;
+    background: #fff;
+  }
+  
+  .product-datasheet .table-responsive th:first-child,
+  .product-datasheet .table-scroll th:first-child {
+    background: #f2f2f2;
+  }
+  
+  /* Notes */
+  .product-datasheet .note {
+    font-size: 13px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Mobile tuning */
+  @media (max-width: 768px) {
+    .product-datasheet th,
+    .product-datasheet td {
+      font-size: 13px;
+      padding: 8px 10px;
+    }
+  }
+  

@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react'
 import { adminFetch } from '../../lib/adminFetch';
 import { backendPath } from '../../lib/backend';
 import { copyTable, downloadTextFile, printTable, toCsv } from '../../lib/tableTools';
-import { FaTimes, FaPlus, FaFilePdf, FaArrowUp, FaArrowDown, FaTrash } from 'react-icons/fa';
+import { FaTimes, FaPlus, FaFilePdf, FaGripVertical, FaTrash } from 'react-icons/fa';
 
 const inputStyle = {
   padding: 10,
@@ -63,6 +63,9 @@ export default function AdminProducts() {
   const [newPdfFileForModal, setNewPdfFileForModal] = useState(null);
   const [newPdfFilesForModal, setNewPdfFilesForModal] = useState([]); // Multiple PDFs
   const newPdfFileModalRef = useRef(null);
+  const [uploadingPdf, setUploadingPdf] = useState(false);
+  const [pdfDragFrom, setPdfDragFrom] = useState(null);
+  const [pdfDragOver, setPdfDragOver] = useState(null);
 
   const sorted = useMemo(() => rows.slice().sort((a, b) => (b.pro_id || 0) - (a.pro_id || 0)), [rows]);
   const filtered = useMemo(() => {
@@ -322,6 +325,7 @@ export default function AdminProducts() {
       alert('Please enter PDF name and select a PDF file');
       return;
     }
+    setUploadingPdf(true);
     try {
       const form = new FormData();
       form.append('pdf_name', newPdfName.trim());
@@ -336,6 +340,8 @@ export default function AdminProducts() {
       await loadProductPdfs(pdfModalProductId);
     } catch (e) {
       alert(e.message || 'Failed to add PDF');
+    } finally {
+      setUploadingPdf(false);
     }
   }
 
@@ -346,6 +352,7 @@ export default function AdminProducts() {
       alert('Please select at least one PDF file');
       return;
     }
+    setUploadingPdf(true);
     try {
       let successCount = 0;
       let failedFiles = [];
@@ -378,6 +385,8 @@ export default function AdminProducts() {
       }
     } catch (e) {
       alert(e.message || 'Failed to add PDFs');
+    } finally {
+      setUploadingPdf(false);
     }
   }
 
@@ -397,18 +406,13 @@ export default function AdminProducts() {
     }
   }
 
-  // Reorder functions for multiple PDF selection
-  function movePdfFileUp(index) {
-    if (index === 0) return;
+  // Reorder: drag-and-drop (move item from fromIndex to toIndex)
+  function reorderPdfFiles(fromIndex, toIndex) {
+    if (fromIndex === toIndex) return;
     const newFiles = [...newPdfFilesForModal];
-    [newFiles[index - 1], newFiles[index]] = [newFiles[index], newFiles[index - 1]];
-    setNewPdfFilesForModal(newFiles);
-  }
-
-  function movePdfFileDown(index) {
-    if (index === newPdfFilesForModal.length - 1) return;
-    const newFiles = [...newPdfFilesForModal];
-    [newFiles[index], newFiles[index + 1]] = [newFiles[index + 1], newFiles[index]];
+    const [item] = newFiles.splice(fromIndex, 1);
+    const insertAt = fromIndex < toIndex ? toIndex - 1 : toIndex;
+    newFiles.splice(insertAt, 0, item);
     setNewPdfFilesForModal(newFiles);
   }
 
@@ -437,6 +441,7 @@ export default function AdminProducts() {
 
   return (
     <div>
+      <style>{`@keyframes pdfSpinner { to { transform: rotate(360deg); } }`}</style>
       <div style={{ display: 'flex', gap: 10, alignItems: 'center', justifyContent: 'space-between' }}>
         <h2 style={{ marginTop: 0, color: '#000000' }}>Products</h2>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
@@ -733,7 +738,7 @@ export default function AdminProducts() {
               <p style={{ margin: '0 0 12px 0', fontSize: 12, color: '#666' }}>
                 Select multiple PDF files at once. The filename will be used as the PDF name automatically.
                 <br />
-                <strong>Tip:</strong> You can reorder files after selecting them to control the upload sequence.
+                <strong>Tip:</strong> Drag rows to reorder; upload order is top to bottom.
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                 <input
@@ -751,28 +756,54 @@ export default function AdminProducts() {
                 />
                 {newPdfFilesForModal.length > 0 && (
                   <div style={{ fontSize: 12, color: '#1565c0', background: '#fff', padding: 12, borderRadius: 6, border: '1px solid #90caf9' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                      <strong>Selected {newPdfFilesForModal.length} file(s) - Upload order:</strong>
-                      <span style={{ fontSize: 11, color: '#666' }}>Use arrows to reorder</span>
+                    <div style={{ marginBottom: 8 }}>
+                      <strong>Selected {newPdfFilesForModal.length} file(s) – Upload order:</strong>
+                      <span style={{ fontSize: 11, color: '#666', display: 'block', marginTop: 4 }}>Drag a row to change order</span>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
                       {newPdfFilesForModal.map((file, idx) => (
-                        <div 
-                          key={idx} 
-                          style={{ 
-                            display: 'flex', 
-                            alignItems: 'center', 
-                            gap: 8, 
-                            padding: '8px 10px', 
-                            background: '#f5f5f5', 
+                        <div
+                          key={idx}
+                          draggable
+                          onDragStart={(e) => {
+                            setPdfDragFrom(idx);
+                            e.dataTransfer.effectAllowed = 'move';
+                            e.dataTransfer.setData('text/plain', String(idx));
+                          }}
+                          onDragOver={(e) => {
+                            e.preventDefault();
+                            e.dataTransfer.dropEffect = 'move';
+                            setPdfDragOver(idx);
+                          }}
+                          onDragLeave={() => setPdfDragOver(null)}
+                          onDrop={(e) => {
+                            e.preventDefault();
+                            const from = pdfDragFrom;
+                            if (from !== null) reorderPdfFiles(from, idx);
+                            setPdfDragFrom(null);
+                            setPdfDragOver(null);
+                          }}
+                          onDragEnd={() => {
+                            setPdfDragFrom(null);
+                            setPdfDragOver(null);
+                          }}
+                          style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: 8,
+                            padding: '8px 10px',
+                            background: pdfDragOver === idx ? '#e3f2fd' : pdfDragFrom === idx ? '#e0e0e0' : '#f5f5f5',
                             borderRadius: 6,
-                            border: '1px solid #ddd'
+                            border: pdfDragOver === idx ? '2px dashed #1976d2' : '1px solid #ddd',
+                            cursor: 'grab',
+                            opacity: pdfDragFrom === idx ? 0.7 : 1,
                           }}
                         >
-                          <span style={{ 
-                            fontWeight: 'bold', 
-                            color: '#1976d2', 
-                            minWidth: 24, 
+                          <FaGripVertical style={{ color: '#666', cursor: 'grab', flexShrink: 0 }} title="Drag to reorder" />
+                          <span style={{
+                            fontWeight: 'bold',
+                            color: '#1976d2',
+                            minWidth: 24,
                             textAlign: 'center',
                             background: '#e3f2fd',
                             borderRadius: 4,
@@ -780,56 +811,24 @@ export default function AdminProducts() {
                           }}>
                             {idx + 1}
                           </span>
-                          <div style={{ flex: 1 }}>
+                          <div style={{ flex: 1, minWidth: 0 }}>
                             <div style={{ color: '#333', fontWeight: 500 }}>{file.name}</div>
                             <div style={{ color: '#666', fontSize: 11 }}>→ Display name: "{file.name.replace(/\.pdf$/i, '')}"</div>
                           </div>
-                          <div style={{ display: 'flex', gap: 4 }}>
-                            <button
-                              type="button"
-                              onClick={() => movePdfFileUp(idx)}
-                              disabled={idx === 0}
-                              style={{
-                                ...buttonStyle,
-                                padding: '4px 8px',
-                                fontSize: 12,
-                                opacity: idx === 0 ? 0.4 : 1,
-                                cursor: idx === 0 ? 'not-allowed' : 'pointer',
-                              }}
-                              title="Move up"
-                            >
-                              <FaArrowUp />
-                            </button>
-                            <button
-                              type="button"
-                              onClick={() => movePdfFileDown(idx)}
-                              disabled={idx === newPdfFilesForModal.length - 1}
-                              style={{
-                                ...buttonStyle,
-                                padding: '4px 8px',
-                                fontSize: 12,
-                                opacity: idx === newPdfFilesForModal.length - 1 ? 0.4 : 1,
-                                cursor: idx === newPdfFilesForModal.length - 1 ? 'not-allowed' : 'pointer',
-                              }}
-                              title="Move down"
-                            >
-                              <FaArrowDown />
-                            </button>
-                            <button
-                              type="button"
-                              onClick={() => removePdfFile(idx)}
-                              style={{
-                                ...buttonStyle,
-                                padding: '4px 8px',
-                                fontSize: 12,
-                                background: 'rgba(255,80,80,0.15)',
-                                color: '#d32f2f',
-                              }}
-                              title="Remove"
-                            >
-                              <FaTrash />
-                            </button>
-                          </div>
+                          <button
+                            type="button"
+                            onClick={() => removePdfFile(idx)}
+                            style={{
+                              ...buttonStyle,
+                              padding: '4px 8px',
+                              fontSize: 12,
+                              background: 'rgba(255,80,80,0.15)',
+                              color: '#d32f2f',
+                            }}
+                            title="Remove"
+                          >
+                            <FaTrash />
+                          </button>
                         </div>
                       ))}
                     </div>
@@ -837,19 +836,26 @@ export default function AdminProducts() {
                 )}
                 <button
                   type="submit"
-                  disabled={newPdfFilesForModal.length === 0}
+                  disabled={newPdfFilesForModal.length === 0 || uploadingPdf}
                   style={{
                     ...buttonStyle,
-                    background: newPdfFilesForModal.length > 0 ? '#1976d2' : '#ccc',
+                    background: (newPdfFilesForModal.length > 0 && !uploadingPdf) ? '#1976d2' : '#ccc',
                     color: '#fff',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     gap: 6,
-                    cursor: newPdfFilesForModal.length > 0 ? 'pointer' : 'not-allowed',
+                    cursor: (newPdfFilesForModal.length > 0 && !uploadingPdf) ? 'pointer' : 'not-allowed',
                   }}
                 >
-                  <FaPlus /> Add {newPdfFilesForModal.length || ''} PDF{newPdfFilesForModal.length !== 1 ? 's' : ''}
+                  {uploadingPdf ? (
+                    <>
+                      <span className="pdf-upload-spinner" style={{ display: 'inline-block', width: 14, height: 14, border: '2px solid rgba(255,255,255,0.4)', borderTopColor: '#fff', borderRadius: '50%', animation: 'pdfSpinner 0.7s linear infinite' }} />
+                      Uploading…
+                    </>
+                  ) : (
+                    <> <FaPlus /> Add {newPdfFilesForModal.length || ''} PDF{newPdfFilesForModal.length !== 1 ? 's' : ''} </>
+                  )}
                 </button>
               </div>
             </form>
@@ -888,17 +894,26 @@ export default function AdminProducts() {
                 )}
                 <button
                   type="submit"
+                  disabled={uploadingPdf}
                   style={{
                     ...buttonStyle,
-                    background: 'rgba(90,103,216,0.8)',
+                    background: uploadingPdf ? '#999' : 'rgba(90,103,216,0.8)',
                     color: '#fff',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     gap: 6,
+                    cursor: uploadingPdf ? 'not-allowed' : 'pointer',
                   }}
                 >
-                  <FaPlus /> Add PDF
+                  {uploadingPdf ? (
+                    <>
+                      <span className="pdf-upload-spinner" style={{ display: 'inline-block', width: 14, height: 14, border: '2px solid rgba(255,255,255,0.4)', borderTopColor: '#fff', borderRadius: '50%', animation: 'pdfSpinner 0.7s linear infinite' }} />
+                      Uploading…
+                    </>
+                  ) : (
+                    <> <FaPlus /> Add PDF </>
+                  )}
                 </button>
               </div>
             </form>
